@@ -1,4 +1,4 @@
-package clean.code;
+package clean_code;
 
 public class BaseCleanCode {
 }
