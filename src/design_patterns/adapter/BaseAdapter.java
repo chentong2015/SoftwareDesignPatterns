@@ -12,9 +12,9 @@ import java.util.Map;
 // 2. 如何让Switchable去控制其他不能从Switchable派生的其他一些类型 ??
 public class BaseAdapter {
 
-    // Adapter 适配器模式(对象形式)
+    // Adapter 适配器模式(对象形式)：通过修改API来实现
     // Switch -> interface Switchable
-    //              Light Adapter   -- delegate -->   Class Light
+    //              Light Adapter   ---- delegate -->   Class Light
     //                + turnOn                          + turnOn
     //                + turnOff                         + turnOff
 
@@ -27,16 +27,4 @@ public class BaseAdapter {
     //              Light Adapter   ---- extends --|>   Class Light
     //                + turnOn                          + turnOn
     //                + turnOff                         + turnOff
-
-    // 使用Adapter模式，实现基于服务端的锁定
-    // 将HashTable中数据的操作委托给Wrapper包装它的适配器来实现 !!
-    class WrappedHashTable<K, V> {
-        private Map<K, V> map = new Hashtable<>();
-
-        public synchronized void putIfAbsent(K key, V value) {
-            if(map.containsKey(key)) {
-                map.put(key, value);
-            }
-        }
-    }
 }
