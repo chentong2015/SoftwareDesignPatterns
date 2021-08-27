@@ -1,4 +1,4 @@
-package design_patterns.null_object;
+package design_patterns.NullObject;
 
 /**
  * Null Object Pattern: 消除对null为空的检查，简化代码

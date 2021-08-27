@@ -1,4 +1,4 @@
-package design_patterns.abstract_server;
+package design_patterns.AbstractServer;
 
 // 台灯问题：
 // Switch -> interface Switchable
