@@ -9,9 +9,11 @@ package core;
 // 6. visitor   访问者模式
 public class ArchitectPrinciples {
 
+    // 其他特殊模式 https://www.youtube.com/c/RawCoding/videos
+
     // 如何理解面向对象的基本原则 SOLID原则
     // https://towardsdatascience.com/why-solid-principles-are-not-a-solid-solution-for-software-design-fa71b6017ed6
-    
+
     //  ASP 4层分层架构:
     //   1. 表示层: 将数据传递到系统的其他地方
     //            输入模型：输入数据被封装在HTTP请求中，输入数据代表提交给服务器处理的数据
