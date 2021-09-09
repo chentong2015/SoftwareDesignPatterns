@@ -1,4 +1,4 @@
-package core.ioc_dependency_injection.model;
+package basic.ioc_dependency_injection.model;
 
 public class DependencyClass implements IDependencyClass {
 

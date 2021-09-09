@@ -1,4 +1,4 @@
-package core.mvvm;
+package basic.mvvm;
 
 // WPF桌面软件应用基础架构模型
 // 1. View: UI视图

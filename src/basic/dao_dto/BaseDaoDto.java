@@ -1,4 +1,4 @@
-package core.dao_dto;
+package basic.dao_dto;
 
 // 项目基本结构设计模式
 // 0. View UI层

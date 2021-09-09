@@ -1,4 +1,4 @@
-package core.mvc;
+package basic.mvc;
 
 // 金典软件设计典范, 基础软件架构模型
 // 1. View: 程序中处理数据显示的部分
