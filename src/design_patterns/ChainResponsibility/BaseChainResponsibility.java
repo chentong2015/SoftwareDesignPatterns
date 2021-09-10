@@ -4,10 +4,12 @@ package design_patterns.ChainResponsibility;
 // 运用场景：MyBatis源码中关于Plugins插件的实现
 // public class Configuration 
 //    protected final InterceptorChain interceptorChain = new InterceptorChain();
+
+// TODO: https://www.youtube.com/watch?v=YQ03IyRu1Zo
 public class BaseChainResponsibility {
-	
-	// 
-	// public class InterceptorChain {
+
+    //
+    // public class InterceptorChain {
     // 
     //   private final List<Interceptor> interceptors = new ArrayList<>();
     // 
@@ -23,14 +25,14 @@ public class BaseChainResponsibility {
     //   }
     // 
     //   public List<Interceptor> getInterceptors() {
-	//     // Returns an unmodifiable view of the specified list.
+    //     // Returns an unmodifiable view of the specified list.
     //     return Collections.unmodifiableList(interceptors);
     //   }
     // 
     // }
     // 
-	
-	// public interface Interceptor {
+
+    // public interface Interceptor {
     //
     //   Object intercept(Invocation invocation) throws Throwable;
     //   
@@ -44,7 +46,7 @@ public class BaseChainResponsibility {
     //
     // }
 
-	// public class Plugin implements InvocationHandler {
+    // public class Plugin implements InvocationHandler {
     //
     // private final Object target;
     // private final Interceptor interceptor;

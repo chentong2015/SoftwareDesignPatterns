@@ -1,8 +1,8 @@
 package design_patterns.factory_builder.builder;
 
 // Builder模式:
-// TODO: 将对象构建的过程抽象出来，通过统一的接口完成构造
-// Take the construction of item, separate it from its representation
+// 应用 1. TODO: 将对象构建的过程抽象出来，通过统一的接口完成构造
+// 应用 2. 更具不同的配置Configuration完整对象的构建
 public class BaseBuilder {
 
     public static void main(String[] args) {
