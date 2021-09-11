@@ -12,7 +12,5 @@ public class BaseInterceptor {
     //			.excludePathPatterns("/admin")
     //			.excludePathPatterns("/admin/login");
     //	}
-
-    // 2. MyBatis拦截器的源码实现
 }
 

@@ -1,4 +1,4 @@
-package design_patterns.intercepter_chain.ChainResponsibility;
+package design_patterns.intercepter_chain.MybatisChain;
 
 import design_patterns.intercepter_chain.MybatisInterceptor.Interceptor;
 
