@@ -13,7 +13,7 @@ public class InterceptorChain {
         interceptors.add(interceptor);
     }
 
-    // 传入的target参数是使用的executor执行器
+    // target参数: 所使用的executor执行器
     public Object pluginAll(Object target) {
         for (Interceptor interceptor : interceptors) {
             target = interceptor.plugin(target);
