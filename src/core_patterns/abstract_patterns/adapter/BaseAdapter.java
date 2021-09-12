@@ -1,4 +1,4 @@
-package core_patterns.adapter;
+package core_patterns.abstract_patterns.adapter;
 
 // 台灯问题：
 // Switch -> interface Switchable

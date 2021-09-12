@@ -1,7 +1,7 @@
-package basic.ioc_dependency_injection;
+package basic.ioc_di;
 
-import basic.ioc_dependency_injection.model.DependencyClass;
-import basic.ioc_dependency_injection.model.IDependencyClass;
+import basic.ioc_di.model.DependencyClass;
+import basic.ioc_di.model.IDependencyClass;
 
 /**
  * Dependency Injection: 依赖注入，一种设计原则，开发模式

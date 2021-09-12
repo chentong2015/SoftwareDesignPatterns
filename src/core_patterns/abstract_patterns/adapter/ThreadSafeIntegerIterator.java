@@ -1,4 +1,4 @@
-package core_patterns.adapter;
+package core_patterns.abstract_patterns.adapter;
 
 import java.util.Iterator;
 
