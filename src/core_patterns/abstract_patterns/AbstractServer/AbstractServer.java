@@ -1,13 +1,16 @@
 package core_patterns.abstract_patterns.AbstractServer;
 
-// 台灯问题：
-// Switch -> interface Switchable
-//              Class Light
+import core_patterns.abstract_patterns.AbstractServer.model.Switchable;
 
-// 1. 接口的命名来自于客户和接口之间的逻辑绑定关系，强于它和它的继承类之间的逻辑 !!
-// 2. 继承是一种非常强的实体关系，强于关联性
+// Abstract Server 抽象服务:
+// 从扩展"使用对象"的角度进行抽象，使得原来依赖于具体类的"使用者(对象)"依赖接口
+// 从而在被使用对象增加的情况下，无需改变"使用者(对象)"
 public class AbstractServer {
 
-    // 使用Abstract Server解决台灯问题：
-    // 将原来依赖性的关联，改成通过interface抽象接口来实现, Switch 能够控制任何实现了这个接口的类型(东西)
+    // Switch能够控制任何实现了Switchable接口的东西
+    // TODO: 并且只能控制从Switchable接口派生的东西
+    public void controlDevise(Switchable devise) {
+        devise.turnOff();
+        devise.turnOn();
+    }
 }
