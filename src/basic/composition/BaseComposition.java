@@ -1,4 +1,4 @@
-package other_patterns.composition;
+package basic.composition;
 
 // Composition 组合: 一种关系模型
 public class BaseComposition {

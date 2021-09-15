@@ -1,4 +1,4 @@
-package other_patterns.composition;
+package basic.composition;
 
 public class BaseComponent {
 
