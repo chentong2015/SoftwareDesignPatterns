@@ -1,4 +1,4 @@
-package basic.ioc_di.model;
+package basic.ioc_di;
 
 public interface IDependencyClass {
 

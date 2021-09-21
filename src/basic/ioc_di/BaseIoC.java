@@ -1,8 +1,5 @@
 package basic.ioc_di;
 
-import basic.ioc_di.model.DependencyClass;
-import basic.ioc_di.model.IDependencyClass;
-
 /**
  * Dependency Injection: 依赖注入，一种设计原则，开发模式
  * 1. 将紧耦合的关系改成松耦合的关系(甚至是没有依赖关系)
