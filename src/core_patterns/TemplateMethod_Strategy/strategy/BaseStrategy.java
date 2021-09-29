@@ -1,9 +1,7 @@
-package core_patterns.TemplateMethod_Strategy;
-
-import core_patterns.TemplateMethod_Strategy.strategy.Application;
+package core_patterns.TemplateMethod_Strategy.strategy;
 
 // Strategy策略模式：使用委托来解决问题
-// 1. 可以用来分离"通用算法"和具体的上下文(接口的实现)，使通用的算法依赖于抽象(使用接口)
+// 用来分离"通用算法"和具体的上下文(接口的实现)，使通用的算法依赖于抽象(使用接口)
 
 // TODO: 每一个Application的具体实现，都可以被多个不同的"通用算法"所操纵
 //       减少了通用算法和"算法所控制的实现细节"之间的耦合度

@@ -7,8 +7,7 @@ import core_patterns.abstract_patterns.AbstractServer.model.Switchable;
 // 从而在被使用对象增加的情况下，无需改变"使用者(对象)"
 public class AbstractServer {
 
-    // Switch能够控制任何实现了Switchable接口的东西
-    // TODO: 并且只能控制从Switchable接口派生的东西
+    // Switch能够(并且只能)控制任何实现Switchable接口的东西
     public void controlDevise(Switchable devise) {
         devise.turnOff();
         devise.turnOn();

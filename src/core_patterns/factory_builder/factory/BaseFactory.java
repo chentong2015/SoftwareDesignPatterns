@@ -21,7 +21,7 @@ public class BaseFactory {
         testShapeFactory(shapeFactory);
     }
 
-    // 之间通过工厂获得具体的类型，不再依赖具体的类型
+    // 直接通过工厂获得具体类型，不依赖任何具体的类型
     public void testShapeFactory(IShapeFactory shapeFactory) {
         IShape square = shapeFactory.makeSquare();
         IShape circle = shapeFactory.makeCircle();

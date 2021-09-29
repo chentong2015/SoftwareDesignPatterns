@@ -5,7 +5,6 @@ import core_patterns.factory_builder.builder.demo.IKeyValueCollectionBuilder;
 import core_patterns.factory_builder.builder.demo.MapBuilder;
 import core_patterns.factory_builder.builder.demo.QueryStringBuilder;
 
-// Builder模式:
 // TODO: 将对象构建的过程抽象出来，通过统一的接口完成构造
 public class DemoBuilder {
 
