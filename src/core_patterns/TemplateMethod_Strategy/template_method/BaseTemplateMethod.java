@@ -7,6 +7,13 @@ package core_patterns.TemplateMethod_Strategy.template_method;
 // Template Method特点：
 // 1. 可能造成模式的滥用
 // 2. 通过继承的方式，使得派生类和它的基类绑定在一起
+
+// Template Method变式使用: 从接口到抽象再到具体的一种模板化设计
+// IInterface
+//  - AbstractClass
+//    - InstanceClassA
+//    - InstanceClassB
+//    - InstanceClassC
 public abstract class BaseTemplateMethod {
 
     private boolean isDone = false;
