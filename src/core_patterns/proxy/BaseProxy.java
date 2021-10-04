@@ -11,6 +11,7 @@ package core_patterns.proxy;
 // 2. 适用于API变动非常大的系统，或者同时运行许多不同的数据库引擎，中间件引擎之上的系统
 
 // Proxy代理的实际运用场景:
+// TODO: 在开发过程中，很多场景的问题都可以通过添加一层(动态)代理来解决 !!
 // 被代理对象通过"代理"来对真实对象进行访问，在其中可提供额外的功能操作(比如Interceptor)
 public class BaseProxy {
 
