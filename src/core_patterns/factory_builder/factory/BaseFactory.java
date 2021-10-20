@@ -17,6 +17,7 @@ public class BaseFactory {
     // 接口工厂的实现由main初始化创建出来, 负责Square和Circle的创建
     // 在应用的其他地方都不需要创建Square和Circle
     public void testMain() {
+        // 创建具体使用的接口工厂
         ShapeFactoryImpl shapeFactory = new ShapeFactoryImpl();
         testShapeFactory(shapeFactory);
     }
