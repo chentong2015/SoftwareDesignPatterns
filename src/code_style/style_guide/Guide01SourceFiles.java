@@ -14,8 +14,7 @@ public class Guide01SourceFiles {
     //    而应该避免使用: \012 Octal八进制 & \u000a Unicode转义
 
     // 5. 对于余下的非ASCII字符
-    //    可使用实际Unicode字符(如∞)
-    //    或等效Unicode转义(如\u221e)表示
+    //    可使用实际Unicode字符(如∞) 或 等效Unicode转义(如\u221e)表示
     public String testCharacters(String content) {
         String unitAbbrev = "μs";       // 直接使用，无需注释
         String unitAbbrev2 = "\u03bcs"; // 不使用，很难理解
