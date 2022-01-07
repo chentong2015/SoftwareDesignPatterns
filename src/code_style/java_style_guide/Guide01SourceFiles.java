@@ -1,4 +1,4 @@
-package code_style.style_guide;
+package code_style.java_style_guide;
 
 public class Guide01SourceFiles {
 

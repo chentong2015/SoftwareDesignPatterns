@@ -1,4 +1,4 @@
-package code_style.style_guide;
+package code_style.java_style_guide;
 
 public class Guide03Formatting {
 
@@ -12,6 +12,9 @@ public class Guide03Formatting {
 
     // 3. 空语句块，可以直接关闭 {}
     //    多语句块(if/else, try/catch/finally)，不能包含简洁的语句块 {}
+    //    try {
+    //      doSomething();
+    //    } catch (Exception e) {}  这里需要按照捕获异常的规则来处理
 
     // 4. 每一行包含一个statement声明
 
@@ -88,7 +91,7 @@ public class Guide03Formatting {
     //     18.3 多个注解可以和字段位于同一行
     //          @Partial @Mock DataLoader loader;
 
-    // 19. Comments注释
+    // 19. Comments注释: 除非需要"必要解释"的情况下，否则不写注释
     //     // /* ... */ 单行注释或者多行注释
     //     一般不适用多个//来写多行注释
 
