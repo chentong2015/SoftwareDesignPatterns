@@ -1,9 +1,9 @@
-package design_patterns.core_patterns.factory_builder.builder.demo;
+package design_patterns.core_patterns.factory_builder.builder.demo2;
 
-import design_patterns.core_patterns.factory_builder.builder.demo.model.HttpHeaderBuilder;
-import design_patterns.core_patterns.factory_builder.builder.demo.model.IKeyValueCollectionBuilder;
-import design_patterns.core_patterns.factory_builder.builder.demo.model.MapBuilder;
-import design_patterns.core_patterns.factory_builder.builder.demo.model.QueryStringBuilder;
+import design_patterns.core_patterns.factory_builder.builder.demo2.model.HttpHeaderBuilder;
+import design_patterns.core_patterns.factory_builder.builder.demo2.model.IKeyValueCollectionBuilder;
+import design_patterns.core_patterns.factory_builder.builder.demo2.model.MapBuilder;
+import design_patterns.core_patterns.factory_builder.builder.demo2.model.QueryStringBuilder;
 
 // TODO: 将对象构建的过程抽象出来，通过统一的接口完成构造
 public class DemoBuilder {

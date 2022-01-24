@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.builder.core;
+package design_patterns.core_patterns.factory_builder.builder.demo1;
 
 public class LunchOrderDemo {
 

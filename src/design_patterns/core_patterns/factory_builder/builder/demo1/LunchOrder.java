@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.builder.core;
+package design_patterns.core_patterns.factory_builder.builder.demo1;
 
 // Builder模式:
 // 将构建对象的过程抽象出来，提供更大的构造灵活度

@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.builder.demo.model;
+package design_patterns.core_patterns.factory_builder.builder.demo2.model;
 
 import java.util.HashMap;
 import java.util.Map;
