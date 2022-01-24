@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.builder.demo;
+package design_patterns.core_patterns.factory_builder.builder.demo.model;
 
 public class HttpHeaderBuilder implements IKeyValueCollectionBuilder {
 

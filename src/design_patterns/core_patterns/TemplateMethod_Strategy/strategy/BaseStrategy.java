@@ -14,7 +14,7 @@ public class BaseStrategy {
     }
 
     // 通过注入的接口，将具体的工作"委托"给接口去完成(调用接口方法去完成)
-    // 下面是通用的算法逻辑:
+    // 通用的算法逻辑:
     public void run() {
         itsApplication.init();
         while (!itsApplication.done()) {

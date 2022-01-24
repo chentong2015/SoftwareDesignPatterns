@@ -5,9 +5,11 @@ import design_patterns.other_patterns.prototype.types.IBlock;
 import java.util.ArrayList;
 import java.util.List;
 
-// Prototype 原型:
 // TODO: 将类型本身作为原型，在需要的时候复制出一份对象的副本(深度拷贝)
-//       注意：直接使用Object clone()方法是属于浅拷贝
+//       Implemented around a clone
+//       Avoid calling complex constructors
+// Prototype原型:
+// 注意：直接使用Object clone()方法是属于浅拷贝
 // 1. 构建一个包含copy()或者clone()方法的接口
 // 2. 实现该接口的类型需要实现上面方法，根据对象本身的状态复制出一份对象，并返回
 

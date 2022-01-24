@@ -1,14 +1,12 @@
-package design_patterns.core_patterns.factory_builder.builder;
-
-import design_patterns.core_patterns.factory_builder.builder.MyBatis.DefaultSqlSessionFactory;
-import design_patterns.core_patterns.factory_builder.builder.MyBatis.SqlSessionFactory;
+package design_patterns.core_patterns.factory_builder.builder.MyBatis;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
 // 当构造对象的参数比较多时，将全部的可能的构造抽离出来，统一构造
-public class MyBatisBuilder {
+// 参数从少往多，以此展开，最终调用一个build方法进行构造
+public class BaseMyBatisBuilder {
 
     public SqlSessionFactory build(InputStream inputStream) {
         return build(inputStream, null, null);
