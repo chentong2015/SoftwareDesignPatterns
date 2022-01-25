@@ -1,6 +1,6 @@
 package design_patterns.core_patterns.factory_builder.factory.factory;
 
-import design_patterns.core_patterns.factory_builder.factory.model.IShape;
+import design_patterns.core_patterns.factory_builder.factory.base.IShape;
 
 public class ShapeFactoryImpl implements IShapeFactory {
 

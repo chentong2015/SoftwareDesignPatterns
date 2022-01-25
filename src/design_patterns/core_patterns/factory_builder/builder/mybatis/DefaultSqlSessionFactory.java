@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.builder.MyBatis;
+package design_patterns.core_patterns.factory_builder.builder.mybatis;
 
 public class DefaultSqlSessionFactory implements SqlSessionFactory {
 

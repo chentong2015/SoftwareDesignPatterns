@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.factory.model;
+package design_patterns.core_patterns.factory_builder.factory.base;
 
 public class Circle implements IShape {
 

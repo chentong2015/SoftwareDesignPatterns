@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.factory_builder.builder.MyBatis;
+package design_patterns.core_patterns.factory_builder.builder.mybatis;
 
 import java.io.IOException;
 import java.io.InputStream;

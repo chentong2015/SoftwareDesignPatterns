@@ -1,9 +1,7 @@
-package design_patterns.core_patterns.factory_builder.factory;
+package design_patterns.core_patterns.factory_builder.factory.factory;
 
-import design_patterns.core_patterns.factory_builder.factory.factory.IShapeFactory;
-import design_patterns.core_patterns.factory_builder.factory.factory.ShapeFactoryImpl;
-import design_patterns.core_patterns.factory_builder.factory.model.IShape;
-
+import design_patterns.core_patterns.factory_builder.factory.base.IShape;
+ 
 // Factory 工厂模式:
 // 1. TODO: 不依赖具体的类型，而是依赖"抽象接口"来创建具体对象的实例
 // 2. DIP依赖倒置原则，对系统中的易变类型都需要使用工厂模式
