@@ -1,6 +1,7 @@
-package design_patterns.core_patterns.TemplateMethod_Strategy.strategy;
+package design_patterns.core_patterns.TemplateMethod_Strategy.strategy.demo;
 
 public class ApplicationImpl implements Application {
+    
     @Override
     public void init() {
         // init

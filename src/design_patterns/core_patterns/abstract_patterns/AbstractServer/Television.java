@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.abstract_patterns.AbstractServer.model;
+package design_patterns.core_patterns.abstract_patterns.AbstractServer;
 
 public class Television implements Switchable {
 

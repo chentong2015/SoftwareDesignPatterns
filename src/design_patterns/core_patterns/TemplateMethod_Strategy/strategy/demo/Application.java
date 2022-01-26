@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.TemplateMethod_Strategy.strategy;
+package design_patterns.core_patterns.TemplateMethod_Strategy.strategy.demo;
 
 public interface Application {
 

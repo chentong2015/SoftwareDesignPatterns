@@ -60,6 +60,7 @@ public class LunchOrder {
     private final String meat;
 
     // TODO: 构造器需要设置成private, 防止外部的访问
+    // 只能通过内部的Builder来构建对象
     private LunchOrder(Builder builder) {
         this.bread = builder.bread;
         this.condiments = builder.condiments;

@@ -1,4 +1,4 @@
-package design_patterns.other_patterns.Command_ActiveObject.command;
+package design_patterns.other_patterns.Command_ActiveObject;
 
 // Command设计模式
 // 1. 该模式只有一个具有唯一方法的接口组成
