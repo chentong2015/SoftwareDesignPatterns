@@ -11,7 +11,7 @@ public class Guide01SourceFiles {
 
     // 4. special escape sequence
     //    直接使用特殊转义(字符)序列: \b, \t, \n, \f, \r, \", \', \\
-    //    而应该避免使用: \012 Octal八进制 & \u000a Unicode转义
+    //    避免使用: \012 Octal八进制; Unicode源码转义
 
     // 5. 对于余下的非ASCII字符
     //    可使用实际Unicode字符(如∞) 或 等效Unicode转义(如\u221e)表示

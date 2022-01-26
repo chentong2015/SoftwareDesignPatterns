@@ -16,4 +16,30 @@ public class BaseLSP {
     // 1. 使用继承必须符号IS-A的逻辑关系，确定衍生类可以被原始类替换 !!
     // 2. Keep base classes small and focused
     // 3. Keep interfaces lean 接口不能太大
+
+    public static void main(String[] args) {
+        Shape shape = new Shape();
+        Square square = new Square();
+        Rectangle rect = new Rectangle();
+        rect = (Rectangle) shape;
+        System.out.println(square.area());
+    }
+
+    private static class Shape {
+        public int area() {
+            return 1;
+        }
+    }
+
+    private static class Square extends Shape {
+        public int area() {
+            return 2;
+        }
+    }
+
+    private static class Rectangle extends Shape {
+        public int area() {
+            return 3;
+        }
+    }
 }
