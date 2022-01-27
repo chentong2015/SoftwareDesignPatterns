@@ -13,6 +13,8 @@ public class CreditCard {
         this.strategy = strategy;
     }
 
+    // Context <-> Strategy
+    // Take care of the communication between the strategies and their contexts
     public boolean isValid() {
         return strategy.isValid(this);
     }
