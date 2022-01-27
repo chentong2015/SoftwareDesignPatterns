@@ -1,9 +1,12 @@
 package design_patterns.core_patterns.singleton_monostate;
 
-/**
- * 1. 使用变量来访问单列的实例对象: Thread-safe
- * 2. 使用方法来提供访问单列的实例对象: Not Thread-safe
- */
+// 1. 使用变量来访问单列的实例对象: Thread-safe
+// 2. 使用方法来提供访问单列的实例对象: Not Thread-safe
+
+// ex: Runtime.getRuntime();
+// 1. 如果过度使用，会对程序性能造成影响
+// 2. 很难单元测试
+// 3. 注意和Factory模式的区别, java.util.Calendar is not a singleton
 public class Singleton {
 
     // Lazy instantiation: 只有当该类型第一被加载时才会创建对象
@@ -12,6 +15,9 @@ public class Singleton {
 
     // Only the class can create instance of itself
     private Singleton() {
+        if (instance != null) {
+            throw new RuntimeException("Use getInstance() method to create");
+        }
     }
 
     public static Singleton instance() {
