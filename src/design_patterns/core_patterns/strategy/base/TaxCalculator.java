@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.TemplateMethod_Strategy.base;
+package design_patterns.core_patterns.strategy.base;
 
 public class TaxCalculator {
 

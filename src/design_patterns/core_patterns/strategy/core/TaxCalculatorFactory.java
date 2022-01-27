@@ -1,8 +1,8 @@
-package design_patterns.core_patterns.TemplateMethod_Strategy.strategy.core;
+package design_patterns.core_patterns.strategy.core;
 
-import design_patterns.core_patterns.TemplateMethod_Strategy.base.Employee;
-import design_patterns.core_patterns.TemplateMethod_Strategy.base.FullTimeEmployee;
-import design_patterns.core_patterns.TemplateMethod_Strategy.base.PartTimeEmployee;
+import design_patterns.core_patterns.strategy.base.Employee;
+import design_patterns.core_patterns.strategy.base.FullTimeEmployee;
+import design_patterns.core_patterns.strategy.base.PartTimeEmployee;
 
 // 使用工厂模式来构建指定的实例对象
 // 1. 工程模式同样需要建立Factory interface

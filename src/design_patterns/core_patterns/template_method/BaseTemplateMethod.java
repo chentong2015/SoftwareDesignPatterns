@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.TemplateMethod_Strategy.template_method;
+package design_patterns.core_patterns.template_method;
 
 // Template Method: 使用继承来解决问题
 // 1. 可以用来分离通用的算法和具体的上下文，使通用的算法依赖于抽象
