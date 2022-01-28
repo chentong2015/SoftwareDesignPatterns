@@ -1,6 +1,6 @@
-package design_patterns.core_patterns.builder.core.base;
+package design_patterns.core_patterns.builder.demo1.base;
 
-import design_patterns.core_patterns.builder.core.impl.Bottle;
+import design_patterns.core_patterns.builder.demo1.impl.Bottle;
 
 public abstract class ColdDrink implements Item {
 

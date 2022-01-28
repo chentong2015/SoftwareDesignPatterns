@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.builder.demo1;
+package design_patterns.core_patterns.builder.core1;
 
 // TODO: Builder模式使用规则
 // 将构建对象的过程抽象出来，提供更大的构造灵活度

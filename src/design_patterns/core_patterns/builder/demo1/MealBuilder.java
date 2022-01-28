@@ -1,9 +1,9 @@
-package design_patterns.core_patterns.builder.core;
+package design_patterns.core_patterns.builder.demo1;
 
-import design_patterns.core_patterns.builder.core.impl.ChickenBurger;
-import design_patterns.core_patterns.builder.core.impl.Coke;
-import design_patterns.core_patterns.builder.core.impl.Pepsi;
-import design_patterns.core_patterns.builder.core.impl.VegBurger;
+import design_patterns.core_patterns.builder.demo1.impl.ChickenBurger;
+import design_patterns.core_patterns.builder.demo1.impl.Coke;
+import design_patterns.core_patterns.builder.demo1.impl.Pepsi;
+import design_patterns.core_patterns.builder.demo1.impl.VegBurger;
 
 // 通过Builder逐步的构建对象，并且独立于构建出来的对象
 // A Builder class builds the final object step by step.

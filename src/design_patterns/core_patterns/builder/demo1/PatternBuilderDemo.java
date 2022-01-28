@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.builder.core;
+package design_patterns.core_patterns.builder.demo1;
 
 public class PatternBuilderDemo {
 

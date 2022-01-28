@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.builder.core.base;
+package design_patterns.core_patterns.builder.demo1.base;
 
 public interface Item {
 

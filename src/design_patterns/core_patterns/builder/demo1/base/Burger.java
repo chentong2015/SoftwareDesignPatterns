@@ -1,6 +1,6 @@
-package design_patterns.core_patterns.builder.core.base;
+package design_patterns.core_patterns.builder.demo1.base;
 
-import design_patterns.core_patterns.builder.core.impl.Wrapper;
+import design_patterns.core_patterns.builder.demo1.impl.Wrapper;
 
 public abstract class Burger implements Item {
 

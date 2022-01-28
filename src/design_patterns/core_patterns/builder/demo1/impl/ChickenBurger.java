@@ -1,6 +1,6 @@
-package design_patterns.core_patterns.builder.core.impl;
+package design_patterns.core_patterns.builder.demo1.impl;
 
-import design_patterns.core_patterns.builder.core.base.Burger;
+import design_patterns.core_patterns.builder.demo1.base.Burger;
 
 public class ChickenBurger extends Burger {
 

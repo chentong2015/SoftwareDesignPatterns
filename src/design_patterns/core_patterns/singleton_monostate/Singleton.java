@@ -9,8 +9,9 @@ package design_patterns.core_patterns.singleton_monostate;
 // 3. 注意和Factory模式的区别, java.util.Calendar is not a singleton
 public class Singleton {
 
-    // Lazy instantiation: 只有当该类型第一被加载时才会创建对象
-    // Until the first time class loaded, and call the instance method
+    // 1. Lazy instantiation: 只有当该类型第一被加载时才会创建对象
+    //    Until the first time class loaded, and call the instance method
+    // 2. 这里的属性可以不设置成final
     private static Singleton instance = new Singleton();
 
     // Only the class can create instance of itself

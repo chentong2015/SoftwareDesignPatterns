@@ -1,6 +1,6 @@
-package design_patterns.core_patterns.builder.core;
+package design_patterns.core_patterns.builder.demo1;
 
-import design_patterns.core_patterns.builder.core.base.Item;
+import design_patterns.core_patterns.builder.demo1.base.Item;
 
 import java.util.ArrayList;
 import java.util.List;
