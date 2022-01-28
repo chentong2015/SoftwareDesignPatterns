@@ -40,6 +40,8 @@ public class People {
     private String name;
     private int age;
 
+    // TODO: 这里的泛型使用通配符来使用，无论其实现的类型如何
+    //   这里设置成protected也是为了被继承类型调用，完成基本属性的初始化
     protected People(Builder<?> builder) {
         this.name = builder.name;
         this.age = builder.age;

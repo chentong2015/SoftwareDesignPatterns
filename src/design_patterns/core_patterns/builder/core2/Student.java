@@ -29,7 +29,8 @@ public class Student extends People {
 
     private String school;
 
-    public Student(Builder builder) {
+    // TODO: 这里应该设置成private，防止外部直接构建对象，而不是通过builder
+    private Student(Builder builder) {
         super(builder);
         this.school = builder.school;
     }
