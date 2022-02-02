@@ -1,8 +1,12 @@
 package design_patterns.core_patterns.strategy.core;
 
-import design_patterns.core_patterns.strategy.base.Employee;
-import design_patterns.core_patterns.strategy.base.FullTimeEmployee;
-import design_patterns.core_patterns.strategy.base.PartTimeEmployee;
+import design_patterns.core_patterns.strategy.base.impl.FullTimeEmployee;
+import design_patterns.core_patterns.strategy.base.impl.PartTimeEmployee;
+import design_patterns.core_patterns.strategy.base.model.Employee;
+import design_patterns.core_patterns.strategy.core.impl.FullTimeCalculator;
+import design_patterns.core_patterns.strategy.core.impl.InternCalculator;
+import design_patterns.core_patterns.strategy.core.impl.PartTimeCalculator;
+import design_patterns.core_patterns.strategy.core.model.TaxCalculator;
 
 // 使用工厂模式来构建指定的实例对象
 // 1. 工程模式同样需要建立Factory interface

@@ -1,5 +1,9 @@
 package design_patterns.core_patterns.strategy.base;
 
+import design_patterns.core_patterns.strategy.base.impl.FullTimeEmployee;
+import design_patterns.core_patterns.strategy.base.impl.PartTimeEmployee;
+import design_patterns.core_patterns.strategy.base.model.Employee;
+
 public class TaxCalculator {
 
     // 对于如下的方法：

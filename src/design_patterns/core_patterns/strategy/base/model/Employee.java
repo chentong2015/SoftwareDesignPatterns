@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.strategy.base;
+package design_patterns.core_patterns.strategy.base.model;
 
 public abstract class Employee {
 

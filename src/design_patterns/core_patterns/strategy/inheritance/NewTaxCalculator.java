@@ -1,7 +1,7 @@
 package design_patterns.core_patterns.strategy.inheritance;
 
-import design_patterns.core_patterns.strategy.base.Employee;
 import design_patterns.core_patterns.strategy.base.TaxCalculator;
+import design_patterns.core_patterns.strategy.base.model.Employee;
 
 // 在没有改变TaxCalculator类型的情况下，增加新的逻辑功能的实现
 // 使用继承会形成强依赖的关系，不利于解耦
