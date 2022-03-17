@@ -1,4 +1,4 @@
-package solid_principles.ocp;
+package base_solid_principles.ocp;
 
 // OCP 开放原则
 // Open Close Principle

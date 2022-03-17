@@ -1,4 +1,4 @@
-package solid_principles.dip;
+package base_solid_principles.dip;
 
 // DIP 依赖倒置
 // Dependency Inversion Principle

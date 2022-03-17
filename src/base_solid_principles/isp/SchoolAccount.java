@@ -1,4 +1,4 @@
-package solid_principles.isp;
+package base_solid_principles.isp;
 
 public class SchoolAccount implements IAccount {
 
