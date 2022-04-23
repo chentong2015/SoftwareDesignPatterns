@@ -1,5 +1,3 @@
-package code_style_guide;
-
 public class Guide06JavaDoc {
 
     // 1. JavaDoc的通用格式

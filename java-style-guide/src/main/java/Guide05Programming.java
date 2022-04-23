@@ -1,5 +1,3 @@
-package code_style_guide;
-
 public class Guide05Programming {
 
     // 1. @Override 重写注解

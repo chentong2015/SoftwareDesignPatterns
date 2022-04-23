@@ -1,5 +1,3 @@
-package code_style_guide;
-
 public class Guide02SourceFilesStructure {
 
     // 1. 源文件结构的组成(自动格式化的效果)，每个部分之间只留一个空行
