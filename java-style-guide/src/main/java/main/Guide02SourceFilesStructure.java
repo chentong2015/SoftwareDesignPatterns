@@ -1,3 +1,5 @@
+package main;
+
 public class Guide02SourceFilesStructure {
 
     // 1. 源文件结构的组成(自动格式化的效果)，每个部分之间只留一个空行
@@ -20,4 +22,8 @@ public class Guide02SourceFilesStructure {
 
     // 3. Class and member modifiers 类和成员修饰符的固定顺序
     //    public protected private abstract default static final transient volatile synchronized native strictfp
+
+    // 4. 类型的开闭规则
+    //    4.1 如果需要避免对外暴露，则可以将类型至于同一个package下面，取消public标记
+    //    4.2 如果类型的方法只对测试可见，则取消该public标记，表明被外部引用时使用
 }

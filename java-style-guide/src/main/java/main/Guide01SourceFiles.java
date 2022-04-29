@@ -1,3 +1,5 @@
+package main;
+
 public class Guide01SourceFiles {
 
     // 1. file name: 大小写敏感的名称.java

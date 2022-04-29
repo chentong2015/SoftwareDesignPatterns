@@ -1,3 +1,5 @@
+package main;
+
 public class Guide03Formatting {
 
     // 1. 以下语句块中都需要使用大括号，即使其中不包含任何的statement

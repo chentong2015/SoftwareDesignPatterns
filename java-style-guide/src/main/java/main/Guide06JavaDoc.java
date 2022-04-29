@@ -1,3 +1,5 @@
+package main;
+
 public class Guide06JavaDoc {
 
     // 1. JavaDoc的通用格式
@@ -31,6 +33,8 @@ public class Guide06JavaDoc {
     //    4.1 通常建议在public或protected方法上使用JavaDoc
     //    4.2 对于一些"自解释"的方法，不需要写多余的JavaDoc
     //    4.3 对于Override方法，JavaDoc是可选的
+    //    4.4 TODO. 如果是公共的SDK API, 提供给使用者调用的API, 则需要明确的JavaDoc解释
+    //    4.5 TODO. 如果类型或者方法是开发给客户调用的，则需要写明JavaDoc, 解释和规则
 
     // 5. Comments -> JavaDoc
     //    如果一个注释是用来定义一个类，方法，字段的整体目的或行为(通用性的解释)
