@@ -5,9 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/agile-software-design-patterns/pom.xml" />
-        <option value="$PROJECT_DIR$/software-clean-code/pom.xml" />
         <option value="$PROJECT_DIR$/java-style-guide/pom.xml" />
         <option value="$PROJECT_DIR$/java-effective-principles/pom.xml" />
+        <option value="$PROJECT_DIR$/effective-java-clean-code/pom.xml" />
       </list>
     </option>
   </component>
