@@ -1,10 +1,4 @@
 
-V
-&agile-software-design-patterns/pom.xml,7\d\7db6e0633c5ac0f1d5dd38948a65fa995fae91c6
-K
-software-clean-code/pom.xml,1\6\165b43c7e505b0c6f78f4ec40504c72e9142acd1
-Q
-!java-effective-principles/pom.xml,2\6\265b0edc40e501b3cd860079093d607e8cc865fa
 g
 7java-style-guide/src/main/java/main/Guide06JavaDoc.java,f\9\f90fffa0092085e8a9f69807458a130d74f5e282
 k
@@ -45,3 +39,9 @@ iagile-software-design-patterns/src/main/java/design_patterns/core_patterns/buil
 hagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrder.java,a\a\aa8bbbc0f5599eea88dba33e6d86aed2386bf5e5
 œ
 lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrderDemo.java,1\5\15df7b13da921bd65a01214a25a1f774ee01fd30
+o
+?effective-java-clean-code/src/main/java/main/EffectiveJava.java,d\5\d5bb3bea3d3baadd0a94294991b45dbc5a1a1723
+k
+;effective-java-clean-code/src/main/java/main/CleanCode.java,9\e\9ef9c3a1ac59ee41402c6f28c786003c159221a6
+H
+java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
