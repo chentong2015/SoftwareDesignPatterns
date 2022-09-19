@@ -71,10 +71,6 @@ iagile-software-design-patterns/src/main/java/design_patterns/core_patterns/prox
 gagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/static_proxy/Bird.java,e\3\e38d35a8070a990af24cb33a8520cfd8adb52823
 ¢
 ragile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/static_proxy/TestStaticProxy.java,e\d\edce5ba4d9a4df665da033f2b9b2bb3a554b1a87
-¤
-tagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/MyBatisProxyTest.java,5\6\56510f0cc7232c0a41c8ea705f7bcf6c876e5de0
-§
-wagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/JdkDynamicProxyTest.java,c\e\ce03c92dfaa7ff0181dc7feed4a49700bc9dddbd
 ’
 bagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/Proxyä»£ç†æ¨¡å¼,5\1\51cb2d899f0cb4d0f12cb9035e36035d90fa969d
 ™
@@ -99,3 +95,9 @@ pagile-software-design-patterns/src/main/java/design_patterns/core_patterns/buil
 gagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/impl/Coke.java,1\e\1e8dd25f1a8d6cab8088df6cbfa4fcb7d1e60d44
 œ
 lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/impl/VegBurger.java,4\3\43ed551bbbee7bf19bca923c86d46de5565a4fb8
+”
+dagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core2/People.java,1\1\118205b5257c75a35d5930ed6def0357d43eaded
+
+`agile-software-design-patterns/src/main/java/design_patterns/other_patterns/proof_of_concept/poc,4\f\4f7f06213a83f0ff3d5d0eeaac35f5a336d2dcaf
+•
+eagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core2/Student.java,3\3\3381d779d6235830f94991be9563b244378df813

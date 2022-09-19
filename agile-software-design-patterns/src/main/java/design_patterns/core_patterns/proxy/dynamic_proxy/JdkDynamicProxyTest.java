@@ -1,19 +1,14 @@
 package design_patterns.core_patterns.proxy.dynamic_proxy;
 
+import design_patterns.core_patterns.proxy.dynamic_proxy.handler.AbstractInvocationHandler;
+import design_patterns.core_patterns.proxy.dynamic_proxy.handler.PersonInvocationHandler;
 import design_patterns.core_patterns.proxy.dynamic_proxy.model.Person;
 import design_patterns.core_patterns.proxy.dynamic_proxy.model.PersonImpl;
-import design_patterns.core_patterns.proxy.dynamic_proxy.model.PersonInvocationHandler;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.Properties;
 
 // TODO: "动态"是指在程序运行时，基于反射动态的创建出动态代理类，而不是在运行期间确定的
 //       JDK动态代理的特点: 只能代理实现了接口的类 & 代理类必须继承Proxy类
@@ -42,8 +37,9 @@ public class JdkDynamicProxyTest {
         InvocationHandler Handler = new PersonInvocationHandler<>(person);
         // 创建一个代理对象personProxy来代理person
         // TODO: 创建的代理对象每个执行方法都会被替换执行InvocationHandler接口中invoke方法
-        Person proxyInstance = (Person) Proxy.newProxyInstance(Person.class.getClassLoader(), new Class<?>[]{Person.class}, Handler);
-        showProxyClassInfos(proxyInstance.getClass());
+        Person proxyInstance = (Person) Proxy.newProxyInstance(Person.class.getClassLoader(),
+                new Class<?>[]{Person.class}, Handler);
+        ProxyHelper.showProxyInfos(proxyInstance.getClass());
         // 通过"代理类"执行"委托类"的代码逻辑, 最终会执行handler中invoke()方法
         String name = proxyInstance.getName();
         proxyInstance.work(name, "Place 01");
@@ -64,18 +60,17 @@ public class JdkDynamicProxyTest {
         Person person = new PersonImpl("tong");
         InvocationHandler handler = new PersonInvocationHandler<>(person);
 
-        // TODO: 具体基于反射的实现
         // 1. getProxyClass静态方法生成一个动态代理类，该类继承自Proxy类，实现Person接口
-        Class<?> proxyClass = Proxy.getProxyClass(Person.class.getClassLoader(), Person.class);
-        showProxyClassInfos(proxyClass);
         // 2. 拿到动态代理类指定参数(带有InvocationHandler参数)的构造器
-        Constructor<?> ProxyConstructor = proxyClass.getConstructor(InvocationHandler.class);
         // 3. 通过构造器创建一个动态代理类实例
+        Class<?> proxyClass = Proxy.getProxyClass(Person.class.getClassLoader(), Person.class);
+        ProxyHelper.showProxyInfos(proxyClass);
+        Constructor<?> ProxyConstructor = proxyClass.getConstructor(InvocationHandler.class);
         Person proxyInstance = (Person) ProxyConstructor.newInstance(handler);
 
         // 通过Proxy的静态方法来判断一个类型是否是动态代理类
-        System.out.println("stuProxy isProxy " + Proxy.isProxyClass(proxyInstance.getClass()));
         // 获取并检测于动态代理类关联的InvocationHandler
+        System.out.println("stuProxy isProxy " + Proxy.isProxyClass(proxyInstance.getClass()));
         InvocationHandler handlerObject = Proxy.getInvocationHandler(proxyInstance);
         System.out.println(handlerObject.getClass().getName());
 
@@ -83,39 +78,29 @@ public class JdkDynamicProxyTest {
         proxyInstance.work(name, "Place 02");
     }
 
-    public static void saveGeneratedJdkProxyFiles() throws Exception {
-        Field field = System.class.getDeclaredField("props");
-        field.setAccessible(true);
-        Properties props = (Properties) field.get(null);
-        props.put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
+    // Proxy: 代理person setName()方法的调用, 对其做一个装配
+    // 代理类型调用.setName()方法将会在触发InvocationHandler中的invoke()方法
+    public static void main(String[] args) {
+        Person person = new PersonImpl("base name");
+        System.out.println(person.getName());
+
+        Person proxyPerson = decoratePersonSetNameMethod(person);
+        proxyPerson.setName("new name");
+        System.out.println(proxyPerson.getName());
     }
 
-    private static void showProxyClassInfos(Class proxyClass) {
-        System.out.println("package = " + proxyClass.getPackage()
-                + " SimpleName = " + proxyClass.getSimpleName()
-                + " name =" + proxyClass.getName()
-                + " CanonicalName = " + "" + proxyClass.getCanonicalName()
-                + " implements Interfaces = " + Arrays.toString(proxyClass.getInterfaces())
-                + " superClass = " + proxyClass.getSuperclass()
-                + " methods =" + Arrays.toString(proxyClass.getMethods()));
-    }
-
-    // 保存生成的代理类class
-    // className  生成的代理类名称
-    // interfaces 代理类需要实现的接口
-    // pathDir    代理类保存的目录路径,以目录分隔符结尾
-    public static void saveClass(String className, Class<?>[] interfaces, String pathDir) {
-        // byte[] classFile = ProxyGenerator.generateProxyClass(className, interfaces);
-        Path path1 = Paths.get(pathDir);
-        if (!path1.toFile().exists()) {
-            path1.toFile().mkdirs();
-        }
-        String path = pathDir + className + ".class";
-        try (FileOutputStream fos = new FileOutputStream(path)) {
-            // fos.write(classFile);
-            fos.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private static Person decoratePersonSetNameMethod(Person person) {
+        return (Person) Proxy.newProxyInstance(Person.class.getClassLoader(), new Class<?>[]{Person.class},
+                new AbstractInvocationHandler(person) {
+                    @Override
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                        if (method.getName().equals("setName")) {
+                            Object[] newArgs = {"proxy name"};
+                            return method.invoke(getTarget(), newArgs);
+                        } else {
+                            return method.invoke(getTarget(), args);
+                        }
+                    }
+                });
     }
 }
