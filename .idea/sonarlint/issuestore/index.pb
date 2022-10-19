@@ -33,8 +33,6 @@ hagile-software-design-patterns/src/main/java/design_patterns/core_patterns/buil
 lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrderDemo.java,1\5\15df7b13da921bd65a01214a25a1f774ee01fd30
 H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ­
 }agile-software-design-patterns/src/main/java/design_patterns/core_patterns/intercepter_chain/chain/ChainOfResponsibility.java,d\3\d31195c4832aeeab7f68123e320f78e98ef605eb
 ¨
@@ -115,3 +113,7 @@ wagile-software-design-patterns/src/main/java/design_patterns/core_patterns/prox
 pagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/model/Person.java,c\5\c57a6f6c5cb79811e6f0bbccebec6dd78635be22
 ¤
 tagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/model/PersonImpl.java,b\3\b3686f3b21d616e2aa26e72a4704a92f1cd32283
+O
+software-design-quality/pom.xml,5\7\5745b832e227be850448aef6afa620db1761b1fd
+I
+refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
