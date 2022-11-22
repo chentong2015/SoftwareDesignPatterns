@@ -1,10 +1,10 @@
-package design_patterns.core_patterns.visitor.visitor;
+package design_patterns.core_patterns.visitor;
 
-import design_patterns.core_patterns.visitor.visitor.base.Fender;
-import design_patterns.core_patterns.visitor.visitor.base.Wheel;
-import design_patterns.core_patterns.visitor.visitor.client.PartsOrder;
-import design_patterns.core_patterns.visitor.visitor.visitor.AtvPartDisplayVisitor;
-import design_patterns.core_patterns.visitor.visitor.visitor.AtvPartShippingVisitor;
+import design_patterns.core_patterns.visitor.base.Fender;
+import design_patterns.core_patterns.visitor.base.Wheel;
+import design_patterns.core_patterns.visitor.client.PartsOrder;
+import design_patterns.core_patterns.visitor.visitor.AtvPartDisplayVisitor;
+import design_patterns.core_patterns.visitor.visitor.AtvPartShippingVisitor;
 
 // Visitor Pattern:
 // Separate an algorithm from an object structure

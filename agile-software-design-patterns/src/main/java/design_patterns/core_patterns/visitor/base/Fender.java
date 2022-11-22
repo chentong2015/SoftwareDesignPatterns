@@ -1,6 +1,6 @@
-package design_patterns.core_patterns.visitor.visitor.base;
+package design_patterns.core_patterns.visitor.base;
 
-import design_patterns.core_patterns.visitor.visitor.visitor.AtvPartVisitor;
+import design_patterns.core_patterns.visitor.visitor.AtvPartVisitor;
 
 public class Fender implements AtvPart {
 

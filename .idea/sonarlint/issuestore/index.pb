@@ -17,8 +17,6 @@ gagile-software-design-patterns/src/main/java/design_patterns/other_patterns/pro
 lagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/IBlockFactoryImpl.java,8\f\8ff17258080b919a94e63e6aba5801c2171a21f3
 ò
 hagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/IBlockFactory.java,c\1\c17c3a83076e68b575821d4dfe17830297717e34
-t
-Djava-style-guide/src/main/java/main/Guide02SourceFilesStructure.java,b\7\b7543216a3f4e636f3bd36d18855c57d9fc55b7a
 ù
 magile-software-design-patterns/src/main/java/design_patterns/core_patterns/singleton_monostate/MonoState.java,9\c\9c83adf94d06fa21a52d472e17e936fcce38d60d
 ò
@@ -117,3 +115,15 @@ O
 software-design-quality/pom.xml,5\7\5745b832e227be850448aef6afa620db1761b1fd
 I
 refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
+o
+?effective-java-clean-code/src/main/java/main/EffectiveJava.java,d\5\d5bb3bea3d3baadd0a94294991b45dbc5a1a1723
+k
+;effective-java-clean-code/src/main/java/main/CleanCode.java,9\e\9ef9c3a1ac59ee41402c6f28c786003c159221a6
+V
+&refactoring-guide/src/main/refactoring,d\4\d4dd5eadf3139c8b3ac271f2184d71f1411d6b79
+t
+Djava-style-guide/src/main/java/main/Guide02SourceFilesStructure.java,b\7\b7543216a3f4e636f3bd36d18855c57d9fc55b7a
+x
+Hrefactoring-guide/src/main/java/main/exception/JavaExceptionHandler.java,c\4\c437a5d248a664ca8ac226c315ae4d3108d6867f
+ù
+magile-software-design-patterns/src/main/java/design_patterns/core_patterns/singleton_monostate/Singleton.java,6\a\6a8d04944714ed127b7bfa141d3b7d6469f7868b

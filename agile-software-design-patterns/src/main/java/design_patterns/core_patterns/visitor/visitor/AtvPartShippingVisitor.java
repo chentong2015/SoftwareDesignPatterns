@@ -1,8 +1,8 @@
-package design_patterns.core_patterns.visitor.visitor.visitor;
+package design_patterns.core_patterns.visitor.visitor;
 
-import design_patterns.core_patterns.visitor.visitor.base.Fender;
-import design_patterns.core_patterns.visitor.visitor.base.Wheel;
-import design_patterns.core_patterns.visitor.visitor.client.PartsOrder;
+import design_patterns.core_patterns.visitor.base.Fender;
+import design_patterns.core_patterns.visitor.base.Wheel;
+import design_patterns.core_patterns.visitor.client.PartsOrder;
 
 public class AtvPartShippingVisitor implements AtvPartVisitor {
 

@@ -6,13 +6,15 @@ public class Guide02SourceFilesStructure {
     //   Copyright (c)
     //      如果需要，添加文件所属的版权信息
     //   package ...
-    //      不换行，列的字符数目不受100字符限制 !!
+    //      不换行，列的字符数目不受100字符限制
     //   import ...
-    //      保持引入的顺序性
-    //      不换行，列的字符数目不受100字符限制 !!
-    //      explicitly listing all imports 避免使用通配符引入 !!
+    //      保持引入的顺序性 => IDE自动排序
+    //      不换行，列的字符数目不受100字符限制
+    //      import java.util.* 避免使用*引入全部的类型
+    //      explicitly listing all imports 避免使用通配符引入
     //      static imports和非静态引入独自在一个单独的模块中，一个空行分开
     //      Static import静态引入不用于静态嵌套类型，static nested classes直接正常引入
+    //
     //   One Top-Level class
     //      一个源文件中只有一个顶层class，且仅可能由一个class被标记成public
 

@@ -1,7 +1,7 @@
-package design_patterns.core_patterns.visitor.visitor.client;
+package design_patterns.core_patterns.visitor.client;
 
-import design_patterns.core_patterns.visitor.visitor.base.AtvPart;
-import design_patterns.core_patterns.visitor.visitor.visitor.AtvPartVisitor;
+import design_patterns.core_patterns.visitor.base.AtvPart;
+import design_patterns.core_patterns.visitor.visitor.AtvPartVisitor;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,0 +1,32 @@
+接口的实现类将使用默认的优先级1
+public interface Generator {
+   int PRIORITY_DEFAULT = 1;
+   int PRIORITY_FIRST = 5;
+}
+
+public abstract class AbstractGenerator {
+   public int getPriority() {
+       return 1;
+   }
+}
+
+类库实现的类型将被自动注入Factory中使用
+public class IndexGenerator extends AbstractGenerator {
+   public String generate() {
+   }
+}
+
+自定义扩展类库的功能: 继承并重写核心方法，设置使用的优先级高于默认的实现类型
+public class MyIndexGenerator extends IndexGenerator {
+   @Override
+   public int getPriority() {
+      return PRIORITY_FIRST;
+   }
+
+   @Override
+   public String generate() {
+   }
+}
+
+在生成器工厂中注入自定义(扩展)的类型，完成功能的扩展
+GeneratorFactory.getInstance().register(new MyIndexGenerator());
