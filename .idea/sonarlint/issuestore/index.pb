@@ -127,3 +127,27 @@ x
 Hrefactoring-guide/src/main/java/main/exception/JavaExceptionHandler.java,c\4\c437a5d248a664ca8ac226c315ae4d3108d6867f
 ù
 magile-software-design-patterns/src/main/java/design_patterns/core_patterns/singleton_monostate/Singleton.java,6\a\6a8d04944714ed127b7bfa141d3b7d6469f7868b
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+î
+dagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/base/AtvPart.java,d\f\dfd1158d11043c9f764d02f8091b05197439c2af
+ì
+cagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/base/Fender.java,e\2\e25b7f06fba9b80948f7ed2573bdf9bdb0cfc067
+í
+bagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/base/Wheel.java,6\6\6633077ab2cad6156ef0ced6ccddf9c4d010edf1
+õ
+kagile-software-design-patterns/src/main/java/design_patterns/core_patterns/decorator/SourceMySqlFilter.java,1\9\19c321198ca32e8616da5696f1852640b7a189f5
+ú
+lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/decorator/SourceOracleFilter.java,b\5\b5bea81ddbfcb91065d0c69a6a45277c7e68fadb
+õ
+kagile-software-design-patterns/src/main/java/design_patterns/core_patterns/decorator/TargetMySqlFilter.java,5\8\5820b4c4a1a8a9eb7c12caf8d0a51d3138b77bbf
+ú
+lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/decorator/TargetOracleFilter.java,f\2\f2938f5161ad945aa8704b4bcc59c41a3c98ef65
+ê
+`agile-software-design-patterns/src/main/java/design_patterns/core_patterns/decorator/Filter.java,8\8\8884b5c9e72163a5adce8d9dc7f995a84c39e071
+û
+nagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/visitor/AtvPartVisitor.java,c\d\cdb4932174c0db86fb44845763191833c3b40431
+¶
+vagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/visitor/AtvPartShippingVisitor.java,1\0\102352b8497d9ef6ce86d4f2abc3c2b0753f9f4f
+•
+uagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/visitor/AtvPartDisplayVisitor.java,8\a\8a5b05d14ce731053f0f2a53c78a97b425fac90a

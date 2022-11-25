@@ -1,4 +1,4 @@
-package main.exception;
+package exception;
 
 // 如何捕获并处理异常: 捕获Throwable，根据不同的异常类型执行不同的逻辑
 public class JavaExceptionHandler {
