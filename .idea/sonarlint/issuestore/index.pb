@@ -123,8 +123,6 @@ V
 &refactoring-guide/src/main/refactoring,d\4\d4dd5eadf3139c8b3ac271f2184d71f1411d6b79
 t
 Djava-style-guide/src/main/java/main/Guide02SourceFilesStructure.java,b\7\b7543216a3f4e636f3bd36d18855c57d9fc55b7a
-x
-Hrefactoring-guide/src/main/java/main/exception/JavaExceptionHandler.java,c\4\c437a5d248a664ca8ac226c315ae4d3108d6867f
 ù
 magile-software-design-patterns/src/main/java/design_patterns/core_patterns/singleton_monostate/Singleton.java,6\a\6a8d04944714ed127b7bfa141d3b7d6469f7868b
 9
@@ -151,3 +149,5 @@ nagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visi
 vagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/visitor/AtvPartShippingVisitor.java,1\0\102352b8497d9ef6ce86d4f2abc3c2b0753f9f4f
 •
 uagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/visitor/AtvPartDisplayVisitor.java,8\a\8a5b05d14ce731053f0f2a53c78a97b425fac90a
+s
+Crefactoring-guide/src/main/java/exception/JavaExceptionHandler.java,c\5\c527658afa7e2310d6f554ab6abb232271e31c09
