@@ -17,8 +17,6 @@ gagile-software-design-patterns/src/main/java/design_patterns/other_patterns/pro
 lagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/IBlockFactoryImpl.java,8\f\8ff17258080b919a94e63e6aba5801c2171a21f3
 ò
 hagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/IBlockFactory.java,c\1\c17c3a83076e68b575821d4dfe17830297717e34
-ù
-magile-software-design-patterns/src/main/java/design_patterns/core_patterns/singleton_monostate/MonoState.java,9\c\9c83adf94d06fa21a52d472e17e936fcce38d60d
 ò
 hagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/BasePrototype.java,0\c\0c9aab3eb18e929eb157af01071bcb1fecc0edff
 Ø
@@ -123,8 +121,6 @@ V
 &refactoring-guide/src/main/refactoring,d\4\d4dd5eadf3139c8b3ac271f2184d71f1411d6b79
 t
 Djava-style-guide/src/main/java/main/Guide02SourceFilesStructure.java,b\7\b7543216a3f4e636f3bd36d18855c57d9fc55b7a
-ù
-magile-software-design-patterns/src/main/java/design_patterns/core_patterns/singleton_monostate/Singleton.java,6\a\6a8d04944714ed127b7bfa141d3b7d6469f7868b
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 î
