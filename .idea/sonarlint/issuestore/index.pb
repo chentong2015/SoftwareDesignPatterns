@@ -147,3 +147,13 @@ vagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visi
 uagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/visitor/AtvPartDisplayVisitor.java,8\a\8a5b05d14ce731053f0f2a53c78a97b425fac90a
 s
 Crefactoring-guide/src/main/java/exception/JavaExceptionHandler.java,c\5\c527658afa7e2310d6f554ab6abb232271e31c09
+m
+=refactoring-guide/src/main/java/override/Override最佳实践,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
+m
+=refactoring-guide/src/main/java/extensions/API自定义扩展,2\4\2460457605ea9017db1a95afdff03abc640a1a97
+l
+<refactoring-guide/src/main/java/helper/Helper类最佳实践,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
+v
+Fsoftware-design-quality/src/main/java/com/software/design/软件设计,c\b\cb3848a10c3152e60f25cc24b2a872d1c9cba5e9
+�
+cagile-software-design-patterns/src/main/java/design_patterns/core_patterns/monostate/MonoState.java,2\5\2544372c128713e266cbc14560c0762d52a111ad
