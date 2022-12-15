@@ -1,28 +1,58 @@
 package exception;
 
-// 如何捕获并处理异常: 捕获Throwable，根据不同的异常类型执行不同的逻辑
+import exception.unchecked.BuildException;
+import exception.unchecked.BuildInfo;
+import exception.unchecked.BuildWarning;
+
+// TODO. Java Exception异常捕获，最佳实践
+// - 所有的异常都继承自Exception, Exception继承自Throwable
+// - 可以捕获Throwable，根据异常类型执行不同的逻辑
 public class JavaExceptionHandler {
 
-    public boolean test() {
-        boolean failed = false;
+    public static void main(String[] args) {
+        boolean buildFailed = false;
         try {
-            // mock throw exception
+            // 1. 调用的方法可能抛出异常，注意异常的类型
+            testThrowBuildException();
+
+            // 2. 直接抛出BuildWarning异常，不算构建失败
+            throw new BuildWarning("errorMessage.toString()");
         } catch (Throwable throwable) {
-            failed = handleException(throwable);
+            buildFailed = handleException(throwable);
         }
-        return failed;
+        System.out.println(buildFailed);
     }
 
-    private boolean handleException(Throwable th) {
+    // TODO. 由于try-catch的原因，该方法只能抛出BuildException异常，而非BuildWarning异常
+    private static void testThrowBuildException() throws BuildException {
+        System.out.println("call build exception method");
+        try {
+            // do something here ...
+            throw new BuildWarning("errorMessage.toString()");
+        } catch (final Exception e) {
+            // 这里会显示Warning中自定义的信息，同时包含exception调用栈的完整信息
+            throw new BuildException(e);
+        }
+    }
+
+    // 先判断外层的异常类型，再判断内层Throwable的类型决定日志的输出
+    private static boolean handleException(Throwable th) {
         boolean failed = true;
+        if ((th instanceof BuildWarning) || (th instanceof BuildInfo)) {
+            failed = false; // not a failure
+        }
+        if (!(th instanceof BuildException)) {
+            failed = true;
+        }
+
         Throwable cause = th.getCause();
         if (cause instanceof ExceptionInInitializerError) {
             // LogFactory.getLog(getClass()).error(buffer.toString());
             failed = false;
         } else {
-            // if (th instanceof BuildWarning) {
-            //     LogFactory.getLog(getClass()).warn(cause);
-            // }
+            if (th instanceof BuildWarning) {
+                // LogFactory.getLog(getClass()).warn(cause);
+            }
         }
         return failed;
     }
