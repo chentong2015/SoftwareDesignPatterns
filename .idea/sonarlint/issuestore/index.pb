@@ -155,3 +155,17 @@ v
 Fsoftware-design-quality/src/main/java/com/software/design/软件设计,c\b\cb3848a10c3152e60f25cc24b2a872d1c9cba5e9
 �
 cagile-software-design-patterns/src/main/java/design_patterns/core_patterns/monostate/MonoState.java,2\5\2544372c128713e266cbc14560c0762d52a111ad
+m
+=refactoring-guide/src/main/java/singleton/SingletonBasic.java,8\6\86d2e807bd634f1f8c1e840db8819912ce2119e4
+n
+>refactoring-guide/src/main/java/singleton/SingletonMaster.java,e\b\ebc3d8ccc3f1dd228e6b6c37b0c8933f08230898
+o
+?refactoring-guide/src/main/java/immutable/MyImmutableClass.java,5\4\545cdd8d756f384665a8994a61fad16d13df5e0e
+u
+Erefactoring-guide/src/main/java/exception/unchecked/BuildWarning.java,0\3\03363db12322cac6415ddd92848a1b5c4fb54caa
+r
+Brefactoring-guide/src/main/java/exception/unchecked/BuildInfo.java,7\0\70fb4a014f5e0d24a5c2f7881d2b2f3472693a8a
+w
+Grefactoring-guide/src/main/java/exception/unchecked/BuildException.java,c\2\c2e0d500f880dd0d39841ec5491cd606341e428d
+q
+Arefactoring-guide/src/main/java/immutable/DemoImmutableClass.java,0\2\02cb8f6d31e967dc073e35a6c7ef0333e5b2eb25

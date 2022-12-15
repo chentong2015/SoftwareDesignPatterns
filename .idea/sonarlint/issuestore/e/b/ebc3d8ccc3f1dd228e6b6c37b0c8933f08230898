@@ -1,0 +1,26 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ûËÚëÿÿÿÿÿ
+£
+java:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(şñÊëÿÿÿÿÿ8èÛ³Ï0
+
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—êœJ8•õ³Ï0
+£
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±şıÿÿÿÿ8•õ³Ï0
+M
+java:S1135"2Complete the task associated to this TODO comment.(şºÇŒşÿÿÿÿ
+T
+java:S1135"2Complete the task associated to this TODO comment.(ü©ã¯úÿÿÿÿ8ªğŸ³Ï0
+T
+java:S1135"2Complete the task associated to this TODO comment.(Í×Ùéÿÿÿÿÿ8»›³Ï0
+T
+java:S2168"9Remove this dangerous instance of double-checked locking.(ïŠªşøÿÿÿÿ
+T
+java:S1135&"2Complete the task associated to this TODO comment.(å€™‘üÿÿÿÿ8›õ³Ï0
+R
+java:S2696("6Make the enclosing method "static" or remove this set.(ÚµåU8›õ³Ï0
+R
+java:S2696,"6Make the enclosing method "static" or remove this set.(ÚµåU8œõ³Ï0
+T
+java:S1144'"8Remove this unused private "testCreateInstance1" method.(¦”Ş^8õ³Ï0
+Z
+java:S1144+"8Remove this unused private "testCreateInstance2" method.(ş™™İøÿÿÿÿ8õ³Ï0
