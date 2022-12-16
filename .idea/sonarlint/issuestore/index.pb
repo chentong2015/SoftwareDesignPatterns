@@ -99,12 +99,8 @@ uagile-software-design-patterns/src/main/java/design_patterns/core_patterns/inte
 oagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/ProxyHelper.java,6\6\666347c0326ba3c5ad26f08014b67c18065dc5fb
 ∂
 Öagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/handler/AbstractInvocationHandler.java,1\0\103a2afee67f73ba060f6f62b88f9b6973c3bfbb
-¥
-Éagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/handler/PersonInvocationHandler.java,d\e\dec0bd7b6aac156a160f970d40ca7021e2ca6cb0
 í
 bagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/Proxy‰ª£ÁêÜÊ®°Âºè,5\1\51cb2d899f0cb4d0f12cb9035e36035d90fa969d
-ß
-wagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/JdkDynamicProxyTest.java,c\e\ce03c92dfaa7ff0181dc7feed4a49700bc9dddbd
 †
 pagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/model/Person.java,c\5\c57a6f6c5cb79811e6f0bbccebec6dd78635be22
 §

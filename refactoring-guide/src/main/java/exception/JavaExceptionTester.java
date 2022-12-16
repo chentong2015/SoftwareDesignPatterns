@@ -4,10 +4,7 @@ import exception.unchecked.BuildException;
 import exception.unchecked.BuildInfo;
 import exception.unchecked.BuildWarning;
 
-// TODO. Java Exception异常捕获，最佳实践
-// - 所有的异常都继承自Exception, Exception继承自Throwable
-// - 可以捕获Throwable，根据异常类型执行不同的逻辑
-public class JavaExceptionHandler {
+public class JavaExceptionTester {
 
     public static void main(String[] args) {
         boolean buildFailed = false;
