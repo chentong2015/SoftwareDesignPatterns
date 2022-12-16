@@ -161,7 +161,15 @@ u
 Erefactoring-guide/src/main/java/exception/unchecked/BuildWarning.java,0\3\03363db12322cac6415ddd92848a1b5c4fb54caa
 r
 Brefactoring-guide/src/main/java/exception/unchecked/BuildInfo.java,7\0\70fb4a014f5e0d24a5c2f7881d2b2f3472693a8a
-w
-Grefactoring-guide/src/main/java/exception/unchecked/BuildException.java,c\2\c2e0d500f880dd0d39841ec5491cd606341e428d
 q
 Arefactoring-guide/src/main/java/immutable/DemoImmutableClass.java,0\2\02cb8f6d31e967dc073e35a6c7ef0333e5b2eb25
+´
+ƒagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/handler/PersonInvocationHandler.java,d\e\dec0bd7b6aac156a160f970d40ca7021e2ca6cb0
+r
+Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
+§
+wagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/JdkDynamicProxyTest.java,c\e\ce03c92dfaa7ff0181dc7feed4a49700bc9dddbd
+†
+Vrefactoring-guide/src/main/java/exception/undeclared/ExceptionalInvocationHandler.java,8\c\8c3b6652df051ef24e2f649e318cf4e929156dde
+~
+Nrefactoring-guide/src/main/java/exception/undeclared/SomeCheckedException.java,b\d\bddf36331c62896292107cc82d008ecae7a6491c
