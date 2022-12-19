@@ -3,6 +3,7 @@ package exception.unchecked;
 // unchecked异常中包含Throwable(一个抛出异常的类型)
 public class BuildException extends RuntimeException {
 
+    // TODO: cause异常抛出的真正原因，封装在自定义的unchecked exception内部
     private Throwable cause;
 
     public BuildException(String message) {
