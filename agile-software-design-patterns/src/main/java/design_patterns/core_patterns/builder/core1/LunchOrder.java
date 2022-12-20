@@ -1,18 +1,5 @@
 package design_patterns.core_patterns.builder.core1;
 
-// TODO: Builder模式使用规则
-// 将构建对象的过程抽象出来，提供更大的构造灵活度
-// 1. The builder pattern is a creational pattern, not a behavioral pattern !!
-//    目的是处理负责的对象构造, 而不是行为
-// 2. The builder pattern solves the problem of maintaining a class with too many constructors
-//    when you need to build an object which requires multiple properties some optional and some mandatory
-// 3. The constructor of the class being built should be made private to prevent outsider access
-// 4. The set methods of a builder pattern should return the Builder object (this) !!
-// 5. 可以使用内部类, 但不需要interface
-
-// StringBuilder
-// DocumentBuilder: for complex object creation
-// LocaleBuilder
 public class LunchOrder {
 
     // 通过内部类来提供对象(属性)的构造

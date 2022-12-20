@@ -19,14 +19,6 @@ lagile-software-design-patterns/src/main/java/design_patterns/other_patterns/pro
 hagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/IBlockFactory.java,c\1\c17c3a83076e68b575821d4dfe17830297717e34
 ˜
 hagile-software-design-patterns/src/main/java/design_patterns/other_patterns/prototype/BasePrototype.java,0\c\0c9aab3eb18e929eb157af01071bcb1fecc0edff
-¯
-agile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core2/DemoBuilderPatternWithInheritance.java,9\f\9f969f7bb0b530bbcfc9fdd2787bf321415cb8e5
- 
-pagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/PatternBuilderDemo.java,e\5\e5642f1569cb400bfd7a1d20ff01932f59309922
-˜
-hagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrder.java,a\a\aa8bbbc0f5599eea88dba33e6d86aed2386bf5e5
-œ
-lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrderDemo.java,1\5\15df7b13da921bd65a01214a25a1f774ee01fd30
 H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
 ­
@@ -61,16 +53,12 @@ iagile-software-design-patterns/src/main/java/design_patterns/core_patterns/prox
 gagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/static_proxy/Bird.java,e\3\e38d35a8070a990af24cb33a8520cfd8adb52823
 ¢
 ragile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/static_proxy/TestStaticProxy.java,e\d\edce5ba4d9a4df665da033f2b9b2bb3a554b1a87
-™
-iagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/MealBuilder.java,f\f\ff2cb872b69e7d6346026bbfc0a5ae98efcd65cf
 ®
 ~agile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo2/model/IKeyValueCollectionBuilder.java,8\7\87526c09b464a613989c239c13c4ab7e7c4502f3
 
 nagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo2/model/MapBuilder.java,7\1\7159bf068409e89d531e2d8189254a881e82c9ec
 ¦
 vagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo2/model/QueryStringBuilder.java,5\b\5b8580ce0d221c2e5afc7f5fc5b77e327d191ae5
-™
-iagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo2/DemoBuilder.java,3\6\36d30af1c2890a8455ab4ed64fe48505a0610942
 ¥
 uagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo2/model/HttpHeaderBuilder.java,3\8\3863aed0c6903c12643ef71976039f398759f2d5
 œ
@@ -83,8 +71,6 @@ pagile-software-design-patterns/src/main/java/design_patterns/core_patterns/buil
 gagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/impl/Coke.java,1\e\1e8dd25f1a8d6cab8088df6cbfa4fcb7d1e60d44
 œ
 lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/impl/VegBurger.java,4\3\43ed551bbbee7bf19bca923c86d46de5565a4fb8
-”
-dagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core2/People.java,1\1\118205b5257c75a35d5930ed6def0357d43eaded
 
 `agile-software-design-patterns/src/main/java/design_patterns/other_patterns/proof_of_concept/poc,4\f\4f7f06213a83f0ff3d5d0eeaac35f5a336d2dcaf
 •
@@ -147,8 +133,6 @@ m
 =refactoring-guide/src/main/java/extensions/APIè‡ªå®šä¹‰æ‰©å±•,2\4\2460457605ea9017db1a95afdff03abc640a1a97
 l
 <refactoring-guide/src/main/java/helper/Helperç±»æœ€ä½³å®è·µ,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
-v
-Fsoftware-design-quality/src/main/java/com/software/design/è½¯ä»¶è®¾è®¡,c\b\cb3848a10c3152e60f25cc24b2a872d1c9cba5e9
 “
 cagile-software-design-patterns/src/main/java/design_patterns/core_patterns/monostate/MonoState.java,2\5\2544372c128713e266cbc14560c0762d52a111ad
 m
@@ -163,3 +147,25 @@ Arefactoring-guide/src/main/java/immutable/DemoImmutableClass.java,0\2\02cb8f6d
 ƒagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/handler/PersonInvocationHandler.java,d\e\dec0bd7b6aac156a160f970d40ca7021e2ca6cb0
 §
 wagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/JdkDynamicProxyTest.java,c\e\ce03c92dfaa7ff0181dc7feed4a49700bc9dddbd
+Œ
+\refactoring-guide/src/main/java/exception/undeclared/UndeclaredThrowableExceptionTester.java,8\2\82884aa4901604f69b8c8822f919c5d70a416693
+r
+Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
+†
+Vrefactoring-guide/src/main/java/exception/undeclared/ExceptionalInvocationHandler.java,8\c\8c3b6652df051ef24e2f649e318cf4e929156dde
+~
+Nrefactoring-guide/src/main/java/exception/undeclared/SomeCheckedException.java,b\d\bddf36331c62896292107cc82d008ecae7a6491c
+r
+Brefactoring-guide/src/main/java/exception/unchecked/BuildInfo.java,7\0\70fb4a014f5e0d24a5c2f7881d2b2f3472693a8a
+u
+Erefactoring-guide/src/main/java/exception/unchecked/BuildWarning.java,0\3\03363db12322cac6415ddd92848a1b5c4fb54caa
+x
+Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
+š
+jagile-software-design-patterns/src/main/java/design_patterns/other_patterns/JavaBeans/JavaBeanå¯¹è±¡åˆ›å»º,3\0\30953e1ce298f5a95cc7a1fa56a76387ec77836d
+w
+Grefactoring-guide/src/main/java/exception/unchecked/BuildException.java,c\2\c2e0d500f880dd0d39841ec5491cd606341e428d
+v
+Fsoftware-design-quality/src/main/java/com/software/design/è½¯ä»¶è®¾è®¡,c\b\cb3848a10c3152e60f25cc24b2a872d1c9cba5e9
+Ÿ
+oagile-software-design-patterns/src/main/java/design_patterns/other_patterns/resource_pool/èµ„æºæ± è®¾è®¡æ¨¡å¼,e\6\e6a2e3222fb6d174118f6851a27c1dcf3c9de75a

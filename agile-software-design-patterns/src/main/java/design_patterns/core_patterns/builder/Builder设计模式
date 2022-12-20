@@ -1,0 +1,16 @@
+TODO: Builder模式最佳实践
+将构建对象的过程抽象出来，提供更大的构造灵活度
+1. The builder pattern is a creational pattern, not a behavioral pattern !!
+   目的是处理负责的对象构造, 而不是行为
+2. The builder pattern solves the problem of maintaining a class with too many constructors
+   when you need to build an object which requires multiple properties some optional and some mandatory
+3. The constructor of the class being built should be made private to prevent outsider access
+4. The set methods of a builder pattern should return the Builder object (this) !!
+5. 可以使用内部类, 但不需要interface
+
+StringBuilder
+DocumentBuilder: for complex object creation
+LocaleBuilder
+
+将Builder pattern设计模式应用在继承关系上
+https://ducmanhphan.github.io/2020-04-06-how-to-apply-builder-pattern-with-inhertitance/
