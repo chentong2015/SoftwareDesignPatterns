@@ -3,8 +3,6 @@ g
 7java-style-guide/src/main/java/main/Guide06JavaDoc.java,f\9\f90fffa0092085e8a9f69807458a130d74f5e282
 k
 ;java-style-guide/src/main/java/main/Guide05Programming.java,e\8\e8b722114a7407e91894bff8d1b1be39b2d770a5
-f
-6java-style-guide/src/main/java/main/Guide04Naming.java,3\9\397cbb8e926697f1308fa277fad808719b5806fb
 j
 :java-style-guide/src/main/java/main/Guide03Formatting.java,4\5\4596315f4c7818eccc9b2c085d82b52759be8803
 k
@@ -91,20 +89,12 @@ bagile-software-design-patterns/src/main/java/design_patterns/core_patterns/prox
 pagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/model/Person.java,c\5\c57a6f6c5cb79811e6f0bbccebec6dd78635be22
 ¤
 tagile-software-design-patterns/src/main/java/design_patterns/core_patterns/proxy/dynamic_proxy/model/PersonImpl.java,b\3\b3686f3b21d616e2aa26e72a4704a92f1cd32283
-O
-software-design-quality/pom.xml,5\7\5745b832e227be850448aef6afa620db1761b1fd
 I
 refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
-o
-?effective-java-clean-code/src/main/java/main/EffectiveJava.java,d\5\d5bb3bea3d3baadd0a94294991b45dbc5a1a1723
-k
-;effective-java-clean-code/src/main/java/main/CleanCode.java,9\e\9ef9c3a1ac59ee41402c6f28c786003c159221a6
 V
 &refactoring-guide/src/main/refactoring,d\4\d4dd5eadf3139c8b3ac271f2184d71f1411d6b79
 t
 Djava-style-guide/src/main/java/main/Guide02SourceFilesStructure.java,b\7\b7543216a3f4e636f3bd36d18855c57d9fc55b7a
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ”
 dagile-software-design-patterns/src/main/java/design_patterns/core_patterns/visitor/base/AtvPart.java,d\f\dfd1158d11043c9f764d02f8091b05197439c2af
 “
@@ -161,11 +151,23 @@ u
 Erefactoring-guide/src/main/java/exception/unchecked/BuildWarning.java,0\3\03363db12322cac6415ddd92848a1b5c4fb54caa
 x
 Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
-š
-jagile-software-design-patterns/src/main/java/design_patterns/other_patterns/JavaBeans/JavaBeanå¯¹è±¡åˆ›å»º,3\0\30953e1ce298f5a95cc7a1fa56a76387ec77836d
 w
 Grefactoring-guide/src/main/java/exception/unchecked/BuildException.java,c\2\c2e0d500f880dd0d39841ec5491cd606341e428d
 v
 Fsoftware-design-quality/src/main/java/com/software/design/è½¯ä»¶è®¾è®¡,c\b\cb3848a10c3152e60f25cc24b2a872d1c9cba5e9
 Ÿ
 oagile-software-design-patterns/src/main/java/design_patterns/other_patterns/resource_pool/èµ„æºæ± è®¾è®¡æ¨¡å¼,e\6\e6a2e3222fb6d174118f6851a27c1dcf3c9de75a
+™
+iagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo1/MealBuilder.java,f\f\ff2cb872b69e7d6346026bbfc0a5ae98efcd65cf
+–
+fagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/Builderè®¾è®¡æ¨¡å¼,6\6\6663d019aca17c5e1f5ee6391161010f4eb6dbc3
+œ
+lagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrderDemo.java,1\5\15df7b13da921bd65a01214a25a1f774ee01fd30
+˜
+hagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core1/LunchOrder.java,a\a\aa8bbbc0f5599eea88dba33e6d86aed2386bf5e5
+–
+fagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/demo3/DBConfig.java,f\3\f3cec28a211806d37df6a8aa1dc97a65e64a7e40
+”
+dagile-software-design-patterns/src/main/java/design_patterns/core_patterns/builder/core2/People.java,1\1\118205b5257c75a35d5930ed6def0357d43eaded
+š
+jagile-software-design-patterns/src/main/java/design_patterns/other_patterns/JavaBeans/JavaBeanå¯¹è±¡åˆ›å»º,3\0\30953e1ce298f5a95cc7a1fa56a76387ec77836d

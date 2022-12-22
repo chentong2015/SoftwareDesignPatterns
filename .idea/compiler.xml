@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="agile-software-design-patterns" />
-        <module name="effective-java-clean-code" />
         <module name="java-style-guide" />
         <module name="software-design-quality" />
         <module name="refactoring-guide" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="effective-java-clean-code" target="15" />
       <module name="software-clean-code" target="15" />
     </bytecodeTargetLevel>
   </component>
