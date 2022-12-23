@@ -1,4 +1,4 @@
-package design_patterns.core_patterns.decorator;
+package design_patterns.core_patterns.decorator.filter;
 
 // 所有继承Filter的类型都拥有一个自己的过滤器
 // Filter decorator = new Filter();

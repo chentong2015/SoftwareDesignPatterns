@@ -3,23 +3,22 @@ package immutable;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 类型的封装：一旦类型对象被创建出来之后, 不可变化 ! 不允许外部改变类型对象
- * 1. 不提供setter方法, 不提供改变内部fields的方式
- * 2. Make all fields final and private
- * 3. Don't allow subclasses to override methods
- * 4. 如果实例对象的Fields包含了对可变对象的引用，不要让这些对象改变
- * 4.1   不要提供方法去改变"可变对象" mutable objects
- * 4.2   Don't share references to the mutable objects 不要存储外部通过构造器传递进来的引用 ...
- */
-public class MyImmutableClass {
-    
+// 类型的封装：一旦类型对象被创建出来之后, 不可变化 ! 不允许外部改变类型对象
+// 1. 不提供setter方法, 不提供改变内部fields的方式
+// 2. Make all fields final and private
+// 3. Don't allow subclasses to override methods
+// 4. 如果实例对象的Fields包含了对可变对象的引用，不要让这些对象改变
+//    - 不要提供方法去改变"可变对象" mutable objects
+//    - Don't share references to the mutable objects 不要存储外部通过构造器传递进来的引用 ...
+public final class MyImmutableClass {
+
     // 1. 没有提供fields的setter方法，使用final关键字保证它是不可变的
     //    不需要声明成final static
     private final int locationID;
     private final String description;
     private final Map<String, Integer> exits;
 
+    // TODO. 实例的信息应该在创建对象的时候提供，并在对象的整个声明周期内保持不变
     public MyImmutableClass(int locationID, String description, Map<String, Integer> exits) {
         this.locationID = locationID;
         this.description = description;
