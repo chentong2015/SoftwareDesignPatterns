@@ -1,10 +1,10 @@
 ### 如何写好Java代码? 参考书籍
 
 - Clean Code
-- Agile Software development, design patterns
 - Effective Java
+- Agile Software development, design patterns
 - Refactoring (https://refactoring.com/catalog/)
-- Google Java Style Guide (https://google.github.io/styleguide/)
+- Java Style Guide (https://google.github.io/styleguide/)
 - Sonar Qube Code Quantity
 
 ### 如何合理的运用设计模式? 代码如何演变成使用模式 ?

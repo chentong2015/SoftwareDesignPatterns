@@ -1,18 +1,22 @@
 package singleton;
 
-// TODO. Singleton单列模式的最佳实践
+import java.io.Serial;
+import java.io.Serializable;
+
+// TODO. Singleton单列模式的最佳实践 => 等效于单元素的枚举类型
 // 1. double check lock双检锁设计的使用
 // 2. private私有构造器的设计
 // 3. init()初始化方法的创建, 代表初始化类型的对象 => 存在构造器
 // 4. 单列方法的线程安全问题
 // 5. 单列模式不允许再被继承(子类创建的实例也是一种父类的实例，违反单列的原则)
-public final class SingletonMaster {
+public final class SingletonMaster implements Serializable {
 
     // TODO. volatile一般适用在"特别"高并发的场景，或具有随机性 !
     private static SingletonMaster instance = null;
 
+    // TODO. 客户端可以使用AccessibleObject.setAccessible，通过反射机制来调用构造器
+    //  为了防御反射攻击，让私有构造器在被要求创建第二个实例时抛出异常
     private SingletonMaster() {
-        // 添加异常判断，限制只能通过getInstance()来创建唯一单列
         if (instance != null) {
             throw new RuntimeException("Use getInstance() method to create instance");
         }
@@ -51,5 +55,11 @@ public final class SingletonMaster {
 
     // 对象资源，数据流的释放
     public void close() {
+    }
+
+    // TODO. 防止在反序列化"单列的序列化实例"时，构建一个新的对象
+    @Serial
+    private Object readResolve() {
+        return instance;
     }
 }

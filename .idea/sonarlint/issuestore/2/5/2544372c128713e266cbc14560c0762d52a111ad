@@ -1,9 +1,0 @@
-
-r
-java:S3008"WRename this field "common_value" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÊð¥üÿÿÿÿ
-—
-java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜®ý¥
-3
-java:S1118	"Hide this public constructor.(˜®ý¥
-K
-java:S1068"0Remove this unused "common_value" private field.(ÏÊð¥üÿÿÿÿ
