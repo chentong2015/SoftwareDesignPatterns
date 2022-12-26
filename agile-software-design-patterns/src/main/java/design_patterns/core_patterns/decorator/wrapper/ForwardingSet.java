@@ -4,11 +4,10 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Set;
 
-// Decorator本质是作为一个Wrapper Class，把Set的集合包装起来
+// TODO. 核心在于使用Composition来替代Inheritance
+// 不扩展类型，而是在新的类型增加一个私有域，它引用现有类的一个实例
 public class ForwardingSet<E> implements Set<E> {
-
-    // TODO. 核心在于使用Composition来替代Inheritance
-    // 不扩展类型，而是在新的类型增加一个私有域，它引用现有类的一个实例
+    
     private final Set<E> set;
 
     public ForwardingSet(Set<E> set) {
