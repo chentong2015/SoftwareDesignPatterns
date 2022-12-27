@@ -1,0 +1,13 @@
+com\java\spi\IDocumentParser.class
+java_jdbc_driver\JavaDriverManager.class
+com\java\spi\JavaSpiDemo.class
+spring_boot_auto_configure\model\SystemIntegrationConfiguration.class
+spring_boot_auto_configure\SpringEnableAutoConfiguration.class
+spring_boot_auto_configure\model\SystemReportingConfiguration.class
+java_jdbc_driver\MyDBServerDriver.class
+com\java\spi\ExcelParser.class
+spring_boot_auto_configure\MyAutoConfigurationImportSelector.class
+com\java\spi\CsvParser.class
+java_jdbc_driver\MyDriverInfo.class
+spring_boot_auto_configure\model\SystemIntegrationConfiguration$AutoConfigService.class
+spring_boot_auto_configure\model\MyEnableAutoConfiguration.class

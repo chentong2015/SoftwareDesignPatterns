@@ -1,0 +1,6 @@
+# load "Bean Definition" to Spring IoC
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  master.auto_configure.demo.SystemIntegrationConfiguration
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+org.springframework.boot.autoconfigure.BackgroundPreinitializer

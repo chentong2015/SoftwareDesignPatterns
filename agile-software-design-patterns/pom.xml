@@ -14,6 +14,14 @@
     </properties>
 
     <dependencies>
+        <!-- Java EE底层原生包 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
@@ -25,5 +33,4 @@
             <version>3.5.10</version>
         </dependency>
     </dependencies>
-
 </project>

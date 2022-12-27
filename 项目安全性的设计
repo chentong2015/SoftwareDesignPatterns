@@ -1,0 +1,7 @@
+如何提高java(maven, spring)项目的安全性 ?
+1. 不写package，避免在package中声明public class对外暴露
+2. 不同的jar包，同样的完整package路径可以访问另外一个jar中路径下的类型(即使该类型不对外暴露)
+3. 对jar包进行数字签名，避免反编译后的识别
+
+4. 使用module模块配置是否对外暴露
+5. 通过SecurityManager设置权限
