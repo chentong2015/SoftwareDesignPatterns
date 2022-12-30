@@ -1,0 +1,17 @@
+
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ıÏ÷
+N
+java:S1854+"8Remove this useless assignment to local variable "rect".(Éƒ•â
+N
+java:S1854*"8Remove this useless assignment to local variable "rect".(¦«£‰
+M
+java:S1135%"2Complete the task associated to this TODO comment.(öäÆ°úÿÿÿÿ
+?
+java:S1481*")Remove this unused "rect" local variable.(¦«£‰
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(±µ™Ï
+O
+java:S34001"9Remove this method and declare a constant for this value.(È¸å
+U
+java:S11616":Add the "@Override" annotation above this method signature(æ¦ßÔÿÿÿÿÿ
+U
+java:S1161<":Add the "@Override" annotation above this method signature(æ¦ßÔÿÿÿÿÿ

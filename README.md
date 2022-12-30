@@ -1,7 +1,7 @@
 ### 如何写好Java代码? 参考书籍
 
 - Clean Code
-- Effective Java
+- Effective Java (https://github.com/jbloch/effective-java-3e-source-code)
 - Agile Software development, design patterns
 - Refactoring (https://refactoring.com/catalog/)
 - Java Style Guide (https://google.github.io/styleguide/)
