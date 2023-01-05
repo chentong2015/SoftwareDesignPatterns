@@ -15,11 +15,15 @@ public class Guide06JavaDoc {
     // 如果一个注释是用来定义一个类，方法，字段的整体目的或行为(通用性的解释)
 
     /**
-     * Multiple lines of Javadoc text are written here,
-     * wrapped normally...
+     * 针对于方法的JavaDoc描述和解释
+     * Multiple lines of Javadoc text are written here wrapped normally...
      */
     public void testJavaDocExample1() {
+        // 方法内部的单行注释
 
+        /*
+         * 方法内部的多行注释，使用简单的换行处理，区别于JavaDoc
+         */
     }
 
     /**
