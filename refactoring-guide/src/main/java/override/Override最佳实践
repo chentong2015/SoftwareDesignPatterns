@@ -19,10 +19,18 @@ TODO. Override时始终需要考虑对父类方法代码的重用
       return warnings;
    }
 
-3. 对super method的逻辑过程进行重写，则考虑复制父类方法的代码进行修改
+3. 对super method的逻辑过程进行重写，复制父类方法源码进行修改
    @Override
    public Warnings warn(Statement statement, String value) {
       Warnings warnings;
       // copy source codes of super method
       return warnings;
+   }
+
+TODO. 特别注意Override和super同时使用，会造成方法的逻辑被重复执行，并且很难Debug
+4. public Warnings warn(Statement statement, String value) {
+     super.warn(statement, value);
+
+     // copy source codes of super method
+     return warnings;
    }

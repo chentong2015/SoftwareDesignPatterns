@@ -32,4 +32,7 @@ public class JavaMethods {
         a = b;
         b = temp;
     }
+
+    // TODO. CognitiveComplexity 认知复杂性: 一个方法应该保证在一个逻辑层面
+    // 当方法中的if else逻辑判断过多，会导致认知复杂度的增加，方法的行为容易不受控制
 }

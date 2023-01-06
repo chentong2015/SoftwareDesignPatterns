@@ -147,8 +147,6 @@ p
 @refactoring-guide/src/main/java/immutable/MyImmutablePeriod.java,7\7\771d1b8054b5d0801f8d558b4e4bd180b39094f8
 p
 @java-style-guide/src/main/java/method/JavaMethodOverloading.java,6\1\61d293def8b1ce5712a2465b2174a20f65ec477a
-f
-6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
 r
 Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
 r
