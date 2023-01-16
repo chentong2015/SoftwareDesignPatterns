@@ -9,8 +9,6 @@ r
 Brefactoring-guide/src/main/java/auto_closeable/DemoTryFinally.java,d\3\d3a1ab47c32f25f30dccba63ac5ede8583c5972b
 x
 Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
-x
-Hjava-style-guide/src/main/java/object/common/methods/ObjectToString.java,2\f\2f8cd2b34e52154f283c8794f28c4b297e19b0dd
 ~
 Njava-style-guide/src/main/java/object/common/methods/ObjectEqualsHashcode.java,9\a\9adc1613ef0a80bd6908df66053c60feab2047b7
 h
@@ -149,8 +147,6 @@ p
 @java-style-guide/src/main/java/method/JavaMethodOverloading.java,6\1\61d293def8b1ce5712a2465b2174a20f65ec477a
 r
 Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
-r
-Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
 x
 Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
 Y
@@ -167,3 +163,9 @@ x
 Hagile-software-design-patterns/src/main/java/core_patterns/facade/facade,1\e\1e4ebef7f0488f7f611804ef34b08058aded2bc1
 …
 Uagile-software-design-patterns/src/main/java/core_patterns/NullObject/NullObject.java,f\3\f327937bba0fa2ba4e2f7ca7151b1ad68cc39607
+u
+Ejava-style-guide/src/main/java/google/style/guide/Guide06JavaDoc.java,a\6\a68abef6fdda7d57d1c248b3e3f4c178415000bf
+f
+6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
+x
+Hjava-style-guide/src/main/java/object/common/methods/ObjectToString.java,2\f\2f8cd2b34e52154f283c8794f28c4b297e19b0dd
