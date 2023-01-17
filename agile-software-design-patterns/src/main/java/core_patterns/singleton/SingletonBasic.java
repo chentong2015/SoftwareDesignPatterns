@@ -1,4 +1,4 @@
-package singleton;
+package core_patterns.singleton;
 
 // 1. 使用变量来访问单列的实例对象: Thread-safe
 // 2. 使用方法来提供访问单列的实例对象: Not Thread-safe

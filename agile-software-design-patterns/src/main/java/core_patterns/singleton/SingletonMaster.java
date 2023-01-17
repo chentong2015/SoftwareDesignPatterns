@@ -1,4 +1,4 @@
-package singleton;
+package core_patterns.singleton;
 
 import java.io.Serial;
 import java.io.Serializable;
