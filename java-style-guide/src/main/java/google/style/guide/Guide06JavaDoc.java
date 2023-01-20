@@ -3,8 +3,10 @@ package google.style.guide;
 import java.util.Objects;
 
 // TODO. 好的API文档应该描述一个给定的方法做了什么工作，而不是描述如何做到的
+//  声明的JavaDoc会在Client端调用API的时候显示，提供信息
 // - 如果是公共的SDK API, 提供给使用者调用的API, 则需要明确的JavaDoc解释
 // - 如果类型或者方法是开发给客户调用的，则需要写明JavaDoc, 解释和规则
+
 // 1. 通常建议在public或protected方法上使用JavaDoc
 // 2. 对于一些"自解释"的方法，不需要写多余的JavaDoc
 // 3. 对于Override方法，JavaDoc是可选的
@@ -49,5 +51,14 @@ public class Guide06JavaDoc {
 
         Objects.requireNonNull(value);
         // do something
+    }
+
+    /**
+     * @deprecated (when, why, refactoring advice...)
+     * 废弃的方法应该添加JavaDoc，注明废弃的理由
+     */
+    @Deprecated
+    public void testDeprecatedMethod() {
+        // this is a deprecated method
     }
 }

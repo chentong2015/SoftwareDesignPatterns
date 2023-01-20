@@ -1,20 +1,12 @@
 
-m
-=refactoring-guide/src/main/java/singleton/SingletonBasic.java,8\6\86d2e807bd634f1f8c1e840db8819912ce2119e4
-n
->refactoring-guide/src/main/java/singleton/SingletonMaster.java,e\b\ebc3d8ccc3f1dd228e6b6c37b0c8933f08230898
 u
 Erefactoring-guide/src/main/java/auto_closeable/JavaAutoCloseable.java,3\7\37720ce9aad15a171f75238fec2f9e6d245dbef8
 r
 Brefactoring-guide/src/main/java/auto_closeable/DemoTryFinally.java,d\3\d3a1ab47c32f25f30dccba63ac5ede8583c5972b
-x
-Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
 ~
 Njava-style-guide/src/main/java/object/common/methods/ObjectEqualsHashcode.java,9\a\9adc1613ef0a80bd6908df66053c60feab2047b7
 h
 8java-style-guide/src/main/java/class_interface/Main.java,d\5\d56f86a84cdbdccd58e51a0c6637c79f954018bd
-u
-Ejava-style-guide/src/main/java/object/common/methods/ObjectClone.java,a\f\aff58570a8f2a348e43145189f1b0b38445933fa
 l
 <refactoring-guide/src/main/java/helper/Helper类最佳实践,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
 m
@@ -39,8 +31,6 @@ Sagile-software-design-patterns/src/main/java/core_concepts/mvc_mvvm/MVC设计�
 Yagile-software-design-patterns/src/main/java/core_patterns/composition/BaseComponent.java,d\0\d0a65537d8088bbc6bf2ffb6051c298fbd3ec7b5
 �
 dagile-software-design-patterns/src/main/java/core_patterns/composition/composite/CompositeShape.java,4\a\4ac5c9e70bae862f6185199c339e144bb6eb61fa
-�
-Wagile-software-design-patterns/src/main/java/core_patterns/prototype/BasePrototype.java,5\5\551267739326273238759ade413aff9b71a4e3fb
 �
 \agile-software-design-patterns/src/main/java/core_concepts/solid_principles/lsp/BaseLSP.java,8\1\81c3b520c0976b9de8b90776e27e19c0d7a47a05
 �
@@ -121,12 +111,6 @@ q
 Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
 �
 \agile-software-design-patterns/src/main/java/core_concepts/solid_principles/srp/BaseSRP.java,6\4\644f9260ed680277ac2ed4edead74e27aa7f07fc
-H
-项目安全性的设计,3\a\3abedb784ea8ce221bd62da1c648b03a86f4487d
-B
-软件设计实战,5\4\54884c1463fbf2a0433eea5625ee3aa2f0f1bef1
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 �
 eagile-software-design-patterns/src/main/java/core_patterns/abstract_patterns/adapter/IntIterator.java,9\8\98afdda3b6d8649906dc94b686bf9e82681eafe3
 v
@@ -145,12 +129,6 @@ p
 @refactoring-guide/src/main/java/immutable/MyImmutablePeriod.java,7\7\771d1b8054b5d0801f8d558b4e4bd180b39094f8
 p
 @java-style-guide/src/main/java/method/JavaMethodOverloading.java,6\1\61d293def8b1ce5712a2465b2174a20f65ec477a
-r
-Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
-x
-Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
-Y
-)refactoring-guide/Refactoring最佳实践,e\e\eea86f144fafec6632ed9335de662a867a821691
 �
 _agile-software-design-patterns/src/main/java/core_patterns/NullObject/demo/CustomerFactory.java,6\b\6ba0584e16a923d9d66cc3b6f80f308814e501df
 �
@@ -163,11 +141,13 @@ x
 Hagile-software-design-patterns/src/main/java/core_patterns/facade/facade,1\e\1e4ebef7f0488f7f611804ef34b08058aded2bc1
 �
 Uagile-software-design-patterns/src/main/java/core_patterns/NullObject/NullObject.java,f\3\f327937bba0fa2ba4e2f7ca7151b1ad68cc39607
-u
-Ejava-style-guide/src/main/java/google/style/guide/Guide06JavaDoc.java,a\6\a68abef6fdda7d57d1c248b3e3f4c178415000bf
 f
 6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
 x
 Hjava-style-guide/src/main/java/object/common/methods/ObjectToString.java,2\f\2f8cd2b34e52154f283c8794f28c4b297e19b0dd
 m
 =refactoring-guide/src/main/java/override/Override最佳实践,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
+r
+Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
+�
+Yagile-software-design-patterns/src/main/java/core_patterns/singleton/SingletonMaster.java,a\c\aca8206b4071bcc94d3dfaba74363fc7796dcea2

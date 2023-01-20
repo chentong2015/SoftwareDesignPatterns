@@ -21,12 +21,14 @@ public class JavaExceptionBestPractice {
         } catch (IOException exception) {
             exception.printStackTrace();
         } catch (Exception e) {
+            // 输出完整的调用堆栈
             e.printStackTrace();
+            e.printStackTrace(System.err);
         }
     }
 
     private static void testThrow() throws Exception {
         System.out.println("test throw ");
-        throw new Exception("new exception");
+        throw new Exception("throw exception from testThrow method");
     }
 }

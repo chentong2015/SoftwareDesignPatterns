@@ -2,7 +2,7 @@ package auto_closeable;
 
 import java.io.*;
 
-// TODO. try-with-Resources优先于try-finally，用于关闭资源
+// TODO. try-with-Resources优先于try-finally用于关闭资源
 public class DemoTryWithResources {
 
     // try-with-Resources能够看到真正抛出的异常，而第二个随后的异常会被禁止
