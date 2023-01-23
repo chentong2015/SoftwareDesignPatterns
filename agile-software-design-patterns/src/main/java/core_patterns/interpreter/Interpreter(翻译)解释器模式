@@ -1,0 +1,9 @@
+这种模式实现了一个表达式接口，该接口解释一个特定的上下文
+Interpreter pattern provides a way to evaluate language grammar or expression.
+This pattern involves implementing an expression interface which tells to interpret a particular context.
+This pattern is used in SQL parsing, symbol processing engine etc.
+
+应用场景
+- 重复发生的问题可以使用解释器模式
+- 例如，多个应用服务器，每天产生大量的日志，需要对日志文件进行分析处理，
+  由于各个服务器的日志格式不同，但是数据要素是相同的，按照解释器的说法就是终结符表达式都是相同的，但是非终结符表达式就需要制定了

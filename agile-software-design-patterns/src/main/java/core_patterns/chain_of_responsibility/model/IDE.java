@@ -7,7 +7,7 @@ public class IDE implements IKeyHandler {
         if (key.equals("Ctrl+F")) {
             System.out.println("Full Search");
         } else if (key.equals("Alt+F4")) {
-            System.out.println("Close Application");
+            System.out.println("Close IWork");
         } else {
             System.out.println("Can not handle it");
         }

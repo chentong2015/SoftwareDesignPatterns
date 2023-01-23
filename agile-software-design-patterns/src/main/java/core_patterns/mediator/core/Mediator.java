@@ -7,7 +7,7 @@ import java.util.List;
 //  通过Mediator来"调节器"两者之间的关联
 public class Mediator {
 
-    private List<Light> lights = new ArrayList<>();
+    private final List<Light> lights = new ArrayList<>();
 
     public void registerLight(Light light) {
         this.lights.add(light);

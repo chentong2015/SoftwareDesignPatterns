@@ -1,0 +1,12 @@
+Command pattern is a data driven design pattern 由数据驱动的设计模式
+
+将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开
+消除了"请求发送者"与"请求接收者"之间的耦合，对象之间的调用关系更加灵活，实现解耦
+A request is wrapped under an object as command and passed to invoker object.
+Invoker object looks for the appropriate object which can handle this command and
+passes the command to the corresponding object which executes the command.
+
+应用场景
+1. 当一个应用程序调用者与多个目标对象之间存在调用关系时，并且目标对象之间的操作很类似的时候。
+2. 例如当一个目标对象内部的方法调用太复杂，或者内部的方法需要协作才能完成对象的某个特点操作时。
+3. 有时候调用者调用目标对象后，需要回调一些方法

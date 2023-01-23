@@ -1,0 +1,16 @@
+通常每个接收者都包含对另一个接收者的引用
+如果一个对象不能处理该请求，那么它会把相同的请求传给下一个接收者，依此类推
+The chain of responsibility pattern creates a chain of receiver objects for a request.
+This pattern decouples sender and receiver of a request based on type of request.
+In this pattern, normally each receiver contains reference to another receiver.
+If one object cannot handle the request then it passes the same to the next receiver and so on
+
+TODO. 该模式解耦了不同的类型和请求接收者之间的耦合，不同类型的请求被同一个责任链处理
+1. 责任链条上的每一个类型只负责它责任内的事情，超过责任范围，则向上请求处理
+2. 通过责任链条动态分担事情的处理，分工明确
+   IDE
+   ^
+   CodeEditor
+   ^
+   CodeSelection
+   责任链向上

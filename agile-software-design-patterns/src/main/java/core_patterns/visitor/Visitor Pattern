@@ -1,0 +1,8 @@
+Visitor Pattern:
+Separate an algorithm from an object structure
+Visitor class can change the executing algorithm of an element class. 访问者类可以改变原始类型层次的执行算法
+
+应用场景:
+- 对象结构比较稳定，但经常需要在此对象结构上定义新的操作。
+- 需要对一个对象结构中的对象进行很多不同的并且不相关的操作，而需要避免这些操作“污染”这些对象的类，也不希望在增加新操作时修改这些类。
+- 为数据结构/类型层次生成不同类型的报表，结构层次不因新添加的报表类型而改变

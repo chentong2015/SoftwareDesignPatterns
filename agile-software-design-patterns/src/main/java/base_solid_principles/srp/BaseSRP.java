@@ -18,7 +18,7 @@ public class BaseSRP {
     // 3. Unexpected Behaviour
     // 4. High Coupling
 
-    // Application SRP:
+    // IWork SRP:
     // 1. 提取class, function, module中多个原因改变的集中的地方
     // 2. 抽离到不同的局部中，变得短小，使得改变容易且减少相互间依赖
 }

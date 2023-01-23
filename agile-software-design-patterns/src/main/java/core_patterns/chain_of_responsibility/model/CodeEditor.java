@@ -11,7 +11,7 @@ public class CodeEditor implements IKeyHandler {
     @Override
     public void handleInputKey(String key) {
         if (key.equals("Alt+F4")) {
-            System.out.println("Close Application");
+            System.out.println("Close IWork");
         } else {
             handlerUp.handleInputKey(key);
         }

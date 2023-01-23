@@ -13,6 +13,6 @@ public class ObserverA implements Observer {
 
     @Override
     public void update() {
-        System.out.println("Update ObserverA = " + observed.getSecretNumber());
+        System.out.println("ObserverA gets new update number = " + observed.getSecretNumber());
     }
 }
