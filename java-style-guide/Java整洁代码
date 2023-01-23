@@ -1,11 +1,9 @@
 - <Clean Code>
 - <Effective Java> (https://github.com/jbloch/effective-java-3e-source-code)
 - <Agile Software development, design patterns>
-
-- Refactoring (https://refactoring.com/catalog/)
 - Java Style Guide (https://google.github.io/styleguide/)
 - Code Quantity
-  SonarQube code quality
-  SonarLint Plugin      可以连接到SonarQube/SonarCloud自动检测代码质量
-  Save Actions Plugin   保存时自动代码格式化
-  Jalopy Code Formatter 代码格式化
+  - SonarQube code quality
+  - SonarLint Plugin      可以连接到SonarQube/SonarCloud自动检测代码质量
+  - Save Actions Plugin   保存时自动代码格式化
+  - Jalopy Code Formatter 代码格式化
