@@ -1,6 +1,5 @@
 package object.common.methods;
 
-// ==        基本类型比较值，装箱类型比较引用
 // .equals() 默认比较对象的reference引用，可通过Override来实现值的比较，变成"值类"
 public class ObjectEqualsHashcode {
 

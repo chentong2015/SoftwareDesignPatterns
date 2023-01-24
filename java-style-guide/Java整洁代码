@@ -1,7 +1,8 @@
 - <Clean Code>
 - <Effective Java> (https://github.com/jbloch/effective-java-3e-source-code)
 - <Agile Software development, design patterns>
-- Java Style Guide (https://google.github.io/styleguide/)
+- <Java Style Guide> (https://google.github.io/styleguide/)
+
 - Code Quantity
   - SonarQube code quality
   - SonarLint Plugin      可以连接到SonarQube/SonarCloud自动检测代码质量

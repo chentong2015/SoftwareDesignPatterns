@@ -1,13 +1,16 @@
 
+Y
+java:S1610">Convert the abstract class "Guide06JavaDoc" into an interface.(÷ åúÿÿÿÿ
 H
 java:S1135"2Complete the task associated to this TODO comment.(õÁúõ
 M
-java:S1135-"2Complete the task associated to this TODO comment.(½Æˆçøÿÿÿÿ
+java:S1135/"2Complete the task associated to this TODO comment.(½Æˆçøÿÿÿÿ
 ?
-java:S11970"*Move the array designators [] to the type.(úåö
-e
-java:S6355<"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(õˆúš8¸Æ€Ü0
-Q
-java:S1133="5Do not forget to remove this deprecated code someday.(Â¨ë[8¸Æ€Ü0
+java:S11972"*Move the array designators [] to the type.(úåö
+^
+java:S6355>"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(õˆúš
+J
+java:S1133?"5Do not forget to remove this deprecated code someday.(Â¨ë[
+V	java:S125T"<This block of commented-out lines of code should be removed.(ìı­ôøÿÿÿÿ
 >
-java:S11440")Remove this unused private "sort" method.(úåö
+java:S11442")Remove this unused private "sort" method.(úåö

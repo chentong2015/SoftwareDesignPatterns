@@ -2,8 +2,9 @@ package exception;
 
 import java.io.IOException;
 
-// TODO. Exception是所有exceptions的superclass, Exception继承自Throwable(不应该被捕获)
-//       Error是所有errors的superclass，Error继承自Throwable
+// TODO. 创建异常会捕获堆栈轨迹，因此抛出异常的开销很高
+// Exception是所有eceptions的superclass, Exception继承自Throwable(不应该被捕获)
+// Error是所有errors的superclass，Error继承自Throwable
 // - 异常捕获的规范性: 是否需要合并catch
 // - 异常继承的规范性: Java类继承时override重写
 // - 异常抛出的层级性: 通过Throwable cause设置它上层抛出的异常
