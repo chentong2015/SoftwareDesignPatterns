@@ -93,8 +93,6 @@ x
 Hjava-style-guide/src/main/java/object/common/methods/ObjectToString.java,2\f\2f8cd2b34e52154f283c8794f28c4b297e19b0dd
 m
 =refactoring-guide/src/main/java/override/Override最佳实践,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
-r
-Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
 �
 Yagile-software-design-patterns/src/main/java/core_patterns/singleton/SingletonMaster.java,a\c\aca8206b4071bcc94d3dfaba74363fc7796dcea2
 r
@@ -385,8 +383,6 @@ Y
 )refactoring-guide/Refactoring最佳实践,e\e\eea86f144fafec6632ed9335de662a867a821691
 Q
 !java-style-guide/Java整洁代码,0\b\0be7a94441e596106a4a71dae3c37c156111c460
-x
-Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
 �
 Yagile-software-design-patterns/src/main/java/core_patterns/null_object/无法返回结果,9\c\9c76f49a649ba37682bca46c07e98529ef06a274
 �
@@ -399,5 +395,5 @@ Ejava-style-guide/src/main/java/google/style/guide/Guide06JavaDoc.java,a\6\a68a
 Mjava-style-guide/src/main/java/java/standard/library/JavaStandardLibrary.java,0\d\0d4b02d0731833452c3f51710eee0ae09fee3d66
 �
 Zagile-software-design-patterns/src/main/java/core_patterns/null_object/OptionalResult.java,3\9\39666a3b931b42886067b62052ccb799f3e4ff12
-t
-Djava-style-guide/src/main/java/google/style/guide/Guide04Naming.java,a\e\ae4b720855f8f3212c38d87527b747fc359ec749
+~
+Njava-style-guide/src/main/java/object/common/methods/ObjectEqualsHashcode.java,9\a\9adc1613ef0a80bd6908df66053c60feab2047b7
