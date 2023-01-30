@@ -1,6 +1,7 @@
 package exception;
 
 import java.io.IOException;
+import java.util.concurrent.ExecutionException;
 
 // TODO. 创建异常会捕获堆栈轨迹，因此抛出异常的开销很高
 //  异常是为了在异常情况下使用，而不应该用于正常的控制流
@@ -16,6 +17,7 @@ public class JavaExceptionBestPractice {
 
     // 3. 如果方法主体上没有显式throws checked exception, 在不能放到try catch中捕获 !!
     // 4. 如果方法上抛出Exception, 则可以在try catch中捕获捕获继承它的异常类型
+    // 5. TODO. main方法可以安全的声明抛出Exception, 因为它是通过虚拟机调用
     public static void main(String[] args) {
         try {
             testThrow();
@@ -28,8 +30,20 @@ public class JavaExceptionBestPractice {
         }
     }
 
-    private static void testThrow() throws Exception {
+    // 6. 不要声明一个公有方法直接"throws exception", 没有体现方法能够抛出"哪些"异常, 不利于该方法的使用
+    public static void testThrow() throws Exception {
         System.out.println("test throw ");
         throw new Exception("throw exception from testThrow method");
+    }
+
+    // 7. 不要忽略异常：API方法抛出的异常是在说明某些事情, 不应该直接被"空的catch块"忽略
+    //    如果选择忽略，则应该将变量名称设置成ignored，并且注明原因
+    public void testNullCatch() {
+        try {
+            int value = 10;
+            throw new ExecutionException(new RuntimeException());
+        } catch (ExecutionException ignored) {
+            // 解释异常被忽略的原因
+        }
     }
 }

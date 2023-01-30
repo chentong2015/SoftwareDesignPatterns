@@ -9,7 +9,8 @@ import java.util.concurrent.ThreadLocalRandom;
 public class JavaStandardLibrary {
 
     // TODO. 从Java7开始，不再使用Random生成随机数
-    // ThreadLocalRandom能够产出高质量的随机数，并具有更好的性能
+    // - Random使用线程安全的伪随机数生成器，造成过度同步 !!
+    // - ThreadLocalRandom能够产出高质量的随机数，并具有更好的性能
     public void getRandomNumber(int n) {
         int value1 = new Random().nextInt(n);
         int value2 = ThreadLocalRandom.current().nextInt(n);

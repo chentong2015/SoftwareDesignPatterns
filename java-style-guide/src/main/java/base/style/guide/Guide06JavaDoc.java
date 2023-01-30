@@ -1,4 +1,4 @@
-package google.style.guide;
+package base.style.guide;
 
 import java.util.Objects;
 
@@ -62,6 +62,22 @@ public abstract class Guide06JavaDoc<E> {
     @Deprecated
     public void testDeprecatedMethod() {
         // this is a deprecated method
+    }
+
+    /**
+     * 为方法抛出的异常创建文档
+     *
+     * @param value
+     * @throws UnsupportedOperationException 描述抛出异常的条件
+     *                                       为每个异常提供单独的声明
+     *                                       该标签会提供明显的信息来区分checked和unchecked异常
+     */
+    public void testDocException(int value) throws UnsupportedOperationException {
+        if (value > 10) {
+            System.out.println("ok");
+        } else {
+            throw new UnsupportedOperationException("value <= 10");
+        }
     }
 
     /**

@@ -42,6 +42,7 @@ public class JavaExceptionTester {
             failed = true;
         }
 
+        // 通过getCause访问底层的异常(原因)，可将原因的堆栈轨迹集成到高层的异常中
         Throwable cause = th.getCause();
         if (cause instanceof ExceptionInInitializerError) {
             // LogFactory.getLog(getClass()).error(buffer.toString());

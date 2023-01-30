@@ -231,8 +231,6 @@ _agile-software-design-patterns/src/main/java/core_patterns/observer/demo1/subje
 aagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/observer/ObserverB.java,7\e\7e1b83e5cddf4d2ce926be56f3cf1326bf10c054
 ‘
 aagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/observer/ObserverA.java,5\f\5feb05ef1b6ec3d42950631e821e3bf1d4eda8cf
-’
-bagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/DemoObserverPattern.java,c\7\c781c8d23e31ac43648469c60ae78701ad8770a2
 ™
 iagile-software-design-patterns/src/main/java/core_patterns/mediator/timer/task/RemindTaskWithoutBeep.java,f\b\fbccc050b2a4a52b6d27824444263060077aba95
 Ž
@@ -381,8 +379,6 @@ Zagile-software-design-patterns/src/main/java/core_patterns/abstract_server/Swit
 Qagile-software-design-patterns/src/main/java/core_patterns/bridge/BaseBridge.java,8\3\8309ba3551545e5d6a03845f21d4d425a060e6bb
 Y
 )refactoring-guide/Refactoringæœ€ä½³å®žè·µ,e\e\eea86f144fafec6632ed9335de662a867a821691
-Q
-!java-style-guide/Javaæ•´æ´ä»£ç ,0\b\0be7a94441e596106a4a71dae3c37c156111c460
 ‰
 Yagile-software-design-patterns/src/main/java/core_patterns/null_object/æ— æ³•è¿”å›žç»“æžœ,9\c\9c76f49a649ba37682bca46c07e98529ef06a274
 †
@@ -391,9 +387,13 @@ Vagile-software-design-patterns/src/main/java/core_patterns/null_object/NullObje
 \agile-software-design-patterns/src/main/java/core_patterns/iterator/IteratorPatternDemo.java,6\e\6e5ce2820c5007ef3929b611fd491fedc77c2c28
 u
 Ejava-style-guide/src/main/java/google/style/guide/Guide06JavaDoc.java,a\6\a68abef6fdda7d57d1c248b3e3f4c178415000bf
-}
-Mjava-style-guide/src/main/java/java/standard/library/JavaStandardLibrary.java,0\d\0d4b02d0731833452c3f51710eee0ae09fee3d66
 Š
 Zagile-software-design-patterns/src/main/java/core_patterns/null_object/OptionalResult.java,3\9\39666a3b931b42886067b62052ccb799f3e4ff12
 ~
 Njava-style-guide/src/main/java/object/common/methods/ObjectEqualsHashcode.java,9\a\9adc1613ef0a80bd6908df66053c60feab2047b7
+n
+>java-style-guide/src/main/java/method/JavaNativeInterface.java,0\f\0f5b335b106576e4568a77b58bfbe2081d885575
+t
+Djava-style-guide/src/main/java/google/style/guide/Guide04Naming.java,a\e\ae4b720855f8f3212c38d87527b747fc359ec749
+†
+Vrefactoring-guide/src/main/java/exception/undeclared/ExceptionalInvocationHandler.java,8\c\8c3b6652df051ef24e2f649e318cf4e929156dde

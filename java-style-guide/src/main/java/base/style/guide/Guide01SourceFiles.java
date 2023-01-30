@@ -1,4 +1,4 @@
-package google.style.guide;
+package base.style.guide;
 
 public class Guide01SourceFiles {
 

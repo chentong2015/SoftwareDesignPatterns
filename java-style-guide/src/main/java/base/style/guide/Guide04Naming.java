@@ -1,4 +1,4 @@
-package google.style.guide;
+package base.style.guide;
 
 import java.util.HashSet;
 import java.util.Set;
