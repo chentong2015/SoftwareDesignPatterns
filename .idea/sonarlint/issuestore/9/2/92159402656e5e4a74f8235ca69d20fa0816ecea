@@ -1,0 +1,23 @@
+
+\
+java:S2259"?A "NullPointerException" could be thrown; "s" is nullable here.(‡—Äö8ôÊ™à0
+Y
+java:S3518"7Make sure "i" can't be zero before doing this division.(öâüûÿÿÿÿ8ôÊ™à0
+O
+java:S1135"2Complete the task associated to this TODO comment.( ´¶·8ã²›à0
+W
+java:S1854":Remove this useless assignment to local variable "result".(»‘«8÷Ê™à0
+H
+java:S1481"+Remove this unused "result" local variable.(»‘«8ùÊ™à0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(®ÑæÇ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÖ†ç8úÊ™à0
+T
+java:S1135"2Complete the task associated to this TODO comment.(ËûÍ—øÿÿÿÿ8Î¸Ë™à0
+l
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "/"(öâüûÿÿÿÿ8üÊ™à0
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(§®³–8ıÊ™à0
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(ş¨ú8²ÿÊ™à0
+[
+java:S18545"9Remove this useless assignment to local variable "value".(‰‡–“øÿÿÿÿ8²ÿÊ™à0
+L
+java:S14815"*Remove this unused "value" local variable.(‰‡–“øÿÿÿÿ8µÿÊ™à0

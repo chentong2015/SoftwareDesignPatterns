@@ -1,7 +1,7 @@
-- <Clean Code>
-- <Effective Java> (https://github.com/jbloch/effective-java-3e-source-code)
-- <Agile Software development, design patterns>
-- <Java Style Guide> (https://google.github.io/styleguide/)
+- Clean Code
+- Agile Software development, design patterns
+- Java Style Guide (https://google.github.io/styleguide/)
+- Effective Java   (https://github.com/jbloch/effective-java-3e-source-code)
 
 - Code Quantity
   - SonarQube code quality

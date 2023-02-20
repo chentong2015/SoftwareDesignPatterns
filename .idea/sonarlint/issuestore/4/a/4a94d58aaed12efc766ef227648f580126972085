@@ -11,6 +11,7 @@ java:S11972"*Move the array designators [] to the type.(תוצ
 java:S6355>"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(ץˆת
 J
 java:S1133?"5Do not forget to remove this deprecated code someday.(ֲ¨כ[
-V	java:S125T"<This block of commented-out lines of code should be removed.(ל‎­פרÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(¨װ…‹
+V	java:S125d"<This block of commented-out lines of code should be removed.(ל‎­פרÿÿÿÿ
 >
 java:S11442")Remove this unused private "sort" method.(תוצ

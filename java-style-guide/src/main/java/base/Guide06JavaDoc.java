@@ -1,4 +1,4 @@
-package base.style.guide;
+package base;
 
 import java.util.Objects;
 
