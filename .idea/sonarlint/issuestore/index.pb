@@ -393,8 +393,6 @@ n
 >java-style-guide/src/main/java/method/JavaNativeInterface.java,0\f\0f5b335b106576e4568a77b58bfbe2081d885575
 †
 Vrefactoring-guide/src/main/java/exception/undeclared/ExceptionalInvocationHandler.java,8\c\8c3b6652df051ef24e2f649e318cf4e929156dde
-s
-Cjava-style-guide/src/main/java/base/style/guide/Guide06JavaDoc.java,4\a\4a94d58aaed12efc766ef227648f580126972085
 t
 Drefactoring-guide/src/main/java/exception/checked/TestException.java,5\7\57503f75b0548659a286f402900945c90afddcd9
 x
