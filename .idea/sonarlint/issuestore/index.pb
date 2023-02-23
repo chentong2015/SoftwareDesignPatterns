@@ -103,10 +103,6 @@ x
 Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
 �
 Yagile-software-design-patterns/src/main/java/base_solid_principles/demeter/Law Of Demeter,1\9\19574c1a6a9302c7839848a9de8c5f43215a0be5
-B
-软件设计实战,5\4\54884c1463fbf2a0433eea5625ee3aa2f0f1bef1
-E
-软件安全性设计,d\b\db3b0f3654c75968eaafcd45ede825f469e68ad9
 �
 lagile-software-design-patterns/src/main/java/core_patterns/factory/abstract_factory/BaseAbstractFactory.java,7\4\7462ffaeec5afcac3c565f06a50ff054d998c8fd
 �
@@ -405,3 +401,19 @@ w
 Gjava-style-guide/src/main/java/lazy_initialization/LazyInitializer.java,7\f\7f261bdcc88b4be52ab982b382c5fbfe55cd2cf8
 Q
 !java-style-guide/Java整洁代码,0\b\0be7a94441e596106a4a71dae3c37c156111c460
+l
+<java-style-guide/src/main/java/null_optional/NullObject.java,c\e\ce21a52d0ce9e97240c1e37f9c8aba3e166c2d78
+o
+?java-style-guide/src/main/java/null_optional/无法返回结果,1\9\192859de95e6a40d17b41ff44cfecc71a5403c56
+p
+@java-style-guide/src/main/java/null_optional/OptionalResult.java,6\0\60da9e5510517107160ec172e8221b2a5c2b1511
+I
+refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
+R
+"software-plugin-extensions/pom.xml,4\5\45ba9af28ec88b8a3f954b5b1b0f6d2e3b3ff7f1
+t
+Djava-style-guide/src/main/java/null_optional/NonnullRequirement.java,6\b\6b1366e37f0d8554ea6702437fa7161da392759a
+s
+Cjava-style-guide/src/main/java/null_optional/NonnullAnnotation.java,6\3\6390414da2885434135f6b2b06e8de2db89bd102
+H
+java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
