@@ -41,8 +41,6 @@ Lsoftware-plugin-extensions/src/main/java/com/java/spi/model/ExcelParser.java,1
 tsoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/model/SystemReportingConfiguration.java,2\8\288a16c787fd5207bed5a5d1375363940a29714d
 
 Osoftware-plugin-extensions/src/main/java/java_jdbc_driver/MyDBServerDriver.java,6\4\644e1a94af2175f9ad6b881710b5addda8d8097d
-R
-"software-plugin-extensions/pom.xml,4\5\45ba9af28ec88b8a3f954b5b1b0f6d2e3b3ff7f1
 �
 ssoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/MyAutoConfigurationImportSelector.java,8\8\88dc74822c1bf513b4d3087807de9ba438e26ea7
 �
@@ -379,18 +377,10 @@ Zagile-software-design-patterns/src/main/java/core_patterns/abstract_server/Swit
 Qagile-software-design-patterns/src/main/java/core_patterns/bridge/BaseBridge.java,8\3\8309ba3551545e5d6a03845f21d4d425a060e6bb
 Y
 )refactoring-guide/Refactoring最佳实践,e\e\eea86f144fafec6632ed9335de662a867a821691
-�
-Yagile-software-design-patterns/src/main/java/core_patterns/null_object/无法返回结果,9\c\9c76f49a649ba37682bca46c07e98529ef06a274
-�
-Vagile-software-design-patterns/src/main/java/core_patterns/null_object/NullObject.java,4\1\416e970d95a8848c6b513013c2d8a8b0475ee82b
 �
 \agile-software-design-patterns/src/main/java/core_patterns/iterator/IteratorPatternDemo.java,6\e\6e5ce2820c5007ef3929b611fd491fedc77c2c28
-�
-Zagile-software-design-patterns/src/main/java/core_patterns/null_object/OptionalResult.java,3\9\39666a3b931b42886067b62052ccb799f3e4ff12
 ~
 Njava-style-guide/src/main/java/object/common/methods/ObjectEqualsHashcode.java,9\a\9adc1613ef0a80bd6908df66053c60feab2047b7
-n
->java-style-guide/src/main/java/method/JavaNativeInterface.java,0\f\0f5b335b106576e4568a77b58bfbe2081d885575
 �
 Vrefactoring-guide/src/main/java/exception/undeclared/ExceptionalInvocationHandler.java,8\c\8c3b6652df051ef24e2f649e318cf4e929156dde
 t
@@ -409,3 +399,9 @@ _agile-software-design-patterns/src/main/java/core_patterns/observer/core/observ
 bagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/DemoObserverPattern.java,c\7\c781c8d23e31ac43648469c60ae78701ad8770a2
 }
 Mjava-style-guide/src/main/java/java/standard/library/JavaStandardLibrary.java,0\d\0d4b02d0731833452c3f51710eee0ae09fee3d66
+~
+Njava-style-guide/src/main/java/lazy_initialization/JavaLazyInitialization.java,9\a\9ac4d49a944dd03e9df2845f5b020c0f09cdb0bf
+w
+Gjava-style-guide/src/main/java/lazy_initialization/LazyInitializer.java,7\f\7f261bdcc88b4be52ab982b382c5fbfe55cd2cf8
+Q
+!java-style-guide/Java整洁代码,0\b\0be7a94441e596106a4a71dae3c37c156111c460

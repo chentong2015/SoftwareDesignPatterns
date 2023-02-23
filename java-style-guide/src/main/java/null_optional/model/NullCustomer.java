@@ -1,4 +1,4 @@
-package core_patterns.null_object.demo;
+package null_optional.model;
 
 public class NullCustomer extends AbstractCustomer {
 

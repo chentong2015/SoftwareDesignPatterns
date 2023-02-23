@@ -1,12 +1,12 @@
-package core_patterns.null_object;
+package null_optional;
 
 import java.util.*;
 import java.util.stream.IntStream;
 
-// TODO. 什么时候返回Optional<T>而不是T
-//   如果无法返回结果 & 当没有结果时客户端需要执行特殊处理
+// TODO. 什么时候返回Optional<T>而不是T: 如果无法返回结果 + 当没有结果时客户端需要执行特殊处理
 // 1. 永远不要通过Optional返回Null
 // 2. 永远不应该返回"基本包装类型"的Optional, "小型基本类型"除外
+// https://blogs.oracle.com/javamagazine/post/12-recipes-for-using-the-optional-class-as-its-meant-to-be-used
 public class OptionalResult {
 
     public static void main(String[] args) {

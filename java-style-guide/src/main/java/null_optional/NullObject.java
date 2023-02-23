@@ -1,7 +1,7 @@
-package core_patterns.null_object;
+package null_optional;
 
-import core_patterns.null_object.demo.AbstractCustomer;
-import core_patterns.null_object.demo.CustomerFactory;
+import null_optional.model.AbstractCustomer;
+import null_optional.model.CustomerFactory;
 
 // Null Object: 避免程序中由于检测null所造成的异常
 // 使用该模式，确保方法中返回有效的对象，即使失败，也返回"什么都不做的"的对象
@@ -12,7 +12,6 @@ public class NullObject {
     // 3. 对于返回的数组，最好返回零长度的数组
 
     public static void main(String[] args) {
-
         AbstractCustomer customer1 = CustomerFactory.getCustomer("Rob");
         AbstractCustomer customer2 = CustomerFactory.getCustomer("Bob");
         AbstractCustomer customer3 = CustomerFactory.getCustomer("Julie");
