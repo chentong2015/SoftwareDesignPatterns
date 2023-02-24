@@ -253,8 +253,6 @@ Yagile-software-design-patterns/src/main/java/core_patterns/state_machine/model/
 ]agile-software-design-patterns/src/main/java/core_patterns/state_machine/model/StateStop.java,f\0\f0399becbc50668318f06b7c789be53e909221b4
 Ž
 ^agile-software-design-patterns/src/main/java/core_patterns/state_machine/model/StateStart.java,f\d\fd1941d624387de784bd861e626d931455652292
-ƒ
-Sagile-software-design-patterns/src/main/java/core_patterns/monostate/MonoState.java,e\8\e8b60d241c0e56bfaa5c7575239bfa64594bc83c
 …
 Uagile-software-design-patterns/src/main/java/core_patterns/memento/model/Memento.java,e\c\ec3f7c61b92975235d01146281778b576c155aab
 Š
@@ -417,3 +415,5 @@ s
 Cjava-style-guide/src/main/java/null_optional/NonnullAnnotation.java,6\3\6390414da2885434135f6b2b06e8de2db89bd102
 H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
+a
+1agile-software-design-patterns/è½¯ä»¶è®¾è®¡å®žæˆ˜,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
