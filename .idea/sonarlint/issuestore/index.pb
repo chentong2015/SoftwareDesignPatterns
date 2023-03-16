@@ -67,8 +67,6 @@ Ssoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGenerator.
 Usoftware-plugin-extensions/src/main/java/base/software/extensions/MySqlGenerator.java,a\4\a4580e77283eea181b421180e742d538f8ca97ad
 Š
 Zsoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGeneratorFactory.java,3\3\33dd1d3b6d0b82ce5b2426080916d00ad0ab3d65
-v
-Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
 q
 Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
 v
@@ -127,8 +125,6 @@ Ragile-software-design-patterns/src/main/java/core_patterns/bridge/model/Shape.j
 Sagile-software-design-patterns/src/main/java/core_patterns/bridge/model/Circle.java,5\b\5bc89d67a08481e8814a320a222e088cd9949e48
 „
 Tagile-software-design-patterns/src/main/java/core_patterns/bridge/model/DrawAPI.java,3\1\318bdd7f9be241e07c8c4e611c2c39eff2ddd70e
-
-_agile-software-design-patterns/src/main/java/core_patterns/decorator/wrapper/ForwardingSet.java,c\1\c13ece8fac1c229c23983ddf6b0693a4ad2d85f6
 ‘
 aagile-software-design-patterns/src/main/java/core_patterns/decorator/wrapper/InstrumentedSet.java,e\3\e3e0899a271f235740c7518c33ab58b4587e007f
 †
@@ -143,20 +139,8 @@ bagile-software-design-patterns/src/main/java/core_patterns/decorator/filter/Tar
 Wagile-software-design-patterns/src/main/java/core_patterns/decorator/filter/Filter.java,1\d\1dcd21ed591403cf3a08443031850bbc0189a916
 ˆ
 Xagile-software-design-patterns/src/main/java/core_patterns/decorator/demo/SubClassA.java,d\4\d45c6970663849a64bb4f7aa21f7ca13ec668a64
-…
-Uagile-software-design-patterns/src/main/java/core_patterns/decorator/demo/IClass.java,7\5\754ada36e53a70bc735df939ed234a898406d866
-
-^agile-software-design-patterns/src/main/java/core_patterns/decorator/demo/IClassDecorator.java,a\2\a24588ad925fe789c69ee3e40783987e20a65dd4
 ˆ
 Xagile-software-design-patterns/src/main/java/core_patterns/decorator/demo/SubClassB.java,3\e\3ee08d5f8faeb88a4f23da612c050a020f9bbe00
-Œ
-\agile-software-design-patterns/src/main/java/core_patterns/decorator/demo/DemoDecorator.java,2\5\25c7f9b5fd74ae1241efecbb28bfcf05d28c9c9a
-
-^agile-software-design-patterns/src/main/java/core_patterns/composite/model/CompositeShape.java,c\f\cf9ba1b84a914c5a064d1211f674cc159627f1d2
-Œ
-\agile-software-design-patterns/src/main/java/core_patterns/composite/Compositionå…³ç³»æ¨¡å‹,6\9\69b4800b92dcb416aa717c34217b6a8d9abae472
-Š
-Zagile-software-design-patterns/src/main/java/core_patterns/composite/Compositeè®¾è®¡æ¨¡å¼,4\0\40bf49dd3841dd948834466996687b24dba97c34
 x
 Hagile-software-design-patterns/src/main/java/core_patterns/facade/facade,1\e\1e4ebef7f0488f7f611804ef34b08058aded2bc1
 ƒ
@@ -215,8 +199,6 @@ Wagile-software-design-patterns/src/main/java/core_patterns/iterator/model/Itera
 Tagile-software-design-patterns/src/main/java/core_patterns/iterator/Iterator Pattern,0\0\0010d707025c6642d6542fe542fb32ce16166c58
 
 `agile-software-design-patterns/src/main/java/core_patterns/observer/demo1/observer/Observer.java,3\8\3870b3e55c8aea6e42e3bb104a93063f587a38a9
-“
-cagile-software-design-patterns/src/main/java/core_patterns/observer/core/subject/MessageStream.java,3\9\39155dacd34e7e82b1690845d7e9c1bc8eeb7776
 
 ^agile-software-design-patterns/src/main/java/core_patterns/observer/demo1/subject/Subject.java,7\a\7aabdd9fcafa323ad82ccae8451d52912313e4cb
 
@@ -333,8 +315,6 @@ V
 &agile-software-design-patterns/pom.xml,7\d\7db6e0633c5ac0f1d5dd38948a65fa995fae91c6
 a
 1agile-software-design-patterns/è½¯ä»¶è®¾è®¡æ¨¡å¼,5\a\5a78c9a21a7508733489971205b4fcba9521c1df
-ˆ
-Xagile-software-design-patterns/src/main/java/core_patterns/delegate/DelegateSession.java,c\0\c038b04b702db3b78116e3a83a58bce7f9e215c4
 •
 eagile-software-design-patterns/src/main/java/core_patterns/chain_of_responsibility/ServletFilter.java,d\9\d9eb006bb6281f7e74a011135e7582e14554e60f
 ™
@@ -369,8 +349,6 @@ Zagile-software-design-patterns/src/main/java/core_patterns/abstract_server/Tele
 Zagile-software-design-patterns/src/main/java/core_patterns/abstract_server/Switchable.java,e\c\ecdbea92ada29d21472ba48f7f9da8678eb9ea95
 
 Qagile-software-design-patterns/src/main/java/core_patterns/bridge/BaseBridge.java,8\3\8309ba3551545e5d6a03845f21d4d425a060e6bb
-Y
-)refactoring-guide/Refactoringæœ€ä½³å®è·µ,e\e\eea86f144fafec6632ed9335de662a867a821691
 Œ
 \agile-software-design-patterns/src/main/java/core_patterns/iterator/IteratorPatternDemo.java,6\e\6e5ce2820c5007ef3929b611fd491fedc77c2c28
 ~
@@ -381,16 +359,10 @@ t
 Drefactoring-guide/src/main/java/exception/checked/TestException.java,5\7\57503f75b0548659a286f402900945c90afddcd9
 x
 Hrefactoring-guide/src/main/java/exception/checked/TestExceptionDemo.java,9\2\92159402656e5e4a74f8235ca69d20fa0816ecea
-f
-6refactoring-guide/src/main/java/exception/å¼‚å¸¸åˆ†ç±»,f\1\f12404e6be2556b2b13ee11fe377b859132d5d7f
 r
 Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
 x
 Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
-
-_agile-software-design-patterns/src/main/java/core_patterns/observer/core/observer/Observer.java,a\6\a6a14f2a4d4dd0b9ed5f0ea84c01427a87b5b32d
-’
-bagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/DemoObserverPattern.java,c\7\c781c8d23e31ac43648469c60ae78701ad8770a2
 }
 Mjava-style-guide/src/main/java/java/standard/library/JavaStandardLibrary.java,0\d\0d4b02d0731833452c3f51710eee0ae09fee3d66
 ~
@@ -417,3 +389,13 @@ H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
 a
 1agile-software-design-patterns/è½¯ä»¶è®¾è®¡å®æˆ˜,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
+“
+cagile-software-design-patterns/src/main/java/core_patterns/observer/core/subject/MessageStream.java,3\9\39155dacd34e7e82b1690845d7e9c1bc8eeb7776
+
+]agile-software-design-patterns/src/main/java/core_patterns/observer/core/subject/Subject.java,c\6\c69bb55f215443f35fbbc81f929eff3523b12cd3
+
+_agile-software-design-patterns/src/main/java/core_patterns/observer/core/observer/Observer.java,a\6\a6a14f2a4d4dd0b9ed5f0ea84c01427a87b5b32d
+’
+bagile-software-design-patterns/src/main/java/core_patterns/observer/core/observer/PhoneClient.java,2\5\256443d7ff2dd89d34ad6fcb3904f6f2e57f3307
+’
+bagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/DemoObserverPattern.java,c\7\c781c8d23e31ac43648469c60ae78701ad8770a2
