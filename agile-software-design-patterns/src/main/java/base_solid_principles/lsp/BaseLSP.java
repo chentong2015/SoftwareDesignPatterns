@@ -22,7 +22,6 @@ public class BaseLSP {
     // 3. Keep interfaces lean 接口不能太大
     // 4. Make sure that the new derived classes just extend without replacing the functionality of old classes
     //    Make sure that new derived classes are extending the base classes without changing their behavior.
-
     public void testLSP() {
         MyRectangle rectangle = new MySquare();
         rectangle.setWidth(5);
@@ -35,7 +34,7 @@ public class BaseLSP {
     }
 
     // TODO: 将母类强制转换成子类会造成Runtime Exception运行时问题
-    //   使用"由上往下"的强转，不符号逻辑
+    //  使用"由上往下"的强转，不符号逻辑
     public static void main(String[] args) {
         Shape shape = new Shape();
         Square square = new Square();

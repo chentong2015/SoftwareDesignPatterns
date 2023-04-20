@@ -12,6 +12,7 @@ public class NumberBlock implements IBlock {
         this.number = number;
     }
 
+    // 每个具体的类型有独自的创建副本的方式(规则)
     @Override
     public IBlock copy() {
         return new NumberBlock(number);

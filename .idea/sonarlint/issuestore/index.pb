@@ -99,20 +99,8 @@ Crefactoring-guide/src/main/java/deprecated_api/Deprecated API规范,8\9\89b16b
 Zagile-software-design-patterns/src/main/java/core_patterns/singleton/深入理解Singleton,e\0\e040c773126c72800e44b7acd72e97491c81c0e8
 x
 Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
-�
-Yagile-software-design-patterns/src/main/java/base_solid_principles/demeter/Law Of Demeter,1\9\19574c1a6a9302c7839848a9de8c5f43215a0be5
 �
 lagile-software-design-patterns/src/main/java/core_patterns/factory/abstract_factory/BaseAbstractFactory.java,7\4\7462ffaeec5afcac3c565f06a50ff054d998c8fd
-�
-Wagile-software-design-patterns/src/main/java/core_patterns/prototype/IBlockFactory.java,a\5\a5317128c19485414cb9c53f246676574f76294b
-�
-[agile-software-design-patterns/src/main/java/core_patterns/prototype/types/NumberBlock.java,6\9\696bd0b2566c61a668e8c5bef5ce2769997b9a51
-�
-Vagile-software-design-patterns/src/main/java/core_patterns/prototype/types/IBlock.java,4\6\467a388374a862abb638e8fefdcf0e2bd7d7f2f8
-�
-]agile-software-design-patterns/src/main/java/core_patterns/prototype/types/DataTimeBlock.java,1\0\10c9f063eb204c271473e6d17b62f9bc4865c343
-�
-Wagile-software-design-patterns/src/main/java/core_patterns/prototype/BasePrototype.java,5\5\551267739326273238759ade413aff9b71a4e3fb
 u
 Ejava-style-guide/src/main/java/object/common/methods/ObjectClone.java,a\f\aff58570a8f2a348e43145189f1b0b38445933fa
 �
@@ -301,8 +289,6 @@ cagile-software-design-patterns/src/main/java/core_patterns/strategy/base2/TaxCa
 Wagile-software-design-patterns/src/main/java/core_patterns/template_method/模板方法,9\c\9cdc1230196a45ff3db3e5277e0b0c3b401e6f45
 V
 &agile-software-design-patterns/pom.xml,7\d\7db6e0633c5ac0f1d5dd38948a65fa995fae91c6
-a
-1agile-software-design-patterns/软件设计模式,5\a\5a78c9a21a7508733489971205b4fcba9521c1df
 �
 eagile-software-design-patterns/src/main/java/core_patterns/chain_of_responsibility/ServletFilter.java,d\9\d9eb006bb6281f7e74a011135e7582e14554e60f
 �
@@ -371,8 +357,6 @@ s
 Cjava-style-guide/src/main/java/null_optional/NonnullAnnotation.java,6\3\6390414da2885434135f6b2b06e8de2db89bd102
 H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
-a
-1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
 �
 cagile-software-design-patterns/src/main/java/core_patterns/observer/core/subject/MessageStream.java,3\9\39155dacd34e7e82b1690845d7e9c1bc8eeb7776
 �
@@ -385,8 +369,6 @@ bagile-software-design-patterns/src/main/java/core_patterns/observer/core/observ
 bagile-software-design-patterns/src/main/java/core_patterns/observer/demo1/DemoObserverPattern.java,c\7\c781c8d23e31ac43648469c60ae78701ad8770a2
 f
 6refactoring-guide/src/main/java/exception/异常分类,f\1\f12404e6be2556b2b13ee11fe377b859132d5d7f
-Y
-)refactoring-guide/Refactoring最佳实践,e\e\eea86f144fafec6632ed9335de662a867a821691
 v
 Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
 �
@@ -409,3 +391,19 @@ Vagile-software-design-patterns/src/main/java/core_patterns/composite/model/Circ
 ^agile-software-design-patterns/src/main/java/core_patterns/composition/Composition设计实战,7\2\72629f245356815d84891bff8318dedb51711012
 �
 Xagile-software-design-patterns/src/main/java/core_patterns/composition/Composition模型,e\f\efd8cf0cf20357a2f40db38c138eafe9620ede0f
+�
+Xagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/BadWorker.java,8\8\88699fb251600be0f4d69083157921798092386e
+�
+Yagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/GoodWorker.java,2\4\240706e2e1251d0549a1ed75f78549a079e220be
+�
+bagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/StrategyPatternDemo.java,8\b\8bcdec08405a00b55aa4e6239e6e7bad427ea9b4
+�
+^agile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/StrategyContext.java,3\8\38fcc9b9e69f9f39149ae7f9e5c644a79920195b
+�
+Tagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/IWork.java,0\1\012150fca1d01be99ec5db51452c189ffff3c426
+�
+Xagile-software-design-patterns/src/main/java/core_patterns/strategy/Strategy策略模式,1\5\1567acb19ba45c551afa753b8e9f9e2741ef614b
+}
+Mjava-style-guide/src/main/java/java/standard/library/JavaStandardLibrary.java,0\d\0d4b02d0731833452c3f51710eee0ae09fee3d66
+Q
+!java-style-guide/Java整洁代码,0\b\0be7a94441e596106a4a71dae3c37c156111c460
