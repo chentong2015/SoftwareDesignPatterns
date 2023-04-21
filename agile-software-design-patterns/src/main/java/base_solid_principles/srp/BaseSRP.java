@@ -3,6 +3,7 @@ package base_solid_principles.srp;
 // SRP 单一职责
 // Single Responsibility Principles
 // Every function, class or module has only one raison to change
+// 处理数据，发送Http请求，生成报告
 public class BaseSRP {
 
     // Identifying Multiple Reasons to Change: 注意职责和功能的划分, 引起改变的原因
