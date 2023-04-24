@@ -1,4 +1,4 @@
-package com.java.spi.model;
+package java_core_spi.model;
 
 public class CsvParser implements IDocumentParser {
 

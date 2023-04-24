@@ -1,6 +1,6 @@
-package com.java.spi;
+package java_core_spi;
 
-import com.java.spi.model.IDocumentParser;
+import java_core_spi.model.IDocumentParser;
 
 import java.util.ServiceLoader;
 

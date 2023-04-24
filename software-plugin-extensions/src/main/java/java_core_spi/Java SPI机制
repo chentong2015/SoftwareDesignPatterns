@@ -1,6 +1,7 @@
+SPI: Service Provider Interface
 Java SPI机制动态加载指定接口的实现类型
 1. 创建指定路径下文件/resources/META-INF/Services/package_full_path
-2. 文件中注明接口的实现类型，实现类型必须带有无参构造器 !!
+2. 文件中注明接口的实现类型，实现类型必须带有无参构造器
 
 优点:
 1. 只需动态配置文件，彻底解耦
