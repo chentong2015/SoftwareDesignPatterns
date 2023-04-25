@@ -5,8 +5,6 @@ public class Figure {
 
     enum Shape {RECTANGLE, CIRCLE}
 
-    ;
-
     // Tag field - the shape of this figure
     final Shape shape;
 

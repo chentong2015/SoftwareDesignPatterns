@@ -3,8 +3,6 @@ u
 Erefactoring-guide/src/main/java/auto_closeable/JavaAutoCloseable.java,3\7\37720ce9aad15a171f75238fec2f9e6d245dbef8
 r
 Brefactoring-guide/src/main/java/auto_closeable/DemoTryFinally.java,d\3\d3a1ab47c32f25f30dccba63ac5ede8583c5972b
-h
-8java-style-guide/src/main/java/class_interface/Main.java,d\5\d56f86a84cdbdccd58e51a0c6637c79f954018bd
 l
 <refactoring-guide/src/main/java/helper/Helper类最佳实践,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
 m
@@ -57,10 +55,6 @@ Ssoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGenerator.
 Usoftware-plugin-extensions/src/main/java/base/software/extensions/MySqlGenerator.java,a\4\a4580e77283eea181b421180e742d538f8ca97ad
 �
 Zsoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGeneratorFactory.java,3\3\33dd1d3b6d0b82ce5b2426080916d00ad0ab3d65
-q
-Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
-v
-Fjava-style-guide/src/main/java/class_interface/taggedclass/Figure.java,2\c\2cb37d1022ff0e32965b6ae7d46f09b3056d7d19
 o
 ?refactoring-guide/src/main/java/immutable/model/SubComplex.java,e\8\e82cdb50993c022c3136510a60942d9c8b3538db
 l
@@ -107,8 +101,6 @@ bagile-software-design-patterns/src/main/java/core_patterns/decorator/filter/Tar
 Wagile-software-design-patterns/src/main/java/core_patterns/decorator/filter/Filter.java,1\d\1dcd21ed591403cf3a08443031850bbc0189a916
 �
 Xagile-software-design-patterns/src/main/java/core_patterns/decorator/demo/SubClassB.java,3\e\3ee08d5f8faeb88a4f23da612c050a020f9bbe00
-x
-Hagile-software-design-patterns/src/main/java/core_patterns/facade/facade,1\e\1e4ebef7f0488f7f611804ef34b08058aded2bc1
 �
 Vagile-software-design-patterns/src/main/java/core_patterns/flyweight/model/Circle.java,7\2\72d0a54ca0b4febae4ae9ee4e2c1930b77697ac1
 �
@@ -219,10 +211,6 @@ eagile-software-design-patterns/src/main/java/core_patterns/strategy/base1/model
 \agile-software-design-patterns/src/main/java/core_patterns/strategy/base1/TaxCalculator.java,3\0\30304b4801b8d545f16c0ab2e3c3616754f7011b
 �
 cagile-software-design-patterns/src/main/java/core_patterns/strategy/base2/TaxCalculatorFactory.java,1\4\14515b9ca664361741fe98318cb6db3d914f0e33
-�
-]agile-software-design-patterns/src/main/java/core_patterns/template_method/TemplateClass.java,d\f\dff3e98d8c7342193a9ab44eb84b1b2d4a81ae6f
-�
-Wagile-software-design-patterns/src/main/java/core_patterns/template_method/模板方法,9\c\9cdc1230196a45ff3db3e5277e0b0c3b401e6f45
 �
 eagile-software-design-patterns/src/main/java/core_patterns/chain_of_responsibility/ServletFilter.java,d\9\d9eb006bb6281f7e74a011135e7582e14554e60f
 �
@@ -299,14 +287,10 @@ _agile-software-design-patterns/src/main/java/core_patterns/observer/core/observ
 bagile-software-design-patterns/src/main/java/core_patterns/observer/core/observer/PhoneClient.java,2\5\256443d7ff2dd89d34ad6fcb3904f6f2e57f3307
 f
 6refactoring-guide/src/main/java/exception/异常分类,f\1\f12404e6be2556b2b13ee11fe377b859132d5d7f
-v
-Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
 �
 Xagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/BadWorker.java,8\8\88699fb251600be0f4d69083157921798092386e
 �
 Yagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/GoodWorker.java,2\4\240706e2e1251d0549a1ed75f78549a079e220be
-�
-bagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/StrategyPatternDemo.java,8\b\8bcdec08405a00b55aa4e6239e6e7bad427ea9b4
 �
 Tagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/IWork.java,0\1\012150fca1d01be99ec5db51452c189ffff3c426
 }
@@ -441,10 +425,6 @@ gagile-software-design-patterns/src/main/java/core_patterns/proxy/dynamic_proxy/
 bagile-software-design-patterns/src/main/java/core_patterns/proxy/static_proxy/TestStaticProxy.java,9\1\9188f27ce5ee73b98a9a4f6d3c9a39f675c7d231
 �
 ^agile-software-design-patterns/src/main/java/core_patterns/proxy/static_proxy/ProxyAnimal.java,2\2\2233b46603837a3c64cde8e549da998499278168
-�
-Xagile-software-design-patterns/src/main/java/core_patterns/strategy/Strategy策略模式,1\5\1567acb19ba45c551afa753b8e9f9e2741ef614b
-�
-^agile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/StrategyContext.java,3\8\38fcc9b9e69f9f39149ae7f9e5c644a79920195b
 �
 iagile-software-design-patterns/src/main/java/core_patterns/interpreter/Interpreter(翻译)解释器模式,7\f\7fe2ab6318fb79a1f7a8d4d99e8379a821c8f888
 �
@@ -479,9 +459,13 @@ Uagile-software-design-patterns/src/main/java/core_patterns/decorator/demo/IClas
 ^agile-software-design-patterns/src/main/java/core_patterns/decorator/demo/IClassDecorator.java,a\2\a24588ad925fe789c69ee3e40783987e20a65dd4
 [
 +agile-software-design-patterns/软件设计,e\6\e688486c9d0c110734a93510745af7e873149a4e
-�
-\agile-software-design-patterns/src/main/java/core_patterns/composite/Composition设计实战,3\c\3c0ef8eb2ab1f463c078829766938a53027c079a
-�
-^agile-software-design-patterns/src/main/java/core_patterns/composite/model/CompositeShape.java,c\f\cf9ba1b84a914c5a064d1211f674cc159627f1d2
 �
 Zagile-software-design-patterns/src/main/java/core_patterns/composite/Composite设计模式,4\0\40bf49dd3841dd948834466996687b24dba97c34
+�
+asoftware-plugin-extensions/src/main/java/hibernate_initiator_extension/hibernate initiator 扩展,7\2\7267da4db82886e0857a995a92c85234d0f33200
+a
+1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
+w
+Gsoftware-plugin-extensions/src/main/java/java_core_spi/JavaSpiDemo.java,e\4\e47520009410a2088e8541f3bfcbce9120bb1c0b
+u
+Esoftware-plugin-extensions/src/main/java/java_core_spi/Java SPI机制,e\2\e2b33db3cbb0a60d30ec0d664cdb602d73ba7a7a
