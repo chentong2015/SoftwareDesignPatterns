@@ -105,8 +105,6 @@ Xagile-software-design-patterns/src/main/java/core_patterns/decorator/demo/SubCl
 Vagile-software-design-patterns/src/main/java/core_patterns/flyweight/model/Circle.java,7\2\72d0a54ca0b4febae4ae9ee4e2c1930b77697ac1
 …
 Uagile-software-design-patterns/src/main/java/core_patterns/flyweight/model/Shape.java,4\f\4f623aa49db76514c2e5708ddb5d6ee54e90110b
-ˆ
-Xagile-software-design-patterns/src/main/java/core_patterns/flyweight/ShapeFlyweight.java,3\a\3add6b187ac282f382bb51d730d1ec9150a0757b
 …
 Uagile-software-design-patterns/src/main/java/core_patterns/visitor/model/Monitor.java,3\e\3e64c466400a39219d610f835ccad2718ff66922
 †
@@ -115,12 +113,6 @@ Vagile-software-design-patterns/src/main/java/core_patterns/visitor/model/Keyboa
 _agile-software-design-patterns/src/main/java/core_patterns/visitor/model/ComputerPartOrder.java,c\8\c8d99083ffa65d37873b3c497e167c31230af731
 
 ]software-plugin-extensions/src/main/java/liquibase_services_plugin/AbstractPluginFactory.java,6\b\6bfb53610286fb971440361e28e63fd02eff3930
-‡
-Wagile-software-design-patterns/src/main/java/core_patterns/iterator/model/Iterator.java,8\6\864339d4d8e9f3f53ca033b74967458b9cd0bce1
-
-`agile-software-design-patterns/src/main/java/core_patterns/iterator/model/IteratorContainer.java,b\e\bed750fb991e2d9afcc6b85d3ef3500f1f46704a
-
-^agile-software-design-patterns/src/main/java/core_patterns/iterator/model/NamesRepository.java,4\4\442229f77604aca8eede74a2219d5be1d96c2ce2
 „
 Tagile-software-design-patterns/src/main/java/core_patterns/iterator/Iterator Pattern,0\0\0010d707025c6642d6542fe542fb32ce16166c58
 
@@ -155,16 +147,6 @@ Yagile-software-design-patterns/src/main/java/core_patterns/state_machine/model/
 ]agile-software-design-patterns/src/main/java/core_patterns/state_machine/model/StateStop.java,f\0\f0399becbc50668318f06b7c789be53e909221b4
 
 ^agile-software-design-patterns/src/main/java/core_patterns/state_machine/model/StateStart.java,f\d\fd1941d624387de784bd861e626d931455652292
-…
-Uagile-software-design-patterns/src/main/java/core_patterns/memento/model/Memento.java,e\c\ec3f7c61b92975235d01146281778b576c155aab
-Š
-Zagile-software-design-patterns/src/main/java/core_patterns/memento/MementoPatternDemo.java,e\6\e6038b8850f07e20a80cdf4027f0d67f370c8ab2
-ˆ
-Xagile-software-design-patterns/src/main/java/core_patterns/memento/model/Originator.java,5\b\5bc0879996a941a049e8c6ece96950109281c6a1
-
-^agile-software-design-patterns/src/main/java/core_patterns/memento/model/MementoContainer.java,a\e\ae5d2e2cacb435fdb86d9022bd323075750ba2d3
-Š
-Zagile-software-design-patterns/src/main/java/core_patterns/memento/Memento å¤‡å¿˜å½•æ¨¡å¼,f\0\f08f3cefb6fe41bc1957f8fa8b7e76d1305c47fa
 ‹
 [agile-software-design-patterns/src/main/java/core_patterns/intercepter/BaseInterceptor.java,1\1\11c70702e0faabdad7f930c2d2c09e6cfd77014a
 
@@ -243,8 +225,6 @@ Zagile-software-design-patterns/src/main/java/core_patterns/abstract_server/Tele
 ^agile-software-design-patterns/src/main/java/core_patterns/abstract_server/AbstractServer.java,d\c\dcb87f2349d0918ebd7ba22e3a26931dd5ab5509
 Š
 Zagile-software-design-patterns/src/main/java/core_patterns/abstract_server/Switchable.java,e\c\ecdbea92ada29d21472ba48f7f9da8678eb9ea95
-Œ
-\agile-software-design-patterns/src/main/java/core_patterns/iterator/IteratorPatternDemo.java,6\e\6e5ce2820c5007ef3929b611fd491fedc77c2c28
 ~
 Njava-style-guide/src/main/java/object/common/methods/ObjectEqualsHashcode.java,9\a\9adc1613ef0a80bd6908df66053c60feab2047b7
 †
@@ -469,3 +449,37 @@ w
 Gsoftware-plugin-extensions/src/main/java/java_core_spi/JavaSpiDemo.java,e\4\e47520009410a2088e8541f3bfcbce9120bb1c0b
 u
 Esoftware-plugin-extensions/src/main/java/java_core_spi/Java SPIæœºåˆ¶,e\2\e2b33db3cbb0a60d30ec0d664cdb602d73ba7a7a
+
+^agile-software-design-patterns/src/main/java/core_patterns/composite/model/CompositeShape.java,c\f\cf9ba1b84a914c5a064d1211f674cc159627f1d2
+Œ
+\agile-software-design-patterns/src/main/java/core_patterns/composite/Compositionè®¾è®¡å®æˆ˜,3\c\3c0ef8eb2ab1f463c078829766938a53027c079a
+x
+Hagile-software-design-patterns/src/main/java/core_patterns/facade/facade,1\e\1e4ebef7f0488f7f611804ef34b08058aded2bc1
+
+^agile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/StrategyContext.java,3\8\38fcc9b9e69f9f39149ae7f9e5c644a79920195b
+’
+bagile-software-design-patterns/src/main/java/core_patterns/strategy/demo2/StrategyPatternDemo.java,8\b\8bcdec08405a00b55aa4e6239e6e7bad427ea9b4
+ˆ
+Xagile-software-design-patterns/src/main/java/core_patterns/strategy/Strategyç­–ç•¥æ¨¡å¼,1\5\1567acb19ba45c551afa753b8e9f9e2741ef614b
+
+_agile-software-design-patterns/src/main/java/core_patterns/template_method/demo/XmlVisitor.java,2\f\2fffa70ce52ac14ba775a17c953726eae7c8fbf6
+
+`agile-software-design-patterns/src/main/java/core_patterns/template_method/demo/WordVisitor.java,2\c\2c9799be6a1203a56cadaea88ac8fcc1541c4eab
+h
+8java-style-guide/src/main/java/class_interface/Main.java,d\5\d56f86a84cdbdccd58e51a0c6637c79f954018bd
+v
+Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
+q
+Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
+v
+Fjava-style-guide/src/main/java/class_interface/taggedclass/Figure.java,2\c\2cb37d1022ff0e32965b6ae7d46f09b3056d7d19
+‡
+Wagile-software-design-patterns/src/main/java/core_patterns/template_method/æ¨¡æ¿æ–¹æ³•,9\c\9cdc1230196a45ff3db3e5277e0b0c3b401e6f45
+
+_agile-software-design-patterns/src/main/java/core_patterns/template_method/demo/PdfVisitor.java,a\5\a5cf431943e78a62054a67dc9b53d93b22f1ab10
+‚
+Ragile-software-design-patterns/src/main/java/core_patterns/composite/Wrapperè®¾è®¡,0\f\0f9b65518ef31f48b9c9fa5f70657fcfcfcabd08
+
+]agile-software-design-patterns/src/main/java/core_patterns/template_method/TemplateClass.java,d\f\dff3e98d8c7342193a9ab44eb84b1b2d4a81ae6f
+
+_agile-software-design-patterns/src/main/java/core_patterns/template_method/demo/DocVisitor.java,1\4\1452841f83c1af2cd02226e911957a0533be4ed5
