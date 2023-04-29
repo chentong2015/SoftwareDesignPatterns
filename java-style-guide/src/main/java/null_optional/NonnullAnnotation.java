@@ -2,7 +2,7 @@ package null_optional;
 
 import jakarta.annotation.Nonnull;
 
-// javax.annnotation.Nullable annotations:
+// javax.annotation.Nullable annotations:
 // used either by IDE or by static code analysis tools to detect basic error at compile time 
 // but do not prevent NullPointerException at runtime
 public class NonnullAnnotation {

@@ -1,10 +1,0 @@
-
-<
-java:S1170"!Make this final field static too.(‘¤æ™ûÿÿÿÿ
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìÆÂÇ
-D
-java:S1068")Remove this unused "field" private field.(‘¤æ™ûÿÿÿÿ
-D
-java:S1144".Remove this unused private "getValue1" method.(“ÀîÑ
-M
-java:S1144"2Remove this unused private "getFieldValue" method.(›ÒÄûÿÿÿÿ
