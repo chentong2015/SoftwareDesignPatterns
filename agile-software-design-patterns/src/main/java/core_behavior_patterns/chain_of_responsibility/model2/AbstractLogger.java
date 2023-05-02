@@ -4,8 +4,8 @@ public abstract class AbstractLogger {
 
     protected LoggerLevel level;
 
-    // 指向责任链上的下一个element
-    // next element in chain or responsibility
+    // TODO. 包含下一个logger的引用，以便移交给下一个logger来处理
+    // 指向责任链上的下一个element: next element in chain of responsibility
     protected AbstractLogger nextLogger;
 
     public void setNextLogger(AbstractLogger nextLogger) {

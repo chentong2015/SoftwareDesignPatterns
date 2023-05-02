@@ -11,9 +11,10 @@ import core_behavior_patterns.observer.demo1.subject.Observed;
 // 多用于实现订阅功能的场景, 订阅某账号后, 自动收到通知
 public class DemoObserverPattern {
 
-    public void testObserverPattern() {
+    public static void main(String[] args) {
         // 被观察者
         Observed observedObject = new Observed();
+
         // 观察者
         ObserverA observerA = new ObserverA(observedObject);
         ObserverB observerB = new ObserverB(observedObject);
@@ -21,6 +22,7 @@ public class DemoObserverPattern {
         // 注册: 指定观察者观察"被观察者"
         observedObject.register(observerA);
         observedObject.register(observerB);
+
         observedObject.change();
     }
 }
