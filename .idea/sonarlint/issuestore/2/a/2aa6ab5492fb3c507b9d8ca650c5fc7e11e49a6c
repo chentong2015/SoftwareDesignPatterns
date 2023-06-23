@@ -1,0 +1,11 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ç²®òúÿÿÿÿ
+D
+java:S3740"/Provide the parametrized type for this generic.(ö±Ğ;
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù‹¶˜ûÿÿÿÿ
+B
+java:S3011",This accessibility update should be removed.(˜ÂÓ˜
+L
+java:S1172%"1Remove this unused method parameter "interfaces".(’’İşÿÿÿÿ
+V	java:S125&"<This block of commented-out lines of code should be removed.(”É»çüÿÿÿÿ
+V	java:S125-"<This block of commented-out lines of code should be removed.(âĞ¥şÿÿÿÿ

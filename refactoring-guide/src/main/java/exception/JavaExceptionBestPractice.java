@@ -1,6 +1,8 @@
 package exception;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.concurrent.ExecutionException;
 
 // TODO. 创建异常会捕获堆栈轨迹，因此抛出异常的开销很高
@@ -30,7 +32,8 @@ public class JavaExceptionBestPractice {
         }
     }
 
-    // 6. 不要声明一个公有方法直接"throws exception", 没有体现方法能够抛出"哪些"异常, 不利于该方法的使用
+    // 6. 不要声明一个公有方法直接"throws exception"
+    //    没有体现方法能够抛出"哪些"异常, 不利于该方法的使用
     public static void testThrow() throws Exception {
         System.out.println("test throw ");
         throw new Exception("throw exception from testThrow method");
@@ -44,6 +47,18 @@ public class JavaExceptionBestPractice {
             throw new ExecutionException(new RuntimeException());
         } catch (ExecutionException ignored) {
             // 解释异常被忽略的原因
+        }
+    }
+
+    // 8. 当捕获的小范围异常和大范围异常block中处理逻辑一致时
+    //    合并两个异常的捕获 & 只需要保留其中一个异常
+    public void test(Connection connection) {
+        try {
+            connection.createStatement().executeQuery("query");
+        } catch (SQLException exception) {
+            throw new RuntimeException();
+        } catch (Exception exception) {
+            throw new RuntimeException();
         }
     }
 }

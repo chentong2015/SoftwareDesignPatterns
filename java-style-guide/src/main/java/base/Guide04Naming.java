@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class Guide04Naming {
 
-    // 1. identifiers变量名称标识个规则：匹配正则表达式\w+
-    //    ASCII letters and digits 几乎都使用字母和下划线，很少情况使用下划线
+    // 1. identifiers变量名称规范: TODO. 满足正则表达式'^[a-z][a-zA-Z0-9]*$'
+    //    ASCII letters and digits 首字母小写 + 字母和数字，不使用下滑线
     //    name_, mName, s_name, kName 不使用这几种前缀和后缀
 
     // 2. Package names
@@ -65,7 +65,7 @@ public class Guide04Naming {
     // "inner stopwatch"       -> innerStopwatch   第二个单词作为一个完整的单词，不能拆成两个
     // "supports IPv6 on iOS?" -> supportIpv6OnIos 严格保证一个单词一个大写首字符
     // "XML HTTP request"      -> XmlHttpRequest   第一个单词是严格的专有名称，保留首字母大写个格式
-    // "YouTube importer"      -> YoutubeImporter
+    // "YouTube importer"      -> YoutubeImporter  首单词时专有名词
     // "check nonempty"        -> checkNonempty    存在两种单词的写法，两种标识均可
     // "check non-empty"       -> checkNonEmpty
 }

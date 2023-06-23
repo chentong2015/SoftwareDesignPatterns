@@ -1,0 +1,12 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(«žÐ®ýÿÿÿÿ8æŒ¤Þý0
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ù×ä8¹ˆþÝý0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ƒªñ¨üÿÿÿÿ8¿ˆþÝý0
+X	java:S125"<This block of commented-out lines of code should be removed.(›¾Ò8ÂˆþÝý0
+T
+java:S1135"2Complete the task associated to this TODO comment.(ýÉÇöûÿÿÿÿ8ÂˆþÝý0
+R
+java:S1874"5Remove this use of "getProxyClass"; it is deprecated.(ÖçÇÚ8ÄˆþÝý0
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ˆ±ñš8ÄˆþÝý0
+U	java:S106("9Replace this use of System.out or System.err by a logger.(ÔÐÙ¸8ÆˆþÝý0
