@@ -1,0 +1,19 @@
+
+[	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(“Á« 
+[	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(÷˜«É
+`	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+`	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+]
+java:S20959"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÿÛáì
+H
+java:S1135"2Complete the task associated to this TODO comment.(´…„®
+H
+java:S1135"2Complete the task associated to this TODO comment.(É½¯û
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Îã­Ã
+M	java:S106&"9Replace this use of System.out or System.err by a logger.(‡ÇÑD
+T
+java:S1854."9Remove this useless assignment to local variable "value".(ïÕÇúÿÿÿÿ
+E
+java:S1481."*Remove this unused "value" local variable.(ïÕÇúÿÿÿÿ
+Z
+java:S2147<"DCombine this catch with the one at line 58, which has the same body.(®ËúÃ

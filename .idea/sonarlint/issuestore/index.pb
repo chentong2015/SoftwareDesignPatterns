@@ -73,8 +73,6 @@ R
 "software-plugin-extensions/pom.xml,4\5\45ba9af28ec88b8a3f954b5b1b0f6d2e3b3ff7f1
 H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
-f
-6refactoring-guide/src/main/java/exception/异常分类,f\1\f12404e6be2556b2b13ee11fe377b859132d5d7f
 �
 Yagile-software-design-patterns/src/main/java/base_solid_principles/demeter/Law Of Demeter,1\9\19574c1a6a9302c7839848a9de8c5f43215a0be5
 �
@@ -271,3 +269,19 @@ cagile-software-design-patterns/src/main/java/core_behavior_patterns/memento/Mem
 ^agile-software-design-patterns/src/main/java/core_behavior_patterns/memento/model/Memento.java,1\5\1545046788b65b34909496d66e4ae4ab6fedf0f3
 a
 1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
+Q
+!java-style-guide/Java整洁代码,0\b\0be7a94441e596106a4a71dae3c37c156111c460
+p
+@refactoring-guide/src/main/java/immutable/MyImmutablePeriod.java,7\7\771d1b8054b5d0801f8d558b4e4bd180b39094f8
+d
+4refactoring-guide/src/main/java/immutable/Immutables,3\5\35c340ace3bf665cf309e6c057881842d910ef51
+o
+?refactoring-guide/src/main/java/immutable/MyImmutableClass.java,5\4\545cdd8d756f384665a8994a61fad16d13df5e0e
+q
+Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551
+a
+1agile-software-design-patterns/代码设计模式,c\4\c4b36078eecc55f6b086be91edb3c269f4fea2d2
+f
+6java-style-guide/src/main/java/base/Guide04Naming.java,c\d\cd5b7be75ff26e3ee0d4868d54320fbca1cb6dc2
+x
+Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7

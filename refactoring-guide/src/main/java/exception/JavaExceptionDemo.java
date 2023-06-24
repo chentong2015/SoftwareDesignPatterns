@@ -10,6 +10,13 @@ public class JavaExceptionDemo {
         throw new Exception(fullMessage, exception.getCause());
     }
 
+    // 自定义assert()方法，在不满足条件时抛出对应的异常
+    private void assertCondition(String value) {
+        if (value == null || value.contains("false")) {
+            throw new IllegalArgumentException("false parameter");
+        }
+    }
+
     // 通常显示的异常中最后一部分会被压缩，压缩掉的部分使用...显示
     // 可以显示获取Suppressed压缩的异常并且显示出来
     private void testShowSuppressedException() {
