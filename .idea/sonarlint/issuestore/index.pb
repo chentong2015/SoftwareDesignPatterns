@@ -269,8 +269,6 @@ cagile-software-design-patterns/src/main/java/core_behavior_patterns/memento/Mem
 ^agile-software-design-patterns/src/main/java/core_behavior_patterns/memento/model/Memento.java,1\5\1545046788b65b34909496d66e4ae4ab6fedf0f3
 a
 1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
-Q
-!java-style-guide/Java整洁代码,0\b\0be7a94441e596106a4a71dae3c37c156111c460
 p
 @refactoring-guide/src/main/java/immutable/MyImmutablePeriod.java,7\7\771d1b8054b5d0801f8d558b4e4bd180b39094f8
 d
@@ -285,3 +283,5 @@ f
 6java-style-guide/src/main/java/base/Guide04Naming.java,c\d\cd5b7be75ff26e3ee0d4868d54320fbca1cb6dc2
 x
 Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
+f
+6refactoring-guide/src/main/java/exception/异常分类,f\1\f12404e6be2556b2b13ee11fe377b859132d5d7f
