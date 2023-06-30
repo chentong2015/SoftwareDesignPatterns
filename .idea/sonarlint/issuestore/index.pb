@@ -71,8 +71,6 @@ I
 refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
 R
 "software-plugin-extensions/pom.xml,4\5\45ba9af28ec88b8a3f954b5b1b0f6d2e3b3ff7f1
-H
-java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
 �
 Yagile-software-design-patterns/src/main/java/base_solid_principles/demeter/Law Of Demeter,1\9\19574c1a6a9302c7839848a9de8c5f43215a0be5
 �
@@ -139,8 +137,6 @@ v
 Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
 ]
 -software-plugin-extensions/Plugin最佳实践,a\7\a74e935f878841999e7b4b734341c161c7cee01b
-Y
-)refactoring-guide/Refactoring最佳实践,e\e\eea86f144fafec6632ed9335de662a867a821691
 �
 _agile-software-design-patterns/src/main/java/core_structure_patterns/flyweight/model/Shape.java,6\b\6b71a674fd342ddf6fe5e86cd4612ccf8f4f74de
 �

@@ -2,6 +2,7 @@ package exception;
 
 import java.io.*;
 
+@SuppressWarnings("PMD.JUnit5TestShouldBePackagePrivate")
 public class JavaExceptionDemo {
 
     // 当异常包含多个Cause，可以整合前面核心的信息然后进行提示并抛出

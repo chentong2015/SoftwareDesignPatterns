@@ -3,8 +3,18 @@
 - Java Style Guide (https://google.github.io/styleguide/)
 - Effective Java   (https://github.com/jbloch/effective-java-3e-source-code)
 
+Java static code analysis: 656 Rules
+  - https://rules.sonarsource.com/java/
+
+PMD Source Code analyser: Best practices + Style + Design
+  - https://github.com/pmd/pmd
+  - https://pmd.github.io/pmd/pmd_rules_java.html
+  - https://pmd.github.io/pmd/pmd_userdocs_tools_maven.html 提供Maven插件，在项目构建阶段检测代码
+
 - Code Quantity
   - SonarQube code quality 通过定义好的代码规范和逻辑来验证项目是否满足质量要求
   - SonarLint Plugin       连接到SonarQube/SonarCloud自动检测代码质量
   - Save Actions Plugin    保存时自动代码格式化
   - Jalopy Code Formatter  代码格式化
+
+
