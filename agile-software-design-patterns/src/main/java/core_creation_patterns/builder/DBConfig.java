@@ -1,8 +1,9 @@
-package core_creation_patterns.builder.demo3;
+package core_creation_patterns.builder;
 
 import java.util.Collections;
 import java.util.Map;
 
+// 实战项目: 多参数标准builder模式的运行
 public class DBConfig {
 
     private final String logicalName;

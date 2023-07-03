@@ -1,0 +1,24 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÑÔ­â
+[	java:S112	"FDefine and throw a dedicated exception instead of using a generic one.(¶·×œ
+^
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(©‹Ø€
+P
+java:S1854":Remove this useless assignment to local variable "reader".(©‹Ø€
+A
+java:S1481"+Remove this unused "reader" local variable.(©‹Ø€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÛ¿—ýÿÿÿÿ
+[
+java:S1854'"@Remove this useless assignment to local variable "resultString".(¥çæ¶üÿÿÿÿ
+M
+java:S1135!"2Complete the task associated to this TODO comment.(—¡¢Þþÿÿÿÿ
+L
+java:S1481'"1Remove this unused "resultString" local variable.(¥çæ¶üÿÿÿÿ
+P
+java:S1144	":Remove this unused private "formatExceptionThrown" method.(¶·×œ
+I
+java:S1144"4Remove this unused private "assertCondition" method.(òê¿$
+[
+java:S1144"@Remove this unused private "testShowSuppressedException" method.(­þàÞüÿÿÿÿ
+Y
+java:S1144#">Remove this unused private "convertStaceTraceToString" method.(¦Ú°ñøÿÿÿÿ

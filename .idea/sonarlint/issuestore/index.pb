@@ -263,8 +263,6 @@ cagile-software-design-patterns/src/main/java/core_behavior_patterns/memento/Mem
 cagile-software-design-patterns/src/main/java/core_behavior_patterns/memento/MementoPatternDemo.java,5\d\5db2b8f6f4d1f706da4729513ebbfa340e5f3b00
 �
 ^agile-software-design-patterns/src/main/java/core_behavior_patterns/memento/model/Memento.java,1\5\1545046788b65b34909496d66e4ae4ab6fedf0f3
-a
-1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
 p
 @refactoring-guide/src/main/java/immutable/MyImmutablePeriod.java,7\7\771d1b8054b5d0801f8d558b4e4bd180b39094f8
 d
@@ -273,11 +271,21 @@ o
 ?refactoring-guide/src/main/java/immutable/MyImmutableClass.java,5\4\545cdd8d756f384665a8994a61fad16d13df5e0e
 q
 Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551
-a
-1agile-software-design-patterns/代码设计模式,c\4\c4b36078eecc55f6b086be91edb3c269f4fea2d2
 f
 6java-style-guide/src/main/java/base/Guide04Naming.java,c\d\cd5b7be75ff26e3ee0d4868d54320fbca1cb6dc2
 x
 Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
 f
 6refactoring-guide/src/main/java/exception/异常分类,f\1\f12404e6be2556b2b13ee11fe377b859132d5d7f
+r
+Brefactoring-guide/src/main/java/exception/JavaExceptionTester.java,5\1\51935052a7accdf37a749a6fd097721b64bcb96a
+p
+@refactoring-guide/src/main/java/exception/JavaExceptionDemo.java,b\0\b078659fb2536b7ac29b01bbd4bcdfd54113f60f
+p
+@java-style-guide/src/main/java/suppress_warnings/ClassChild.java,d\3\d33ae01224ae085614674b5ebd6a1c62d26ad920
+Y
+)refactoring-guide/Refactoring最佳实践,e\e\eea86f144fafec6632ed9335de662a867a821691
+q
+Ajava-style-guide/src/main/java/suppress_warnings/ClassParent.java,a\a\aad8605315df2635b285934b95482d05ec0bc3b4
+z
+Jjava-style-guide/src/main/java/suppress_warnings/SuppressWarningsDemo.java,8\5\85ca2e7a80fd95075c53831cef3baddb5b77eade

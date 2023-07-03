@@ -1,0 +1,9 @@
+
+;
+java:S1181"%Catch Exception instead of Throwable.(ëß‹™
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñ·“ð
+H
+java:S1135"2Complete the task associated to this TODO comment.(¡›–À
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ášÈŽüÿÿÿÿ
+P	java:S1250"<This block of commented-out lines of code should be removed.(œŒ²
+V	java:S1254"<This block of commented-out lines of code should be removed.(¡ª¼ûÿÿÿÿ
