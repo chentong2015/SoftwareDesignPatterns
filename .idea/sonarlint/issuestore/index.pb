@@ -293,8 +293,6 @@ a
 1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
 H
 java-style-guide/pom.xml,5\7\57896941eccb8eb459349b8139d97ebdbe76c41f
-r
-Brefactoring-guide/src/main/java/listener/DataTransferListener.java,2\c\2c79d56b490cbf92210fc1c3b7eb8bc859de9c25
 �
 Yagile-software-design-patterns/src/main/java/core_creation_patterns/builder/DBConfig.java,2\a\2a7fcd63ebef363df92aeddb2d74d0b13e0ab440
 �
