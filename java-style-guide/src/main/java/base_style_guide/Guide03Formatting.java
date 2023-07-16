@@ -1,4 +1,4 @@
-package base;
+package base_style_guide;
 
 public class Guide03Formatting {
 

@@ -1,4 +1,4 @@
-package base;
+package base_style_guide;
 
 import java.util.HashSet;
 import java.util.Set;
