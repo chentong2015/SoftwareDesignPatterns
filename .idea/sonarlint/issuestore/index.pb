@@ -53,8 +53,6 @@ m
 =refactoring-guide/src/main/java/override/Override最佳实践,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
 r
 Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
-s
-Crefactoring-guide/src/main/java/deprecated_api/Deprecated API规范,8\9\89b16b88adeca5edfc2b7148fa0df6280de6e3fb
 x
 Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
 �
@@ -85,8 +83,6 @@ V
 Sagile-software-design-patterns/src/main/java/base_solid_principles/isp/BaseISP.java,9\4\94b54ede8fdfc13ae49b4f5e8996e6ad6f0261a0
 �
 Uagile-software-design-patterns/src/main/java/base_solid_principles/dip/DemoClass.java,b\6\b6079ea193f7186c21f87f065c9e77e9a60bd912
-�
-Sagile-software-design-patterns/src/main/java/base_solid_principles/dip/BaseDIP.java,0\c\0c03a69968097feb5ca0a4987c8347f2bec683fc
 �
 Sagile-software-design-patterns/src/main/java/base_solid_principles/lsp/BaseLSP.java,b\b\bb98919679e4918a42aff722770c4924225c01b0
 �
@@ -129,8 +125,6 @@ q
 Arefactoring-guide/src/main/java/null_object/AbstractCustomer.java,a\7\a7848d0113f07dcd84965f9c8bdbbc1a1b166049
 m
 =refactoring-guide/src/main/java/null_object/NullCustomer.java,2\c\2ce803f3a2e7306bd3b4772bf439e23d2af7b223
-l
-<java-style-guide/src/main/java/base/JavaStandardLibrary.java,c\8\c81c0f75f2a5cb71b1a99a3628b512aeec109bf2
 h
 8java-style-guide/src/main/java/class_interface/Main.java,d\5\d56f86a84cdbdccd58e51a0c6637c79f954018bd
 v
@@ -271,8 +265,6 @@ o
 ?refactoring-guide/src/main/java/immutable/MyImmutableClass.java,5\4\545cdd8d756f384665a8994a61fad16d13df5e0e
 q
 Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551
-f
-6java-style-guide/src/main/java/base/Guide04Naming.java,c\d\cd5b7be75ff26e3ee0d4868d54320fbca1cb6dc2
 x
 Hrefactoring-guide/src/main/java/exception/JavaExceptionBestPractice.java,0\2\02a85a514744901e20abbc80f841e65c0ecf49a7
 f
@@ -303,3 +295,15 @@ k
 ;refactoring-guide/src/main/java/listener/EventListener.java,a\1\a11ad9da6b126a3fc1d69abcdd66afcadd5a9e07
 r
 Brefactoring-guide/src/main/java/listener/DataTransferListener.java,2\c\2c79d56b490cbf92210fc1c3b7eb8bc859de9c25
+\
+,java-style-guide/src/main/整洁代码质量,a\8\a82df3ced2d6319b87fd5610b53642f483ab5a2e
+s
+Cjava-style-guide/src/main/java/base_style_guide/Guide06JavaDoc.java,4\5\457b54bffb710049c5fa5e9912ab4ee3998841ee
+w
+Gjava-style-guide/src/main/java/base_style_guide/Guide01SourceFiles.java,b\4\b49c5cfdcec9cdf7c56033e7d4715c1487cc7ac6
+�
+Sagile-software-design-patterns/src/main/java/base_solid_principles/dip/BaseDIP.java,0\c\0c03a69968097feb5ca0a4987c8347f2bec683fc
+�
+\agile-software-design-patterns/src/main/java/base_concepts/dependency_Injection/BaseIoC.java,2\2\22cf3ffb6c15dcb00799de84b2b6623584ef51ef
+s
+Crefactoring-guide/src/main/java/deprecated_api/Deprecated API规范,8\9\89b16b88adeca5edfc2b7148fa0df6280de6e3fb

@@ -3,6 +3,9 @@ package base_style_guide;
 import java.util.HashSet;
 import java.util.Set;
 
+// 命名规范问题
+// Pascal命名法     -> object pascal团队   -> 微软C#语言的发展: @开头 var === auto (C++
+// Camel驼峰命名法   -> java
 public class Guide04Naming {
 
     // 1. identifiers变量名称规范: TODO. 满足正则表达式'^[a-z][a-zA-Z0-9]*$'
@@ -11,7 +14,16 @@ public class Guide04Naming {
 
     // 2. Package names
     //    包名称全部小写，使用点连接，不使用大写字母或者下划线
+    //    有关键字的时，需要使用下划线
+    //    可以包含.但是不能含有其他的字符, 每一个.下面会划分成一个新的目录
     //    com.example.deepspace com.example.deepSpace com.example.deep_space
+    //
+    //    java.lang 包含基本类型, 自动被引入
+    //    java.io
+    //    org.xml.sax.helpers
+    //    Switch.supplier.com  -> com.supplier._switch
+    //    1World.com           -> com._1world
+    //    Export-exchange.com  -> com.experts._exchange
 
     // 3. Class names: UpperCamelCase
     //    Class类型名称为名词或者名称短语，
@@ -24,7 +36,7 @@ public class Guide04Naming {
     //    Test Method测试方法的名称可以使用下划线，用于区分名称的逻辑
 
     // 5. Constant names: CONSTANT_CASE
-    //    static final字段，常量是严格不变的
+    //    static final字段，常量是严格不变的 -> 常量的运行效率更快(直接使用常量的值，不需要通过变量进行寻址?)
     //    常量名称为名词或者名词短语，全部使用大写字母，使用下滑下分割
     //    TODO: 包括基元，字符串，不可变类型和不可变类型的不可变集合，static final字段不一定都是常量 !!
     static final int NUMBER = 5;

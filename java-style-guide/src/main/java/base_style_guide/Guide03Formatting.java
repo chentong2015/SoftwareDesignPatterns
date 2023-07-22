@@ -82,7 +82,7 @@ public class Guide03Formatting {
     //        break; continue; return; throws Exception来说明
     //     default: 必须包含一个默认的语句组，即使不做任何操作
 
-    // 18. Annotations
+    // 18. Annotations注解的使用规范
     //     18.1 一行只写一个注解，不是换行，也没有缩进级别
     //          @Override
     //          @Nullable
