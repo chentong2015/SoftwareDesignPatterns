@@ -305,5 +305,7 @@ Gjava-style-guide/src/main/java/base_style_guide/Guide01SourceFiles.java,b\4\b4
 Sagile-software-design-patterns/src/main/java/base_solid_principles/dip/BaseDIP.java,0\c\0c03a69968097feb5ca0a4987c8347f2bec683fc
 �
 \agile-software-design-patterns/src/main/java/base_concepts/dependency_Injection/BaseIoC.java,2\2\22cf3ffb6c15dcb00799de84b2b6623584ef51ef
-s
-Crefactoring-guide/src/main/java/deprecated_api/Deprecated API规范,8\9\89b16b88adeca5edfc2b7148fa0df6280de6e3fb
+r
+Bjava-style-guide/src/main/java/base_style_guide/Guide04Naming.java,b\0\b0942b2ab804e20a204bdf3ffc461282820d963c
+v
+Fjava-style-guide/src/main/java/base_style_guide/Guide03Formatting.java,7\8\78fae3e44a93bdaf77947c13e46d03f210d65fbc
