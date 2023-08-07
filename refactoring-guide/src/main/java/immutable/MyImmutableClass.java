@@ -23,7 +23,7 @@ public final class MyImmutableClass {
         this.locationID = locationID;
         this.description = description;
         // (@NotNull) 这里参数不能为空
-        // 2. 不直接存储外部传递进来的引用：做一个深度拷贝的效果
+        // 2. 不直接存储外部传递进来的引用: 做一个深度拷贝的效果
         this.exits = new HashMap<>(exits);
         this.exits.put("Q", 0);
     }
