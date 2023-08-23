@@ -311,3 +311,7 @@ l
 <refactoring-guide/src/main/java/immutable/model/Complex.java,2\e\2ed7f6a84f1700f6dfd1258377b6c7c3db5a1278
 p
 @refactoring-guide/src/main/java/immutable/MyImmutablePeriod.java,7\7\771d1b8054b5d0801f8d558b4e4bd180b39094f8
+o
+?refactoring-guide/src/main/java/immutable/MyImmutableClass.java,5\4\545cdd8d756f384665a8994a61fad16d13df5e0e
+q
+Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551

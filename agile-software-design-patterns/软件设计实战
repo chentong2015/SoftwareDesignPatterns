@@ -1,22 +1,13 @@
-软件安全设计:
-1. 避免不必要的class对外暴露 => 参考Java Module System
-2. 对jar包进行数字签名，避免反编译后的识别
-3. 通过SecurityManager设置权限
+TODO. 软件生产
+通常软件的生产都具有特定的生产线 Production Chain
 
-TODO. 设计案例
+TODO. 软件基础设计
 1. 大文件的生成，下载和拷贝，在程序运行的过程中，会生成临时文件，用于process的暂停和撤销
-
 2. 软件在启动过程中，会在相同路径下生成.lock锁文件，避免用户进一步的操作
-
 3. 软件交互，复杂的UI列表，可以使用额外静态的.res .xml配置文件进行设置
-
-4. 使用cmd运行.exe文件，可以查看启动时的错误输出
-
+4. 使用cmd运行.exe文件，可以查看启动时的错误输出，在客户端启动时将错误输出到/log日志中
 5. 软件的配置和启动一般必须兼容不同的OS，需要同时提供.cmd & .sh配置文件
-
-6. 在launcher bash shell脚本中定义jvm相关参数，配置应用启动时的重要参数
-   JVM_ARGS="-Xms2G"
-
+6. 在launcher shell脚本中定义jvm相关参数("-Xms2G")，配置应用启动时的重要参数
 7. 软件配置文件Configuration Settings，提供软件运行的高级配置
    JAVAHOME=xxx\JAVA\java-11-openjdk-11.0.5.10-2.windows.redhat.x86_64
    JVM_PROPS=-Xmx256M
@@ -26,9 +17,13 @@ TODO. 设计案例
    SITE_NAME=site1
    CLASS_NAME=org.eclipse.core.launcher.Main
 
-
 TODO. 软件UI界面设计，方便执行Query和数据的显式 ?
 1. 界面Query查询带有where中判断条件(比较，逻辑判断)
    - 封装界面提交的数据成XML, 利用框架转成HQL查询语句, 使用Hibernate执行查询
    - 将界面的数据直接转换成SQL查询语句，JDBC执行查询(使用ORM层中间件)
 2. 将查询后的结果展示在界面table列表中，提供筛选和排序等界面操作
+
+TODO. 软件安全设计
+1. 避免不必要的class对外暴露 => 参考Java Module System
+2. 对jar包进行数字签名，避免反编译后的识别
+3. 通过SecurityManager设置权限
