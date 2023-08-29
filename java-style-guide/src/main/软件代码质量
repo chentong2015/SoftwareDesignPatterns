@@ -1,3 +1,6 @@
+软件的质量: 架构设计 + 代码的质量
+代码的质量: 代码风格(整洁性/被理解阅读 + 可维护性 + 可扩展性)
+
 整洁代码参考书籍和文档
   - Clean Code
   - Agile Software development, design patterns
@@ -16,10 +19,10 @@ IDEA Plugins
   - Save Actions Plugin  保存时自动代码格式化
   - Jalopy Code Formatter 代码格式化
 
-
-企业代码质量检测: https://docs.sonarqube.org/latest/
-IDE开发使用sonarLint, 提交后master branch通过更全Rules验证/自定义Rules
-SonarQube针对不同项目(Create Project)代码进行分析，支持检测同一项目的不同branch
+Sonar 代码质量检测
+  - https://docs.sonarqube.org/latest/
+  - 代码质量不过关，不允许打包构建并且发布生产代码
 1. IDEA IDE自动检测代码风格
-2. SonarLint Plugin  本地即时代码检测插件
-3. SonarQube
+2. SonarLint Plugin  本地IDE即时代码检测插件
+3. SonarQube Server  提交后master branch通过更全Rules验证/自定义Rules
+   SonarQube针对不同项目(Create Project)代码进行分析，支持检测同一项目的不同branch

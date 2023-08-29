@@ -271,8 +271,6 @@ H
 Yagile-software-design-patterns/src/main/java/core_creation_patterns/builder/DBConfig.java,2\a\2a7fcd63ebef363df92aeddb2d74d0b13e0ab440
 �
 aagile-software-design-patterns/src/main/java/core_creation_patterns/builder/创建者设计模式,2\6\26b6481d7fe8aeabd86a7f5c6203afe452664121
-a
-1agile-software-design-patterns/代码设计模式,c\4\c4b36078eecc55f6b086be91edb3c269f4fea2d2
 k
 ;refactoring-guide/src/main/java/listener/EventListener.java,a\1\a11ad9da6b126a3fc1d69abcdd66afcadd5a9e07
 r
@@ -297,12 +295,6 @@ Sagile-software-design-patterns/src/main/java/base_concepts/mvc_mvvm/MVC设计�
 ^agile-software-design-patterns/src/main/java/base_concepts/resource_pool/资源池设计模式,1\0\102564c7b74d2ce399d4e0a5c4a8c31232465060
 o
 ?refactoring-guide/src/main/java/deprecated/Deprecated API规范,d\d\ddeada5b58704aee943e7a35fffc7b1cefbe2d46
-p
-@java-style-guide/src/main/java/suppress_warnings/ClassChild.java,d\3\d33ae01224ae085614674b5ebd6a1c62d26ad920
-q
-Ajava-style-guide/src/main/java/suppress_warnings/ClassParent.java,a\a\aad8605315df2635b285934b95482d05ec0bc3b4
-z
-Jjava-style-guide/src/main/java/suppress_warnings/SuppressWarningsDemo.java,8\5\85ca2e7a80fd95075c53831cef3baddb5b77eade
 r
 Bjava-style-guide/src/main/java/base_style_guide/Guide04Naming.java,b\0\b0942b2ab804e20a204bdf3ffc461282820d963c
 o
@@ -315,3 +307,5 @@ o
 ?refactoring-guide/src/main/java/immutable/MyImmutableClass.java,5\4\545cdd8d756f384665a8994a61fad16d13df5e0e
 q
 Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551
+a
+1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
