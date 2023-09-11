@@ -43,12 +43,8 @@ Usoftware-plugin-extensions/src/main/java/base/software/extensions/MySqlGenerato
 Zsoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGeneratorFactory.java,3\3\33dd1d3b6d0b82ce5b2426080916d00ad0ab3d65
 p
 @java-style-guide/src/main/java/method/JavaMethodOverloading.java,6\1\61d293def8b1ce5712a2465b2174a20f65ec477a
-f
-6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
 m
 =refactoring-guide/src/main/java/override/Override最佳实践,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
-r
-Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
 x
 Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
 �
@@ -101,8 +97,6 @@ v
 Fjava-style-guide/src/main/java/class_interface/taggedclass/Figure.java,2\c\2cb37d1022ff0e32965b6ae7d46f09b3056d7d19
 �
 ]agile-software-design-patterns/src/main/java/core_structure_patterns/facade/MyConnection.java,7\7\77fe225376081ec7a8b48eeb637a257de92ad457
-~
-Njava-style-guide/src/main/java/lazy_initialization/JavaLazyInitialization.java,9\a\9ac4d49a944dd03e9df2845f5b020c0f09cdb0bf
 w
 Gjava-style-guide/src/main/java/lazy_initialization/LazyInitializer.java,7\f\7f261bdcc88b4be52ab982b382c5fbfe55cd2cf8
 s
@@ -275,8 +269,6 @@ k
 ;refactoring-guide/src/main/java/listener/EventListener.java,a\1\a11ad9da6b126a3fc1d69abcdd66afcadd5a9e07
 r
 Brefactoring-guide/src/main/java/listener/DataTransferListener.java,2\c\2c79d56b490cbf92210fc1c3b7eb8bc859de9c25
-\
-,java-style-guide/src/main/整洁代码质量,a\8\a82df3ced2d6319b87fd5610b53642f483ab5a2e
 s
 Cjava-style-guide/src/main/java/base_style_guide/Guide06JavaDoc.java,4\5\457b54bffb710049c5fa5e9912ab4ee3998841ee
 w
@@ -309,3 +301,9 @@ q
 Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551
 a
 1agile-software-design-patterns/软件设计实战,9\7\9730ac1ee11ae81f8ce0c32e38c40a9c86cd914e
+a
+1agile-software-design-patterns/代码设计模式,c\4\c4b36078eecc55f6b086be91edb3c269f4fea2d2
+z
+Jjava-style-guide/src/main/java/suppress_warnings/SuppressWarningsDemo.java,8\5\85ca2e7a80fd95075c53831cef3baddb5b77eade
+\
+,java-style-guide/src/main/软件代码质量,1\8\187b909ecceec9397d29b07d33ceaab22773b8a7

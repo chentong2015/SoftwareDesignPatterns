@@ -1,4 +1,4 @@
-package base_style_guide;
+package base_styles;
 
 public class Guide02SourceFilesStructure {
 
