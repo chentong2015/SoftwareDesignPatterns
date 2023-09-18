@@ -5,14 +5,6 @@ r
 Brefactoring-guide/src/main/java/auto_closeable/DemoTryFinally.java,d\3\d3a1ab47c32f25f30dccba63ac5ede8583c5972b
 l
 <refactoring-guide/src/main/java/helper/Helper类最佳实践,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
-m
-=refactoring-guide/src/main/java/constants/ConfigConstant.java,5\c\5c9f92e86639bc80835d383b4df9028d373d32d6
-p
-@refactoring-guide/src/main/java/constants/PhysicalConstants.java,3\7\3776c99561b91821bf26ab5c7390938c40eee5db
-n
->refactoring-guide/src/main/java/constants/Constant最佳实践,4\7\47ab8b4d9ad967e327794d47e1d2f029b7cf9ccb
-j
-:refactoring-guide/src/main/java/constants/MagicNumber.java,1\1\114cd5cb0b268eaae18633ddaf82cbdef8215954
 {
 Ksoftware-plugin-extensions/src/main/java/java_jdbc_driver/MyDriverInfo.java,8\7\87b88439bf9ebb0d0dd8e99ced1480ce495cdba0
 �
@@ -269,16 +261,10 @@ k
 ;refactoring-guide/src/main/java/listener/EventListener.java,a\1\a11ad9da6b126a3fc1d69abcdd66afcadd5a9e07
 r
 Brefactoring-guide/src/main/java/listener/DataTransferListener.java,2\c\2c79d56b490cbf92210fc1c3b7eb8bc859de9c25
-s
-Cjava-style-guide/src/main/java/base_style_guide/Guide06JavaDoc.java,4\5\457b54bffb710049c5fa5e9912ab4ee3998841ee
-w
-Gjava-style-guide/src/main/java/base_style_guide/Guide01SourceFiles.java,b\4\b49c5cfdcec9cdf7c56033e7d4715c1487cc7ac6
 �
 Sagile-software-design-patterns/src/main/java/base_solid_principles/dip/BaseDIP.java,0\c\0c03a69968097feb5ca0a4987c8347f2bec683fc
 �
 \agile-software-design-patterns/src/main/java/base_concepts/dependency_Injection/BaseIoC.java,2\2\22cf3ffb6c15dcb00799de84b2b6623584ef51ef
-v
-Fjava-style-guide/src/main/java/base_style_guide/Guide03Formatting.java,7\8\78fae3e44a93bdaf77947c13e46d03f210d65fbc
 �
 Ragile-software-design-patterns/src/main/java/base_concepts/dao_dto/BaseDaoDto.java,a\e\aea3b7f78f61b12fe3f7e1c2e0c79084c8628951
 �
@@ -287,8 +273,6 @@ Sagile-software-design-patterns/src/main/java/base_concepts/mvc_mvvm/MVC设计�
 ^agile-software-design-patterns/src/main/java/base_concepts/resource_pool/资源池设计模式,1\0\102564c7b74d2ce399d4e0a5c4a8c31232465060
 o
 ?refactoring-guide/src/main/java/deprecated/Deprecated API规范,d\d\ddeada5b58704aee943e7a35fffc7b1cefbe2d46
-r
-Bjava-style-guide/src/main/java/base_style_guide/Guide04Naming.java,b\0\b0942b2ab804e20a204bdf3ffc461282820d963c
 o
 ?refactoring-guide/src/main/java/immutable/model/SubComplex.java,e\8\e82cdb50993c022c3136510a60942d9c8b3538db
 l
@@ -307,3 +291,9 @@ z
 Jjava-style-guide/src/main/java/suppress_warnings/SuppressWarningsDemo.java,8\5\85ca2e7a80fd95075c53831cef3baddb5b77eade
 \
 ,java-style-guide/src/main/软件代码质量,1\8\187b909ecceec9397d29b07d33ceaab22773b8a7
+f
+6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
+~
+Njava-style-guide/src/main/java/lazy_initialization/JavaLazyInitialization.java,9\a\9ac4d49a944dd03e9df2845f5b020c0f09cdb0bf
+r
+Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
