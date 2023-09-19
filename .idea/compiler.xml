@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="agile-software-design-patterns" />
         <module name="java-style-guide" />
+        <module name="java-sonar-rules" />
         <module name="software-design-quality" />
         <module name="refactoring-guide" />
       </profile>

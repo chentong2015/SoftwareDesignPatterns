@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/software-design-quality/pom.xml" />
         <option value="$PROJECT_DIR$/refactoring-guide/pom.xml" />
         <option value="$PROJECT_DIR$/software-plugin-extensions/pom.xml" />
+        <option value="$PROJECT_DIR$/java-sonar-rules/pom.xml" />
       </list>
     </option>
   </component>

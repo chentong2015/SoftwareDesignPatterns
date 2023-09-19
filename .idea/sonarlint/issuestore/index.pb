@@ -83,8 +83,6 @@ w
 Gsoftware-plugin-extensions/src/main/java/java_core_spi/JavaSpiDemo.java,e\4\e47520009410a2088e8541f3bfcbce9120bb1c0b
 u
 Esoftware-plugin-extensions/src/main/java/java_core_spi/Java SPI机制,e\2\e2b33db3cbb0a60d30ec0d664cdb602d73ba7a7a
-q
-Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
 v
 Fjava-style-guide/src/main/java/class_interface/taggedclass/Figure.java,2\c\2cb37d1022ff0e32965b6ae7d46f09b3056d7d19
 �
@@ -107,10 +105,6 @@ q
 Arefactoring-guide/src/main/java/null_object/AbstractCustomer.java,a\7\a7848d0113f07dcd84965f9c8bdbbc1a1b166049
 m
 =refactoring-guide/src/main/java/null_object/NullCustomer.java,2\c\2ce803f3a2e7306bd3b4772bf439e23d2af7b223
-h
-8java-style-guide/src/main/java/class_interface/Main.java,d\5\d56f86a84cdbdccd58e51a0c6637c79f954018bd
-v
-Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
 ]
 -software-plugin-extensions/Plugin最佳实践,a\7\a74e935f878841999e7b4b734341c161c7cee01b
 �
@@ -289,8 +283,6 @@ f
 6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
 ~
 Njava-style-guide/src/main/java/lazy_initialization/JavaLazyInitialization.java,9\a\9ac4d49a944dd03e9df2845f5b020c0f09cdb0bf
-r
-Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
 n
 >refactoring-guide/src/main/java/constants/BaseMagicNumber.java,0\a\0ac7de4bd21b48ba3cbf02eb73a3330046ec7c92
 n

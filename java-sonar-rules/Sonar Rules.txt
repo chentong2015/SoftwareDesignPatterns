@@ -1,0 +1,11 @@
+Java static code analysis: 656 Rules
+- https://rules.sonarsource.com/java/
+
+Sonar 代码质量检测
+- https://docs.sonarqube.org/latest/
+- 代码质量不过关，不允许打包构建并且发布生产代码
+
+1. IDEA IDE自动检测代码风格
+2. SonarLint Plugin  本地IDE即时代码检测插件
+3. SonarQube Server  提交后master branch通过更全Rules验证/自定义Rules
+   SonarQube针对不同项目(Create Project)代码进行分析，支持检测同一项目的不同branch
