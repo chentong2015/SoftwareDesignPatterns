@@ -289,3 +289,17 @@ n
 >refactoring-guide/src/main/java/constants/Constant最佳实践,4\7\47ab8b4d9ad967e327794d47e1d2f029b7cf9ccb
 r
 Bjava-style-guide/src/main/java/method_native/JavaNativeMethod.java,5\8\58e7e99f0ac0c44f4b6ffcd55cc029f0f36bc69a
+H
+java-sonar-rules/pom.xml,d\d\dd5fe357fe234e4c08325629336b5664cbd6e2ca
+P
+ java-sonar-rules/Sonar Rules.txt,d\a\dad8f146986f85c80bfbf0c8f7796b23843edd84
+a
+1agile-software-design-patterns/代码设计模式,c\4\c4b36078eecc55f6b086be91edb3c269f4fea2d2
+a
+1java-style-guide/src/main/Code Style 代码风格,3\7\37ee5e59df7f1464494c63154744d68674402b3e
+v
+Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
+r
+Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
+q
+Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
