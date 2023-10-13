@@ -33,8 +33,6 @@ Ssoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGenerator.
 Usoftware-plugin-extensions/src/main/java/base/software/extensions/MySqlGenerator.java,a\4\a4580e77283eea181b421180e742d538f8ca97ad
 ä
 Zsoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGeneratorFactory.java,3\3\33dd1d3b6d0b82ce5b2426080916d00ad0ab3d65
-p
-@java-style-guide/src/main/java/method/JavaMethodOverloading.java,6\1\61d293def8b1ce5712a2465b2174a20f65ec477a
 m
 =refactoring-guide/src/main/java/override/OverrideÊúÄ‰Ω≥ÂÆûË∑µ,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
 x
@@ -83,8 +81,6 @@ w
 Gsoftware-plugin-extensions/src/main/java/java_core_spi/JavaSpiDemo.java,e\4\e47520009410a2088e8541f3bfcbce9120bb1c0b
 u
 Esoftware-plugin-extensions/src/main/java/java_core_spi/Java SPIÊú∫Âà∂,e\2\e2b33db3cbb0a60d30ec0d664cdb602d73ba7a7a
-v
-Fjava-style-guide/src/main/java/class_interface/taggedclass/Figure.java,2\c\2cb37d1022ff0e32965b6ae7d46f09b3056d7d19
 ç
 ]agile-software-design-patterns/src/main/java/core_structure_patterns/facade/MyConnection.java,7\7\77fe225376081ec7a8b48eeb637a257de92ad457
 w
@@ -129,12 +125,8 @@ jagile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dyna
 sagile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dynamic_proxy/JdkDynamicProxyMaster.java,5\6\564c686a0ef965cf64fc4c71af7e3e61810ea6b3
 û
 nagile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dynamic_proxy/model/PersonImpl.java,e\d\edf4d365b2b2918e811ed5880c8876d254805c87
-≠
-}agile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dynamic_proxy/handler/PersonInvocationHandler.java,4\d\4d9231e6770af5d6441536efbd1ebe856e9b133f
 ô
 iagile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dynamic_proxy/ProxyHelper.java,2\a\2aa6ab5492fb3c507b9d8ca650c5fc7e11e49a6c
-¢
-ragile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dynamic_proxy/JdkDynamicProxyBasic.java,8\d\8d17d6d3e7dbb67be605e7b4fedc5745dc1577b3
 ó
 gagile-software-design-patterns/src/main/java/core_behavior_patterns/state_machine/StatePatternDemo.java,c\d\cdadb3cc1917d969cb0054d8d9fd23bcbb44434e
 ñ
@@ -279,8 +271,6 @@ q
 Arefactoring-guide/src/main/java/immutable/JavaImmutableClass.java,8\0\800b77eba2e2cf80640b0171605409fef7473551
 z
 Jjava-style-guide/src/main/java/suppress_warnings/SuppressWarningsDemo.java,8\5\85ca2e7a80fd95075c53831cef3baddb5b77eade
-f
-6java-style-guide/src/main/java/method/JavaMethods.java,c\d\cd194f9de7534dc8273e3cea762f4eedcdf8b160
 ~
 Njava-style-guide/src/main/java/lazy_initialization/JavaLazyInitialization.java,9\a\9ac4d49a944dd03e9df2845f5b020c0f09cdb0bf
 n
@@ -299,7 +289,3 @@ a
 1java-style-guide/src/main/Code Style ‰ª£Á†ÅÈ£éÊ†º,3\7\37ee5e59df7f1464494c63154744d68674402b3e
 v
 Fjava-style-guide/src/main/java/class_interface/InheritanceHashSet.java,a\2\a28733c53022abcb9261c2107161cd3f391bfd18
-r
-Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
-q
-Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3

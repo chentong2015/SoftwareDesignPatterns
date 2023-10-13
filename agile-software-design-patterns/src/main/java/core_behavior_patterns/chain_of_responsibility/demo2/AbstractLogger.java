@@ -1,4 +1,4 @@
-package core_behavior_patterns.chain_of_responsibility.model2;
+package core_behavior_patterns.chain_of_responsibility.demo2;
 
 public abstract class AbstractLogger {
 

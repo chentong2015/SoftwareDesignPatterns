@@ -1,4 +1,4 @@
-package core_structure_patterns.composite.model;
+package core_structure_patterns.composite.demo;
 
 public class Circle implements Shape {
 

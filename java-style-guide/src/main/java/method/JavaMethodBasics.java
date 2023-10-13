@@ -4,7 +4,10 @@ import java.util.Map;
 
 // Java不支持设置方法参数的默认值
 // Java方法签名包括: 方法名称 + 参数列表(类型数目和顺序位置); 不包括: 方法修饰限定符, 返回值, 抛出异常类型 !!
-public class JavaMethods {
+public class JavaMethodBasics {
+
+    // TODO. CognitiveComplexity 认知复杂性: 一个方法应该保证在一个逻辑层面
+    // 当方法中的if else逻辑判断过多，会导致认知复杂度的增加，方法的行为容易不受控制
 
     // TODO. Java方法签名规范
     // 1. 方法的参数控制在4个之内, 并且保持在一个抽象层级
@@ -33,6 +36,5 @@ public class JavaMethods {
         b = temp;
     }
 
-    // TODO. CognitiveComplexity 认知复杂性: 一个方法应该保证在一个逻辑层面
-    // 当方法中的if else逻辑判断过多，会导致认知复杂度的增加，方法的行为容易不受控制
+
 }

@@ -1,4 +1,4 @@
-package core_behavior_patterns.chain_of_responsibility.model;
+package core_behavior_patterns.chain_of_responsibility.demo1;
 
 public class CodeEditor implements IKeyHandler {
 

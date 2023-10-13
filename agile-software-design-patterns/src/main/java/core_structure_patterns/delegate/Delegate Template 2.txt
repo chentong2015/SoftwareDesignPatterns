@@ -1,0 +1,22 @@
+// 自动义的Connection的实现是对JDBC Connection的包装(Wrap)
+
+public class MyConnectionImpl {
+
+    private final Connection delegate;  // 代理的是JDBC提供的Connection
+    private final Boolean isAutoCommit; // Initial autocommit state of the connection.
+
+    public MyConnectionImpl(Connection delegate, boolean isAutoCommit) {
+        this.delegate = delegate;
+        this.isAutoCommit = isAutoCommit; // 保留最初始的AutoCommit的状态用于判断
+    }
+
+    public void setAutoCommit(boolean autoCommit) throws SQLException {
+        if(autoCommit != delegate.getAutoCommit()) {
+           delegate.setAutoCommit(autoCommit);
+        }
+    }
+
+    public boolean getAutoCommit() throws SQLException {
+        return delegate.getAutoCommit();
+    }
+}
