@@ -6,17 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="software-plugin-extensions" />
         <module name="agile-software-design-patterns" />
         <module name="java-style-guide" />
         <module name="java-sonar-rules" />
-        <module name="software-design-quality" />
         <module name="refactoring-guide" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="effective-java-clean-code" target="15" />
       <module name="software-clean-code" target="15" />
-      <module name="software-plugin-extensions" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

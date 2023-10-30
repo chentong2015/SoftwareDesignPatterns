@@ -1,7 +1,7 @@
-package class_interface.taggedclass;
+package class_interface;
 
 // TODO. 将标签类设计成继承关系的类层次
-public class Figure {
+public class DesignTagClass {
 
     enum Shape {RECTANGLE, CIRCLE}
 
@@ -16,13 +16,13 @@ public class Figure {
     double radius;
 
     // Constructor for circle
-    Figure(double radius) {
+    DesignTagClass(double radius) {
         shape = Shape.CIRCLE;
         this.radius = radius;
     }
 
     // Constructor for rectangle
-    Figure(double length, double width) {
+    DesignTagClass(double length, double width) {
         shape = Shape.RECTANGLE;
         this.length = length;
         this.width = width;

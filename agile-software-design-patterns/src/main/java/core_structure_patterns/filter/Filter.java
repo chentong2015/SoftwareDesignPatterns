@@ -1,4 +1,4 @@
-package core_structure_patterns.decorator.filter;
+package core_structure_patterns.filter;
 
 // 所有继承Filter的类型都拥有一个自己的过滤器
 // Filter decorator = new Filter();

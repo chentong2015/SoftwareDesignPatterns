@@ -1,4 +1,4 @@
-package core_structure_patterns.decorator.filter;
+package core_structure_patterns.filter;
 
 public class TargetOracleFilter extends Filter {
 

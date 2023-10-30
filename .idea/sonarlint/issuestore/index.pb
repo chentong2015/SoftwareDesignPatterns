@@ -1,10 +1,6 @@
 
 u
 Erefactoring-guide/src/main/java/auto_closeable/JavaAutoCloseable.java,3\7\37720ce9aad15a171f75238fec2f9e6d245dbef8
-r
-Brefactoring-guide/src/main/java/auto_closeable/DemoTryFinally.java,d\3\d3a1ab47c32f25f30dccba63ac5ede8583c5972b
-l
-<refactoring-guide/src/main/java/helper/Helperç±»æœ€ä½³å®žè·µ,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
 {
 Ksoftware-plugin-extensions/src/main/java/java_jdbc_driver/MyDriverInfo.java,8\7\87b88439bf9ebb0d0dd8e99ced1480ce495cdba0
 €
@@ -279,8 +275,6 @@ r
 Bjava-style-guide/src/main/java/method/JavaMethodVariableArity.java,5\3\536147434e3c8559c9b1e990db3366efe8898b86
 k
 ;java-style-guide/src/main/java/method/JavaMethodBasics.java,7\7\77664a649009a449cd7f6184a60ee598087be822
-v
-Fjava-style-guide/src/main/java/class_interface/taggedclass/Figure.java,2\c\2cb37d1022ff0e32965b6ae7d46f09b3056d7d19
 q
 Ajava-style-guide/src/main/java/class_interface/Encapsulation.java,1\1\11a59f04eb1cd066e88cb06ebbc0a53e4d12baa3
 —
@@ -313,3 +307,7 @@ uagile-software-design-patterns/src/main/java/core_structure_patterns/proxy/dyna
 ƒagile-software-design-patterns/src/main/java/core_structure_patterns/proxy/proxy_with_chain_of_resp/MyStatementHandlerCallable.java,3\e\3ebf98238b06e3d04349f3ef9b84465b137c3251
 ³
 ‚agile-software-design-patterns/src/main/java/core_structure_patterns/proxy/proxy_with_chain_of_resp/AbstractInvocationHandler.java,3\b\3b00df93571d5b2768d8cddaa471ee048713caa5
+s
+Cjava-style-guide/src/main/java/base_styles/JavaStandardLibrary.java,4\7\476e1389ab1777a38d6f349904a8842d13eab8f7
+‡
+Wagile-software-design-patterns/src/main/java/core_structure_patterns/filter/Filter.java,7\f\7f2993302d0dd38579a2c03e0e239cd7ca32a83a
