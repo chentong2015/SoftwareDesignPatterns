@@ -1,6 +1,21 @@
-package core_creation_patterns.builder.core1;
+package core_creation_patterns.builder.core;
 
 public class LunchOrder {
+
+    // 保证类型的属性值不会改变
+    private final String bread;
+    private final String condiments;
+    private final String dressing;
+    private final String meat;
+
+    // TODO: 构造器需要设置成private, 防止外部的访问
+    // 只能通过内部的Builder来构建对象
+    private LunchOrder(Builder builder) {
+        this.bread = builder.bread;
+        this.condiments = builder.condiments;
+        this.dressing = builder.dressing;
+        this.meat = builder.meat;
+    }
 
     // 通过内部类来提供对象(属性)的构造
     // TODO: 使用时可以任意组合要设置的属性值, 而无需存在相应的构造函数
@@ -38,21 +53,6 @@ public class LunchOrder {
             this.meat = meat;
             return this;
         }
-    }
-
-    // 保证类型的属性值不会改变
-    private final String bread;
-    private final String condiments;
-    private final String dressing;
-    private final String meat;
-
-    // TODO: 构造器需要设置成private, 防止外部的访问
-    // 只能通过内部的Builder来构建对象
-    private LunchOrder(Builder builder) {
-        this.bread = builder.bread;
-        this.condiments = builder.condiments;
-        this.dressing = builder.dressing;
-        this.meat = builder.meat;
     }
 
     // 只提供get方法，保证immutable

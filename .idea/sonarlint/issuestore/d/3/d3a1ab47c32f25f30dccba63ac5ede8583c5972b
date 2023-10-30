@@ -1,0 +1,12 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(È¥ÛÙ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+R
+java:S1144
+"7Remove this unused private "getFirstLineOfFile" method.(¥†ƒ½ûÿÿÿÿ
+>
+java:S1144")Remove this unused private "copy" method.(ã‹Èy

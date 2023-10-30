@@ -311,3 +311,9 @@ s
 Cjava-style-guide/src/main/java/base_styles/JavaStandardLibrary.java,4\7\476e1389ab1777a38d6f349904a8842d13eab8f7
 �
 Wagile-software-design-patterns/src/main/java/core_structure_patterns/filter/Filter.java,7\f\7f2993302d0dd38579a2c03e0e239cd7ca32a83a
+r
+Brefactoring-guide/src/main/java/auto_closeable/DemoTryFinally.java,d\3\d3a1ab47c32f25f30dccba63ac5ede8583c5972b
+l
+<refactoring-guide/src/main/java/helper/Helper类最佳实践,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
+r
+Bjava-style-guide/src/main/java/class_interface/DesignTagClass.java,5\d\5d4a9c6c64afa7206400247ac21eaa8c50df04a5

@@ -1,4 +1,4 @@
-package core_creation_patterns.builder.core1;
+package core_creation_patterns.builder.core;
 
 public class LunchOrderDemo {
 
