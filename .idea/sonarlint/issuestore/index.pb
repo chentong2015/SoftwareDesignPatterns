@@ -238,8 +238,6 @@ Sagile-software-design-patterns/src/main/java/base_concepts/mvc_mvvm/MVC设计�
 �
 ^agile-software-design-patterns/src/main/java/base_concepts/resource_pool/资源池设计模式,1\0\102564c7b74d2ce399d4e0a5c4a8c31232465060
 o
-?refactoring-guide/src/main/java/deprecated/Deprecated API规范,d\d\ddeada5b58704aee943e7a35fffc7b1cefbe2d46
-o
 ?refactoring-guide/src/main/java/immutable/model/SubComplex.java,e\8\e82cdb50993c022c3136510a60942d9c8b3538db
 l
 <refactoring-guide/src/main/java/immutable/model/Complex.java,2\e\2ed7f6a84f1700f6dfd1258377b6c7c3db5a1278
@@ -261,8 +259,6 @@ r
 Bjava-style-guide/src/main/java/method_native/JavaNativeMethod.java,5\8\58e7e99f0ac0c44f4b6ffcd55cc029f0f36bc69a
 H
 java-sonar-rules/pom.xml,d\d\dd5fe357fe234e4c08325629336b5664cbd6e2ca
-P
- java-sonar-rules/Sonar Rules.txt,d\a\dad8f146986f85c80bfbf0c8f7796b23843edd84
 a
 1agile-software-design-patterns/代码设计模式,c\4\c4b36078eecc55f6b086be91edb3c269f4fea2d2
 a
@@ -317,3 +313,25 @@ l
 <refactoring-guide/src/main/java/helper/Helper类最佳实践,e\d\ed7ef92566d0e7cdb1de513e4090c6cf5b75592a
 r
 Bjava-style-guide/src/main/java/class_interface/DesignTagClass.java,5\d\5d4a9c6c64afa7206400247ac21eaa8c50df04a5
+r
+Brefactoring-guide/src/main/java/exception/unchecked/BuildInfo.java,7\0\70fb4a014f5e0d24a5c2f7881d2b2f3472693a8a
+u
+Erefactoring-guide/src/main/java/exception/unchecked/BuildWarning.java,0\3\03363db12322cac6415ddd92848a1b5c4fb54caa
+w
+Grefactoring-guide/src/main/java/exception/unchecked/BuildException.java,c\2\c2e0d500f880dd0d39841ec5491cd606341e428d
+~
+Nrefactoring-guide/src/main/java/exception/unchecked/RuntimeException设计.txt,9\9\994f247827e9a3f4e2114a48d2ebc2bd7e8aa803
+�
+dagile-software-design-patterns/src/main/java/core_creation_patterns/builder/core/LunchOrderDemo.java,5\b\5b8b2004018e89e00b3ef0b5acc6e9cfbabebfc4
+�
+`agile-software-design-patterns/src/main/java/core_creation_patterns/builder/core/LunchOrder.java,f\f\ff969133d124ab52d893ef47ab75af19a924e470
+�
+]agile-software-design-patterns/src/main/java/core_creation_patterns/builder/core/Student.java,1\e\1e803168f85dc0e8544e515fa49e49f692d038bc
+�
+\agile-software-design-patterns/src/main/java/core_creation_patterns/builder/core/People.java,a\1\a1dcb17339fc277e9eead1cedfb6c4bce49d55d9
+�
+kagile-software-design-patterns/src/main/java/core_creation_patterns/builder/project/DemoProjectBuilder.java,2\a\2a1f0334a0ef63b35ec5f30bc929a5492c225116
+�
+fagile-software-design-patterns/src/main/java/core_creation_patterns/builder/project/IXADataSource.java,0\2\020c8a19ddc131751e0fb3fec4be0c3b87e6cfec
+�
+dagile-software-design-patterns/src/main/java/core_creation_patterns/builder/project/IDataSource.java,6\a\6a71ac99a99bf354a7363d0c852f2680e24a9e71
