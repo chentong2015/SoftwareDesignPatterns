@@ -1,40 +1,10 @@
 
 u
 Erefactoring-guide/src/main/java/auto_closeable/JavaAutoCloseable.java,3\7\37720ce9aad15a171f75238fec2f9e6d245dbef8
-{
-Ksoftware-plugin-extensions/src/main/java/java_jdbc_driver/MyDriverInfo.java,8\7\87b88439bf9ebb0d0dd8e99ced1480ce495cdba0
-Ä
-Psoftware-plugin-extensions/src/main/java/java_jdbc_driver/JavaDriverManager.java,9\9\992ca93d76325ec3b579449172e0d2aa75e18dfa
-§
-tsoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/model/SystemReportingConfiguration.java,2\8\288a16c787fd5207bed5a5d1375363940a29714d
-
-Osoftware-plugin-extensions/src/main/java/java_jdbc_driver/MyDBServerDriver.java,6\4\644e1a94af2175f9ad6b881710b5addda8d8097d
-£
-ssoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/MyAutoConfigurationImportSelector.java,8\8\88dc74822c1bf513b4d3087807de9ba438e26ea7
-õ
-ksoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/MyEnableAutoConfiguration.java,b\1\b1619f83f16e84bf9ebfda1436ee516ea8a70aec
-¶
-vsoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/model/SystemIntegrationConfiguration.java,0\9\093d7b80602cfe8cb2255d868af584a271255746
-°
-qsoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/template/model/MyEnableAutoConfiguration.java,c\6\c6da7c4f11efdef3f1984b5d4c165e6e2b64128b
-õ
-ksoftware-plugin-extensions/src/main/java/spring_boot_auto_configure/spring/SpringBootAutoConfigureÁöÑÂÆûÁé∞,9\c\9ca13b9bba3b54cfcc5c996ba5ba843e7d3145cc
-~
-Nsoftware-plugin-extensions/src/main/java/liquibase_services_plugin/Plugin.java,2\e\2e89b50d5649bdd853df37796f82b0e4fcadc1ac
-Ñ
-Tsoftware-plugin-extensions/src/main/java/base/software/extensions/APIËá™ÂÆö‰πâÊâ©Â±ï,3\c\3ce953a654a8dcfcfe32ae3e14c63b8c125417c8
-É
-Ssoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGenerator.java,6\6\665eb53a24e8653bd56efe59d685ebf602135ed5
-Ö
-Usoftware-plugin-extensions/src/main/java/base/software/extensions/MySqlGenerator.java,a\4\a4580e77283eea181b421180e742d538f8ca97ad
-ä
-Zsoftware-plugin-extensions/src/main/java/base/software/extensions/SqlGeneratorFactory.java,3\3\33dd1d3b6d0b82ce5b2426080916d00ad0ab3d65
 m
 =refactoring-guide/src/main/java/override/OverrideÊúÄ‰Ω≥ÂÆûË∑µ,1\0\10ae99fd1557e5fe164a198f3be11ccaea390c45
 x
 Hrefactoring-guide/src/main/java/auto_closeable/DemoTryWithResources.java,0\d\0d4c8d8f61110d34903c2d69ab6af4f616752e16
-ç
-]software-plugin-extensions/src/main/java/liquibase_services_plugin/AbstractPluginFactory.java,6\b\6bfb53610286fb971440361e28e63fd02eff3930
 Ü
 Vrefactoring-guide/src/main/java/exception/undeclared/ExceptionalInvocationHandler.java,8\c\8c3b6652df051ef24e2f649e318cf4e929156dde
 t
@@ -43,10 +13,6 @@ x
 Hrefactoring-guide/src/main/java/exception/checked/TestExceptionDemo.java,9\2\92159402656e5e4a74f8235ca69d20fa0816ecea
 o
 ?java-style-guide/src/main/java/null_optional/Êó†Ê≥ïËøîÂõûÁªìÊûú,1\9\192859de95e6a40d17b41ff44cfecc71a5403c56
-I
-refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
-R
-"software-plugin-extensions/pom.xml,4\5\45ba9af28ec88b8a3f954b5b1b0f6d2e3b3ff7f1
 â
 Yagile-software-design-patterns/src/main/java/base_solid_principles/demeter/Law Of Demeter,1\9\19574c1a6a9302c7839848a9de8c5f43215a0be5
 Ç
@@ -71,12 +37,6 @@ Zagile-software-design-patterns/src/main/java/base_solid_principles/lsp/demo1/My
 Sagile-software-design-patterns/src/main/java/base_solid_principles/ocp/BaseOCP.java,7\b\7b8b84a37d08d6c64cfd7c92cec98f6f0358c776
 É
 Sagile-software-design-patterns/src/main/java/base_solid_principles/srp/BaseSRP.java,2\0\20929cdc4b3c0d9fb768c0b959debe6103964da1
-ë
-asoftware-plugin-extensions/src/main/java/hibernate_initiator_extension/hibernate initiator Êâ©Â±ï,7\2\7267da4db82886e0857a995a92c85234d0f33200
-w
-Gsoftware-plugin-extensions/src/main/java/java_core_spi/JavaSpiDemo.java,e\4\e47520009410a2088e8541f3bfcbce9120bb1c0b
-u
-Esoftware-plugin-extensions/src/main/java/java_core_spi/Java SPIÊú∫Âà∂,e\2\e2b33db3cbb0a60d30ec0d664cdb602d73ba7a7a
 ç
 ]agile-software-design-patterns/src/main/java/core_structure_patterns/facade/MyConnection.java,7\7\77fe225376081ec7a8b48eeb637a257de92ad457
 w
@@ -97,8 +57,6 @@ q
 Arefactoring-guide/src/main/java/null_object/AbstractCustomer.java,a\7\a7848d0113f07dcd84965f9c8bdbbc1a1b166049
 m
 =refactoring-guide/src/main/java/null_object/NullCustomer.java,2\c\2ce803f3a2e7306bd3b4772bf439e23d2af7b223
-]
--software-plugin-extensions/PluginÊúÄ‰Ω≥ÂÆûË∑µ,a\7\a74e935f878841999e7b4b734341c161c7cee01b
 è
 _agile-software-design-patterns/src/main/java/core_structure_patterns/flyweight/model/Shape.java,6\b\6b71a674fd342ddf6fe5e86cd4612ccf8f4f74de
 ê
@@ -335,3 +293,9 @@ kagile-software-design-patterns/src/main/java/core_creation_patterns/builder/pro
 fagile-software-design-patterns/src/main/java/core_creation_patterns/builder/project/IXADataSource.java,0\2\020c8a19ddc131751e0fb3fec4be0c3b87e6cfec
 î
 dagile-software-design-patterns/src/main/java/core_creation_patterns/builder/project/IDataSource.java,6\a\6a71ac99a99bf354a7363d0c852f2680e24a9e71
+o
+?refactoring-guide/src/main/java/deprecated/Deprecated APIËßÑËåÉ,d\d\ddeada5b58704aee943e7a35fffc7b1cefbe2d46
+í
+bagile-software-design-patterns/src/main/java/core_creation_patterns/singleton/SingletonMaster.java,3\0\306971395e12e4b53f4317518e661fb578ef2033
+P
+ java-sonar-rules/Sonar Rules.txt,d\a\dad8f146986f85c80bfbf0c8f7796b23843edd84
