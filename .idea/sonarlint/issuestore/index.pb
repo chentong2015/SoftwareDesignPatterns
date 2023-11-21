@@ -299,3 +299,5 @@ o
 bagile-software-design-patterns/src/main/java/core_creation_patterns/singleton/SingletonMaster.java,3\0\306971395e12e4b53f4317518e661fb578ef2033
 P
  java-sonar-rules/Sonar Rules.txt,d\a\dad8f146986f85c80bfbf0c8f7796b23843edd84
+I
+refactoring-guide/pom.xml,d\a\da969ecfcb6590435d61076409c334d9e4024ba2
