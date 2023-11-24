@@ -1,4 +1,4 @@
-package core_structure_patterns.proxy.proxy_with_chain_of_resp;
+package core_structure_patterns.proxy.chain_of_resp_proxy;
 
 import java.lang.reflect.InvocationHandler;
 
