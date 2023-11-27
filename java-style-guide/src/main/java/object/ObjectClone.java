@@ -1,4 +1,4 @@
-package method.object;
+package object;
 
 // TODO. clone方法就是另一个构造器，在不影响原始对象的情况下，确保正确的创建克隆对象中的约束
 // 实现Cloneable的类型是为了提供以一个功能适当的共有clone()方法

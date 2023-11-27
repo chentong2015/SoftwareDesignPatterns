@@ -1,6 +1,7 @@
-package method.object;
+package object;
 
-// .equals() 默认比较对象的reference引用，可通过Override来实现值的比较，变成"值类"
+// .equals() 默认比较对象的reference引用
+// 通过Override来实现值的比较，变成"值类"
 public class ObjectEqualsHashcode {
 
     private final String name = "name id";
