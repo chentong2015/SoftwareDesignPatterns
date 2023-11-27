@@ -16,8 +16,9 @@ public class MyImmutablePeriod {
         this.end = new Date(end.getTime());
 
         // 有效性检测
-        if (this.start.compareTo(this.end) > 0)
+        if (this.start.compareTo(this.end) > 0) {
             throw new IllegalArgumentException(this.start + " after " + this.end);
+        }
     }
 
     // 2. 由于Date是可变对象，使用"保护性拷贝"来避免将对象内部组件的引用返回给外部(外部可能修改可变对象)
