@@ -6,8 +6,8 @@ import java.util.Date;
 // 除了MyImmutablePeriod自身以外，任何类都无法访问该类型实例中的任何一个可变域
 public class MyImmutablePeriod {
 
-    private final Date start;
-    private final Date end;
+    private Date start;
+    private Date end;
 
     // 1. 由于Date是可变对象，在构造器赋值时需要使用"保护性拷贝"来对属性赋值
     //    避免在对象外部修改Date，从而对该对象内部造成的损害

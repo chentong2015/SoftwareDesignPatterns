@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 // TODO. Immutable Class 实战运用场景
 // - 应该重用"不可变类型"，而不是多次创建，同时重用那些已知不会被修改的可变对象
 // - 不可变类本质上是线程安全的，不需要同步，并发访问时不会造破坏，因此能够被共享
-// - 不应该提供clone方法，或者拷贝构造器，因为拷贝始终等于原始对象
+// - 不应该提供clone方法或者拷贝构造器，由于不可变，拷贝始终等于原始对象
 // - 状态始终不变，不存在临时不一致的可能性
 
 // Expose programs inner objects to external developers who don't have access to the source code

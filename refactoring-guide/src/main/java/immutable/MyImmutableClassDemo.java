@@ -7,6 +7,7 @@ import java.util.Date;
 // 2. getter 返回具有相同属性值的另一个对象
 public class MyImmutableClassDemo {
 
+    // TODO. 注意String是否会给不可变性造成影响
     private String name;
     private Date dateTime;
 

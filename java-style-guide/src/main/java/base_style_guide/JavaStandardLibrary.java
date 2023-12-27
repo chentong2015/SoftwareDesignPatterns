@@ -1,4 +1,4 @@
-package base_styles;
+package base_style_guide;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
