@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="agile-software-design-patterns" />
         <module name="java-style-guide" />
         <module name="java-sonar-rules" />
+        <module name="software-design-patterns" />
         <module name="refactoring-guide" />
       </profile>
     </annotationProcessing>

@@ -2,4 +2,3 @@
 1. throw exception     抛出checked exception会在客户端造成额外的异常处理(样版代码)
 2. return null;        可能被客户端忽略
 3. return Optional<T>; 类似于抛出unchecked exception, 可能被用户端忽略
-     如果方法返回Optional, 客户端可以指定一个
