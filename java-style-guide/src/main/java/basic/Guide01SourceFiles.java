@@ -1,4 +1,4 @@
-package base_style_guide;
+package basic;
 
 // TODO. 不要在源代码中出现其它语言，即使在代码注释中也不行
 public class Guide01SourceFiles {
