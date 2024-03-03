@@ -1,4 +1,0 @@
-https://immutables.github.io/
-
-Java Third Party Library to generate simple, safe and consistent value objects.
-支持直接通过注解来创建Java中的不可变对象
