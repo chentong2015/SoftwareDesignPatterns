@@ -1,0 +1,15 @@
+降低多个对象和类之间的通信复杂性, 提供一个中介类来处理不同类之间的通讯
+解除对象之间耦合, 调节对象之间的交互和schedule
+Mediator pattern is used to reduce communication complexity between multiple objects or classes.
+This pattern provides a mediator class which normally handles all the communications between different classes
+and supports easy maintenance of the code by loose coupling.
+
+Mediator 应用场景
+1. One-to-one to many
+2. Decoupled
+3. Complex Communication
+4. Hub/Router
+
+- 当对象之间存在复杂的网状结构关系而导致依赖关系混乱且难以复用时
+- 想通过一个中间类来封装多个类中的行为，而不生成太多的子类
+- 在中介者中定义对象交互的公共行为. 如需改变行为则增加新的具体中介者类
