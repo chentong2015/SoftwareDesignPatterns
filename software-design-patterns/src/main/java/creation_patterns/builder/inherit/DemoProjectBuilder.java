@@ -1,4 +1,4 @@
-package creation_patterns.builder.project;
+package creation_patterns.builder.inherit;
 
 public class DemoProjectBuilder {
 

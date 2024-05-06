@@ -1,4 +1,4 @@
-package creation_patterns.builder.project;
+package creation_patterns.builder.inherit;
 
 public interface IXADataSource extends IDataSource {
 
@@ -10,7 +10,8 @@ public interface IXADataSource extends IDataSource {
             super(dbConfig);
         }
 
-        // 重写父类的build()方法，构建接口的指定实现的类型IXADataSourceImpl
+        // 重写父类的build()方法，构建继承接口的实现对象(匿名类型)
+        @Override
         public IXADataSource build() {
             return new IXADataSource() {
                 @Override

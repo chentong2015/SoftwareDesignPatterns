@@ -1,4 +1,4 @@
-package creation_patterns.builder;
+package creation_patterns.builder.example;
 
 import java.util.Collections;
 import java.util.Map;

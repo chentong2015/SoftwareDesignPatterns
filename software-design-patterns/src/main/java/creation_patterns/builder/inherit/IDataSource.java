@@ -1,4 +1,4 @@
-package creation_patterns.builder.project;
+package creation_patterns.builder.inherit;
 
 public interface IDataSource {
 
@@ -21,7 +21,7 @@ public interface IDataSource {
             return (T) this;
         }
 
-        // 构建实现了IDataSource当前接口的类型(匿名类型)的对象
+        // 构建实现IDataSource接口的类型(匿名类型)的对象
         public IDataSource build() {
             return new IDataSource() {
                 @Override
