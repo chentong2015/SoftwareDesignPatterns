@@ -1,21 +1,29 @@
 package null_object;
 
-import null_object.factory.CustomerFactory;
-import null_object.model.AbstractCustomer;
-
 public class DemoNullObject {
 
-    // Object Factory 保证工厂创建的对象非null而是空对象
     public static void main(String[] args) {
-        AbstractCustomer customer1 = CustomerFactory.getCustomer("Rob");
-        AbstractCustomer customer2 = CustomerFactory.getCustomer("Bob");
-        AbstractCustomer customer3 = CustomerFactory.getCustomer("Julie");
-        AbstractCustomer customer4 = CustomerFactory.getCustomer("Laura");
+        int value = parseInteger("t");
+        System.out.println(value);
+    }
 
-        System.out.println("Customers");
-        System.out.println(customer1.getName());
-        System.out.println(customer2.getName());
-        System.out.println(customer3.getName());
-        System.out.println(customer4.getName());
+    // 在数据解析过程中返回的Wrapper类对象可能造成调用端的异常
+    // 可以先判断值的有效性，然后再执行解析并使用
+    public static Integer parseInteger(String s) {
+        try {
+            return Integer.valueOf(s);
+        } catch (NumberFormatException ex) {
+            return null;
+        }
+    }
+
+    public static Boolean parseBoolean(String s) {
+        if (Boolean.TRUE.toString().equals(s)) {
+            return Boolean.TRUE;
+        }
+        if (Boolean.FALSE.toString().equals(s)) {
+            return Boolean.FALSE;
+        }
+        return null;
     }
 }

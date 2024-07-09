@@ -1,6 +1,4 @@
-package null_object.model;
-
-import null_object.model.AbstractCustomer;
+package null_object.demo;
 
 public class NullCustomer extends AbstractCustomer {
 

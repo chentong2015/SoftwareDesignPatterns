@@ -1,4 +1,4 @@
-package null_object.model;
+package null_object.demo;
 
 public abstract class AbstractCustomer {
 
