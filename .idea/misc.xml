@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/software-plugin-extensions/pom.xml" />
         <option value="$PROJECT_DIR$/java-sonar-rules/pom.xml" />
         <option value="$PROJECT_DIR$/software-design-patterns/pom.xml" />
-        <option value="$PROJECT_DIR$/java-solid-principles/pom.xml" />
         <option value="$PROJECT_DIR$/software-extension-design/pom.xml" />
       </list>
     </option>

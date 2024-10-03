@@ -11,11 +11,11 @@
         <module name="java-sonar-rules" />
         <module name="software-design-patterns" />
         <module name="refactoring-guide" />
-        <module name="java-solid-principles" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="effective-java-clean-code" target="15" />
+      <module name="java-solid-principles" target="17" />
       <module name="software-clean-code" target="15" />
       <module name="software-plugin-extensions" target="15" />
     </bytecodeTargetLevel>
