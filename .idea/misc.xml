@@ -13,9 +13,9 @@
         <option value="$PROJECT_DIR$/java-sonar-rules/pom.xml" />
         <option value="$PROJECT_DIR$/software-design-patterns/pom.xml" />
         <option value="$PROJECT_DIR$/java-solid-principles/pom.xml" />
+        <option value="$PROJECT_DIR$/software-extension-design/pom.xml" />
       </list>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

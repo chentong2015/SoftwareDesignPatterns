@@ -9,6 +9,7 @@
         <module name="software-extension-design" />
         <module name="java-style-guide" />
         <module name="java-sonar-rules" />
+        <module name="software-design-patterns" />
         <module name="refactoring-guide" />
         <module name="java-solid-principles" />
       </profile>
