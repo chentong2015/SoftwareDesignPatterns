@@ -1,0 +1,60 @@
+Hibernate initiator 如何实现用户的自定义扩展 ?
+
+1. 包含所有StandardServiceInitiator的容器
+   public final class StandardServiceInitiators {
+
+      public static final List<StandardServiceInitiator> LIST = buildStandardServiceInitiatorList();
+
+      private StandardServiceInitiators() {
+      }
+
+      // 包含一些默认的Initiator实现
+      private static List<StandardServiceInitiator> buildStandardServiceInitiatorList() {
+          ArrayList<StandardServiceInitiator> serviceInitiators = new ArrayList();
+          serviceInitiators.add(DefaultSessionFactoryBuilderInitiator.INSTANCE);
+          serviceInitiators.add(BytecodeProviderInitiator.INSTANCE);
+          serviceInitiators.add(ProxyFactoryFactoryInitiator.INSTANCE);
+          serviceInitiators.add(CfgXmlAccessServiceInitiator.INSTANCE);
+          serviceInitiators.add(ConfigurationServiceInitiator.INSTANCE);
+          serviceInitiators.add(PropertyAccessStrategyResolverInitiator.INSTANCE);
+          serviceInitiators.add(ImportSqlCommandExtractorInitiator.INSTANCE);
+          serviceInitiators.add(SchemaManagementToolInitiator.INSTANCE);
+          serviceInitiators.add(JdbcEnvironmentInitiator.INSTANCE);
+          serviceInitiators.add(JndiServiceInitiator.INSTANCE);
+          serviceInitiators.add(JmxServiceInitiator.INSTANCE);
+          serviceInitiators.add(PersisterClassResolverInitiator.INSTANCE);
+          serviceInitiators.add(PersisterFactoryInitiator.INSTANCE);
+          serviceInitiators.add(ConnectionProviderInitiator.INSTANCE);
+          serviceInitiators.add(MultiTenantConnectionProviderInitiator.INSTANCE);
+          serviceInitiators.add(DialectResolverInitiator.INSTANCE);
+          serviceInitiators.add(DialectFactoryInitiator.INSTANCE);
+          serviceInitiators.add(BatchBuilderInitiator.INSTANCE);
+          serviceInitiators.add(JdbcServicesInitiator.INSTANCE);
+          ...
+          serviceInitiators.trimToSize();
+          return Collections.unmodifiableList(serviceInitiators);
+      }
+   }
+
+2. StandardServiceRegistryBuilder 创建时默认初始化已经实现的InitiatorList
+
+   // 创建对象时使用默认的InitiatorList
+   public StandardServiceRegistryBuilder() {
+      this.initiators = standardInitiatorList();
+   }
+
+   private static List<StandardServiceInitiator> standardInitiatorList() {
+      List<StandardServiceInitiator> initiators = new ArrayList(StandardServiceInitiators.LIST.size());
+      initiators.addAll(StandardServiceInitiators.LIST);
+      return initiators;
+   }
+
+   // 提供开发的API，允许用户在initiators列表中添加自定义的实现
+   public StandardServiceRegistryBuilder addInitiator(StandardServiceInitiator initiator) {
+      this.initiators.add(initiator);
+      return this;
+   }
+
+3. 用户自定义的注入添加，实现框架的扩展
+   standardServiceRegistryBuilder.addInitiator(new MyDefaultIdentifierGeneratorFactoryInitiator());
+

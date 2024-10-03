@@ -1,0 +1,12 @@
+SPI: Service Provider Interface
+Java SPI机制动态加载指定接口的实现类型
+1. 创建指定路径下文件/resources/META-INF/Services/package_full_path
+2. 文件中注明接口的实现类型，实现类型必须带有无参构造器
+
+优点:
+1. 只需动态配置文件，彻底解耦
+2. 实现软件plugin插件的扩展，在客户端对API进行扩展
+
+缺点:
+1. java spi不能单独获取某个指定的实现类
+2. java spi没有IOC和AOP机制，在加载时无法自动注入依赖并且生成Proxy代理类型
