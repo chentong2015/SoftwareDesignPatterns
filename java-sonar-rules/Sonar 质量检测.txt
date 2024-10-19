@@ -1,4 +1,3 @@
-Sonar Rules:
 - SonarLint Plugin 本地IDE即时代码检测插件
 - SonarQube Server 提交后master branch通过更全Rules验证/自定义Rules
 

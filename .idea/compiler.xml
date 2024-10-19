@@ -9,8 +9,8 @@
         <module name="software-extension-design" />
         <module name="java-style-guide" />
         <module name="java-sonar-rules" />
+        <module name="java-refactoring-guide" />
         <module name="software-design-patterns" />
-        <module name="refactoring-guide" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
