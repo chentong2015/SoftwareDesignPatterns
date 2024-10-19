@@ -1,4 +1,4 @@
-package spi.java_bean;
+package spi_service_provider.java_bean;
 
 public class CsvParser implements IDocumentParser {
 

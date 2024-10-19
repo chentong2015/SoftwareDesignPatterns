@@ -1,6 +1,6 @@
-package spi;
+package spi_service_provider;
 
-import spi.java_bean.IDocumentParser;
+import spi_service_provider.java_bean.IDocumentParser;
 
 import java.util.ServiceLoader;
 

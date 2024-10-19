@@ -1,4 +1,4 @@
-package spi.jdbc_driver;
+package spi_service_provider.jdbc_driver;
 
 import java.sql.Driver;
 import java.sql.DriverAction;
