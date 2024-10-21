@@ -1,0 +1,10 @@
+#java
+target/*
+out/
+.classpath
+
+#intellij idea
+.idea
+*.iml
+
+.DS_Store
