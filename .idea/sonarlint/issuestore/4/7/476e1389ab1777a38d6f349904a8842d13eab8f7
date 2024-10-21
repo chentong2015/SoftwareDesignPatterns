@@ -1,21 +1,0 @@
-
-U
-java:S1854":Remove this useless assignment to local variable "value4".(Óá¡×úÿÿÿÿ
-U
-java:S1854":Remove this useless assignment to local variable "value3".(óü¦…ùÿÿÿÿ
-U
-java:S1854":Remove this useless assignment to local variable "value2".(‰­áÚþÿÿÿÿ
-P
-java:S1854":Remove this useless assignment to local variable "value1".(üß¨§
-M
-java:S1135"2Complete the task associated to this TODO comment.(×¨µèøÿÿÿÿ
-4
-java:S2119"Save and re-use this "Random".(üß¨§
-A
-java:S1481"+Remove this unused "value1" local variable.(üß¨§
-F
-java:S1481"+Remove this unused "value2" local variable.(‰­áÚþÿÿÿÿ
-F
-java:S1481"+Remove this unused "value3" local variable.(óü¦…ùÿÿÿÿ
-F
-java:S1481"+Remove this unused "value4" local variable.(Óá¡×úÿÿÿÿ

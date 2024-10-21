@@ -1,10 +1,0 @@
-
-b
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(³™íÈüÿÿÿÿ
-\
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ý‡É?
-F
-java:S1172"+Remove this unused method parameter "data".(ž•‰ˆÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
-D
-java:S1172")Remove this unused method parameter "id".(š¹Ú†úÿÿÿÿ
