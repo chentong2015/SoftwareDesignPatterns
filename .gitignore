@@ -4,7 +4,7 @@ out/
 .classpath
 
 #intellij idea
-.idea
+.idea/
 *.iml
 
 .DS_Store
