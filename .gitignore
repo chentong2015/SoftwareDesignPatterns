@@ -8,4 +8,4 @@ out/
 *.iml
 
 # Mac-specific hidden file
-.DS_Store
+**/.DS_Store
